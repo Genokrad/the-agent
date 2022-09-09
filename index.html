@@ -4,7 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>THEAGENT</title>
+
+    <!-- ШРИФТЫ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- NORMOLIZE -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.css"
+    />
+
+    <!-- SCSS -->
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header>
@@ -20,7 +37,7 @@
         </a>
       </div>
       <nav>
-        <ul class="navig__list">
+        <ul class="navig__list list">
           <li class="navig__item">WE focus on</li>
           <li class="navig__item">who we are</li>
           <li class="navig__item">TestImonials & use cases</li>
@@ -31,48 +48,86 @@
     </header>
     <main>
       <section class="hero">
-        <h1>
-          Your <br />
-          Fashion <br />
-          ecommerce accelerator
-        </h1>
+        <div class="container">
+          <h1 class="hero__title">
+            <span class="hero__title--thin">Your</span> <br />
+            Fashion <br />
+            <span class="hero__title--thin">ecommerce</span> accelerator
+          </h1>
+        </div>
+      </section>
+      <section class="marketplaces">
+        <div class="container">
+          <ul class="marketplaces__list list">
+            <li class="marketplaces__item-first">
+              <p class="marketplaces__text">
+                In Europe, marketplaces represent
+                <span class="text--thick"
+                  >84 billion euros,<br />
+                  59% of the ecommerce activity</span
+                >
+              </p>
+              <p class="marketplaces__under-text">Fashionunited, 2021</p>
+              <img
+                src="./images/mobile/women-pinkx1.jpg"
+                alt="women in pink"
+                class="marketplaces__img"
+                width="189"
+                height="236"
+              />
+            </li>
+            <li class="marketplaces__item-second">
+              <p class="marketplaces__text">
+                In France,
+                <span class="text--thick"
+                  >marketplace partners have grown over 27% in 2020</span
+                >, twice faster than last year
+              </p>
+              <p class="marketplaces__under-text">Fevad</p>
+              <img
+                src="./images/mobile/women-in-whitex1.jpg"
+                alt="women in white"
+                class="marketplaces__img"
+                width="261"
+                height="150"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="opportunity">
-        <ul class="opportunity__list">
-          <li class="opportunity__item">
-            <p class="opportunity__text">
-              In Europe, marketplaces represent 84 billion euros, 59% of the
-              ecommerce activity
-            </p>
-            <p class="opportunity__under-text">Fashionunited, 2021</p>
-            <img src="" alt="" class="opportunity__img" />
-          </li>
-          <li class="opportunity__item">
-            <p class="opportunity__text">
-              In France, marketplace partners have grown over 27% in 2020, twice
-              faster than last year
-            </p>
-            <p class="opportunity__under-text">Fevad</p>
-            <img src="" alt="" class="opportunity__img" />
-          </li>
-        </ul>
-        <h2 class="opportunity__title">
-          A strategic opportunity for brands with different complexities that
-          THE AGENT has the capacity to address
-        </h2>
+        <div class="container">
+          <h2 class="opportunity__title">
+            <span class="text--thick">A strategic opportunity</span> for brands
+            with different complexities that
+            <span class="text--thick">THE AGENT</span> has the capacity to
+            address
+          </h2>
+        </div>
       </section>
       <section class="focus">
-        <h2 class="focus__title">WE focus on delivering</h2>
-        <p class="focus__description">
-          the best results out of the marketplace channel through:
-        </p>
-        <ul class="focus__list">
-          <li class="focus__list">Strategic planning</li>
-          <li class="focus__list">Branding & Merchandising</li>
-          <li class="focus__list">Online Sales excellence</li>
-          <li class="focus__list">Digital CI/CD</li>
-          <li class="focus__list">Monitoring performance</li>
-        </ul>
+        <div>
+          <img
+            src="./images/mobile/women-in-white-bcg-x1.jpg"
+            alt=""
+            class="focus-img"
+            width="375"
+            height="313"
+          />
+        </div>
+        <div class="focus__wraper container">
+          <h2 class="focus__title">WE focus on delivering</h2>
+          <p class="focus__description">
+            the best results out of the marketplace channel through:
+          </p>
+          <ul class="focus__list list">
+            <li class="focus__item">Strategic planning</li>
+            <li class="focus__item">Branding & Merchandising</li>
+            <li class="focus__item">Online Sales excellence</li>
+            <li class="focus__item">Digital CI/CD</li>
+            <li class="focus__item">Monitoring performance</li>
+          </ul>
+        </div>
       </section>
       <section class="how">
         <h2 class="how__title">How do we do it?</h2>
@@ -81,13 +136,13 @@
         <p>or</p>
         <h3 class="how__subtitle">We help you do it</h3>
         <p class="how__text">Tailor made services</p>
-        <ul class="how__list">
+        <ul class="how__list list">
           <li class="how__item">
             <p class="how__item-text">1</p>
             <h3 class="how__item-title">
               Dedicated BAM focused on client success
             </h3>
-            <ul class="how__item-list">
+            <ul class="how__item-list list">
               <li class="how__item-item">Prime contact</li>
               <li class="how__item-item">Coordination</li>
               <li class="how__item-item">Problem solving</li>
@@ -99,7 +154,7 @@
           <li class="how__item">
             <p class="how__item-text">2</p>
             <h3 class="how__item-title">Pulling our assets and resources</h3>
-            <ul class="how__item-list">
+            <ul class="how__item-list list">
               <li class="how__item-item">Established MP network</li>
               <li class="how__item-item">Deep industry knowledge</li>
               <li class="how__item-item">Dynamic market watch</li>
@@ -114,7 +169,7 @@
             <h3 class="how__item-title">
               Leveraging our software CI/CD capabilities
             </h3>
-            <ul class="how__item-list">
+            <ul class="how__item-list list">
               <li class="how__item-item">First-time Onboarding</li>
               <li class="how__item-item">Omnichannel Catalog Integration</li>
               <li class="how__item-item">Growth & Funnel management</li>
@@ -131,24 +186,48 @@
         <p class="who__description">
           Dedicated to the B2C marketplace channel expansion and excellence
         </p>
-        <ul class="who__list">
+        <ul class="who__list list">
           <li class="who__item">
-            <img src="" alt="" class="who__img" width="302" height="360" />
+            <img
+              src="./images/mobile/romain-aymeric.jpg"
+              alt="men"
+              class="who__img"
+              width="302"
+              height="360"
+            />
             <h3 class="who__subtitle">Romain Aymeric</h3>
             <p class="who__text">Brand management</p>
           </li>
           <li class="who__item">
-            <img src="" alt="" class="who__img" width="302" height="360" />
+            <img
+              src="./images/mobile/denis-jihan-x1.jpg"
+              alt="men"
+              class="who__img"
+              width="302"
+              height="360"
+            />
             <h3 class="who__subtitle">Denis Gihan</h3>
             <p class="who__text">Digital</p>
           </li>
           <li class="who__item">
-            <img src="" alt="" class="who__img" width="302" height="360" />
+            <img
+              src="./images/mobile/debora-chinasi-x1.jpg"
+              alt="women"
+              class="who__img"
+              width="302"
+              height="360"
+            />
             <h3 class="who__subtitle">Deborah Schinasi</h3>
             <p class="who__text">Operations</p>
           </li>
           <li class="who__item">
-            <img src="" alt="" class="who__img" width="302" height="360" />
+            <img
+              src="./images/mobile/aurelien-briquet.jpg"
+              alt="men"
+              class="who__img"
+              width="302"
+              height="360"
+            />
             <h3 class="who__subtitle">Aurélien Briquet</h3>
             <p class="who__text">Technology</p>
           </li>
@@ -159,7 +238,7 @@
       </section>
       <section class="testimonials">
         <h2>testimonials</h2>
-        <ul class="testimonials__list">
+        <ul class="testimonials__list list">
           <li class="testimonials__item">
             <p class="testimonials__text">50</p>
             <p class="testimonials__description">
@@ -276,7 +355,7 @@
       </section>
       <section class="cases">
         <h2 class="cases__title">USe cases</h2>
-        <ul class="cases__list">
+        <ul class="cases__list list">
           <ul class="cases__item">
             <h3 class="cases__subtitle">Fiancée du Mekong</h3>
             <p>150 <span>articles sold</span></p>
@@ -340,7 +419,7 @@
         </svg>
       </div>
       <nav class="footer-navigation">
-        <ul class="footer-navigation__list">
+        <ul class="footer-navigation__list list">
           <li class="footer-navigation__item">WE focus on</li>
           <li class="footer-navigation__item">who we are</li>
           <li class="footer-navigation__item">TestImonials and use cases</li>

@@ -1,0 +1,12 @@
+.opportunity {
+  background-color: #f2f2f2;
+  padding: 32px 0;
+  &__title {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,18 @@
+.hero {
+  padding: 111px 0;
+  background-color: var(--black-bcg-color);
+  background-image: url(../images/hero-bcg.png);
+  background-repeat: no-repeat;
+
+  &__title {
+    color: var(--white-title-color);
+    font-size: 36px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    max-width: 316px;
+    font-weight: 500;
+  }
+}
+.hero__title--thin {
+  font-weight: 300;
+}
