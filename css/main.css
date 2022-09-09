@@ -179,6 +179,7 @@ body {
   font-size: 18px;
   line-height: 1.7;
   color: var(--white-text-color);
+  height: 34px;
 }
 .focus__item::before {
   content: "";
@@ -188,7 +189,7 @@ body {
   background-color: #ffffff;
   position: absolute;
   left: 0;
-  top: 39%;
+  top: 34%;
 }
 
 .is-hidden {

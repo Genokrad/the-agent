@@ -30,6 +30,7 @@
     font-size: 18px;
     line-height: 1.7;
     color: var(--white-text-color);
+    height: 34px;
   }
   &__item::before {
     content: '';
@@ -39,6 +40,6 @@
     background-color: #ffffff;
     position: absolute;
     left: 0;
-    top: 39%;
+    top: 34%;
   }
 }
