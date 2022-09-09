@@ -1,7 +1,9 @@
 @import './base/base';
 @import './base/text';
+@import './base/section';
 
 @import './components/container';
+@import './components/space';
 
 @import './layots/hero';
 @import './layots/marketplaces';
@@ -10,6 +12,8 @@
 @import './layots/how';
 @import './layots/who';
 @import './layots/e-comerce';
+@import './layots/testimonials';
+@import './layots/cases';
 
 @import './utils/is-hiden';
 @import './utils/vars';

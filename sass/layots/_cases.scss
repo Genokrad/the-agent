@@ -1,0 +1,47 @@
+.cases {
+  padding-top: 56px;
+  padding-bottom: 56px;
+  background-color: var(--black-bcg-color);
+  &__title {
+    font-family: 'Baskervville';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white-text-color);
+    margin-bottom: 47px;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+  &__item {
+    background-color: var(--white-bcg-color);
+    padding: 36px;
+  }
+  &__subtitle {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 19px;
+    color: var(--secondary-text-color);
+  }
+  &__metric {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.2;
+    color: var(--secondary-text-color);
+  }
+  &__metric-text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 0.9;
+  }
+  &__button {
+    background-color: var(--black-bcg-color);
+    color: var(--white-text-color);
+    padding: 10px 37px;
+  }
+}

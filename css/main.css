@@ -85,12 +85,20 @@ body {
   font-weight: 500;
 }
 
+.section {
+  background-color: var(--white-bcg-color);
+}
+
 .container {
   width: 375px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 16px;
   padding-right: 16px;
+}
+
+.space {
+  margin-bottom: 26px;
 }
 
 .hero {
@@ -351,6 +359,94 @@ body {
   color: var(--black-Baskervville-text);
 }
 
+.testimonials {
+  background-color: var(--black-bcg-color);
+}
+.testimonials__wraper {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+.testimonials__title {
+  font-family: "Baskervville";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--white-title-color);
+  margin-bottom: 36px;
+}
+.testimonials__text {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.5;
+  color: var(--white-text-color);
+}
+.testimonials__undertext {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--white-text-color);
+  margin-top: -7px;
+  margin-bottom: 21px;
+  padding-left: 7px;
+}
+.testimonials__description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--white-text-color);
+}
+
+.cases {
+  padding-top: 56px;
+  padding-bottom: 56px;
+  background-color: var(--black-bcg-color);
+}
+.cases__title {
+  font-family: "Baskervville";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--white-text-color);
+  margin-bottom: 47px;
+}
+.cases__list {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.cases__item {
+  background-color: var(--white-bcg-color);
+  padding: 36px;
+}
+.cases__subtitle {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom: 19px;
+  color: var(--secondary-text-color);
+}
+.cases__metric {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.2;
+  color: var(--secondary-text-color);
+}
+.cases__metric-text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 0.9;
+}
+.cases__button {
+  background-color: var(--black-bcg-color);
+  color: var(--white-text-color);
+  padding: 10px 37px;
+}
+
 .is-hidden {
   opacity: 0;
   visibility: hidden;
@@ -366,4 +462,6 @@ body {
   --white-title-color: #ffffff;
   --main-color: #ffffff;
   --black-bcg-color: #272727;
+  --white-bcg-color: #ffffff;
+  --black-Baskervville-text: #272727;
 }/*# sourceMappingURL=main.css.map */

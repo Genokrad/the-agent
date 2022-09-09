@@ -1,0 +1,39 @@
+.testimonials {
+  background-color: var(--black-bcg-color);
+  &__wraper {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+  &__title {
+    font-family: 'Baskervville';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white-title-color);
+    margin-bottom: 36px;
+  }
+  &__text {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1.5;
+    color: var(--white-text-color);
+  }
+  &__undertext {
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--white-text-color);
+    margin-top: -7px;
+    margin-bottom: 21px;
+    padding-left: 7px;
+  }
+  &__description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--white-text-color);
+  }
+}
