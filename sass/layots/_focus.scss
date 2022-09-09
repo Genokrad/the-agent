@@ -13,6 +13,7 @@
     line-height: 1.2;
     text-transform: uppercase;
     color: var(--white-title-color);
+    min-height: 88px;
   }
   &__description {
     font-weight: 300;
@@ -23,6 +24,7 @@
     margin-top: 8px;
     padding-bottom: 26px;
   }
+
   &__item {
     padding-left: 30px;
     position: relative;
@@ -30,7 +32,8 @@
     font-size: 18px;
     line-height: 1.7;
     color: var(--white-text-color);
-    height: 34px;
+    padding-top: 1px;
+    padding-bottom: 1px;
   }
   &__item::before {
     content: '';
@@ -40,6 +43,6 @@
     background-color: #ffffff;
     position: absolute;
     left: 0;
-    top: 34%;
+    top: 12px;
   }
 }
