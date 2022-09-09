@@ -1,0 +1,14 @@
+.e-comerce {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  &__title {
+    font-family: 'Baskervville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.3;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--black-Baskervville-text);
+  }
+}

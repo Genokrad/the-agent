@@ -1,0 +1,54 @@
+.who {
+  background-color: var(--black-bcg-color);
+  &__wraper {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__title {
+    font-family: 'Baskervville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white-title-color);
+    margin-bottom: 13px;
+  }
+  &__description {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--white-text-color);
+    max-width: 250px;
+    margin-bottom: 41px;
+  }
+  &__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 16px;
+    row-gap: 32px;
+  }
+  &__img {
+    margin-bottom: 12px;
+  }
+  &__subtitle {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: var(--white-title-color);
+    max-width: 165px;
+  }
+  &__text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--white-text-color);
+  }
+}
