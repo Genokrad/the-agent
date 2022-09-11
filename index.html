@@ -25,26 +25,50 @@
   </head>
   <body>
     <header class="section">
-      <svg class="">
-        <use></use>
-      </svg>
-      <div class="switcher">
-        <a href="" class="switcher__link">
-          <p class="english">en</p>
-        </a>
-        <a href="" class="switcher__link">
-          <p class="france">fr</p>
-        </a>
+      <div class="menu-wraper container">
+        <div class="top-part">
+          <svg class="menu-icone">
+            <use
+              href="./images/sprite/sprite.svg#icon-menu"
+              width="25"
+              height="18"
+            ></use>
+          </svg>
+          <svg class="logo">
+            <use href="./images/sprite/sprite.svg#icon-the-agentlogo"></use>
+          </svg>
+          <div class="switcher">
+            <a href="" class="switcher__link">
+              <svg class="menu-icone">
+                <use
+                  href="./images/sprite/sprite.svg#icon-user"
+                  width="25"
+                  height="18"
+                ></use>
+              </svg>
+              <p class="english">en</p>
+              <p class="france">fr</p>
+            </a>
+          </div>
+        </div>
+        <nav class="navig">
+          <ul class="navig__list list">
+            <li class="navig__item">WE focus on</li>
+            <li class="navig__item">who we are</li>
+            <li class="navig__item">TestImonials & use cases</li>
+            <li class="navig__item">marketplace partner</li>
+            <li class="navig__item">contact us</li>
+          </ul>
+        </nav>
       </div>
-      <nav class="navig">
-        <ul class="navig__list list">
-          <li class="navig__item">WE focus on</li>
-          <li class="navig__item">who we are</li>
-          <li class="navig__item">TestImonials & use cases</li>
-          <li class="navig__item">marketplace partner</li>
-          <li class="navig__item">contact us</li>
-        </ul>
-      </nav>
+
+      <!-- <div class="mob-menu is-hidden">
+        <button class="menu-close">
+          <svg class="menu-close-icone">
+            <use href="./images/sprite.svg#icon-close_menu"></use>
+          </svg>
+        </button>
+      </div> -->
     </header>
     <main>
       <section class="hero">

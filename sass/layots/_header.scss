@@ -1,0 +1,26 @@
+.navig {
+  display: none;
+}
+.menu-icone {
+  width: 25px;
+  height: 18px;
+}
+.english {
+  display: none;
+}
+.france {
+  display: none;
+}
+.logo {
+  width: 107px;
+  height: 16px;
+}
+
+.top-part {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
