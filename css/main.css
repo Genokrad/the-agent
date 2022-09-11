@@ -81,6 +81,10 @@ body {
   overflow: hidden;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 .text--thick {
   font-weight: 500;
 }
