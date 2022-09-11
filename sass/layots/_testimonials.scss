@@ -1,5 +1,11 @@
 .testimonials {
   background-color: var(--black-bcg-color);
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 71px;
+  }
   &__wraper {
     padding-top: 56px;
     padding-bottom: 56px;
@@ -35,5 +41,6 @@
     font-size: 14px;
     line-height: 1.5;
     color: var(--white-text-color);
+    margin-bottom: 36px;
   }
 }

@@ -25,9 +25,9 @@
   </head>
   <body>
     <header class="section">
-      <p class="logo">
-        <span class="logo--prefix"></span><span class="logo--postfix"></span>
-      </p>
+      <svg class="">
+        <use></use>
+      </svg>
       <div class="switcher">
         <a href="" class="switcher__link">
           <p class="english">en</p>
@@ -36,7 +36,7 @@
           <p class="france">fr</p>
         </a>
       </div>
-      <nav>
+      <nav class="navig">
         <ul class="navig__list list">
           <li class="navig__item">WE focus on</li>
           <li class="navig__item">who we are</li>
@@ -75,6 +75,15 @@
                 width="189"
                 height="236"
               />
+              <div class="marketplaces__under-img-wraper">
+                <img
+                  src="./images/square-marketplace.png"
+                  alt="women in pink"
+                  class="marketplaces__under-img-square"
+                  width="131"
+                  height="131"
+                />
+              </div>
             </li>
             <li class="marketplaces__item-second">
               <p class="marketplaces__text">
@@ -87,10 +96,19 @@
               <img
                 src="./images/mobile/women-in-whitex1.jpg"
                 alt="women in white"
-                class="marketplaces__img"
+                class="marketplaces__img-right"
                 width="261"
                 height="150"
               />
+              <div class="marketplaces__under-img-wraper">
+                <img
+                  src="./images/circle-marketplace.png"
+                  alt="women in pink"
+                  class="marketplaces__under-circle-img"
+                  width="125"
+                  height="125"
+                />
+              </div>
             </li>
           </ul>
         </div>
@@ -262,9 +280,13 @@
                 players. Their expertise in marketplace has permitted us to win
                 time and efficienty and achieve increasing results. “
               </p>
-              <svg>
-                <use></use>
-              </svg>
+              <img
+                class="testimonials__img"
+                src="/images/brands/oakwood-white.png"
+                alt="oakwood"
+                width="142.4"
+                height="18"
+              />
             </li>
             <li class="testimonials__item">
               <p class="testimonials__text">+ 92%</p>
@@ -278,9 +300,12 @@
               <p class="testimonials__description">
                 We wouldn't have had such results if we had done it directly”
               </p>
-              <svg>
-                <use></use>
-              </svg>
+              <img
+                src="/images/brands/moustache-white.png"
+                alt="moustache"
+                width="140"
+                height="24"
+              />
             </li>
             <li class="testimonials__item">
               <p class="testimonials__text">+ 120%</p>
@@ -295,9 +320,12 @@
                 advantage of their marketplace portfolio, which is one of the
                 most attractive in the market”
               </p>
-              <svg>
-                <use></use>
-              </svg>
+              <img
+                src="/images/brands/havanas-white.png"
+                alt="havanas"
+                width="157"
+                height="49"
+              />
             </li>
             <li class="testimonials__item">
               <p class="testimonials__text">+ 50%</p>
@@ -319,9 +347,12 @@
                 an account manager is also a real plus for establishing a
                 follow-up relationship."
               </p>
-              <svg>
-                <use></use>
-              </svg>
+              <img
+                src="/images/brands/logo-le-coq-sportif-white.png"
+                alt="le-coq-sportif"
+                width="63"
+                height="66"
+              />
             </li>
             <li class="testimonials__item">
               <p class="testimonials__text">+ 72%</p>
@@ -334,15 +365,18 @@
                 <br />
                 As a plus, it comes with a 24/7 customer service "
               </p>
-              <svg>
-                <use></use>
-              </svg>
+              <img
+                src="/images/brands/paez-logo-white.png"
+                alt="paez"
+                width="78"
+                height="28"
+              />
             </li>
           </ul>
         </div>
       </section>
       <section class="brands">
-        <h2>Brands</h2>
+        <h2 class="brands__title">Brands</h2>
         <svg class="brands__icone">
           <use></use>
         </svg>
@@ -389,80 +423,178 @@
           <ul class="cases__list list">
             <li class="cases__item">
               <h3 class="cases__subtitle">Fiancée du Mekong</h3>
-              <p class="cases__metric">
-                +150% <span class="cases__metric-text">articles sold</span>
-              </p>
-              <p class="cases__metric">
-                +265% <span class="cases__metric-text">product page views</span>
-              </p>
-              <button class="cases__button">See the case study</button>
+              <div class="metric">
+                <div class="metric--positioner">
+                  <p class="cases__metric">+150%</p>
+                  <p class="cases__metric-text">
+                    articles <br />
+                    sold
+                  </p>
+                </div>
+
+                <div class="metric--positioner">
+                  <p class="cases__metric">+265%</p>
+                  <p class="cases__metric-text">
+                    product page <br />
+                    views
+                  </p>
+                </div>
+              </div>
+              <button class="cases__button">
+                <svg class="cases__button-icone">
+                  <use
+                    href="./images/sprite/sprite.svg#icon-button-arrow"
+                  ></use>
+                </svg>
+                See the case study
+              </button>
             </li>
             <li class="cases__item">
               <h3 class="cases__subtitle">Paez</h3>
-              <p>1500 <span>product page views</span></p>
-              <p>65 <span>articles sold</span></p>
-              <button class="cases__button">See the case study</button>
+              <div class="metric">
+                <div class="metric--positioner">
+                  <p class="cases__metric">+1500%</p>
+                  <p class="cases__metric-text">
+                    product page <br />
+                    views
+                  </p>
+                </div>
+
+                <div class="metric--positioner">
+                  <p class="cases__metric">+65%</p>
+                  <p class="cases__metric-text">
+                    product page <br />
+                    views
+                  </p>
+                </div>
+              </div>
+              <button class="cases__button">
+                <svg class="cases__button-icone">
+                  <use
+                    href="./images/sprite/sprite.svg#icon-button-arrow"
+                  ></use>
+                </svg>
+                See the case study
+              </button>
             </li>
             <li class="cases__item">
               <h3 class="cases__subtitle">Havaianas</h3>
-              <p>30 <span>product page views</span></p>
-              <p>1million <span>product page views/month</span></p>
-              <button class="cases__button">See the case study</button>
+              <div class="metric">
+                <div class="metric--positioner">
+                  <p class="cases__metric">+30%</p>
+                  <p class="cases__metric-text">
+                    product page <br />
+                    views
+                  </p>
+                </div>
+
+                <div class="metric--positioner">
+                  <p class="cases__metric">>1million</p>
+                  <p class="cases__metric-text">
+                    product page<br />
+                    views/month
+                  </p>
+                </div>
+              </div>
+              <button class="cases__button">
+                <svg class="cases__button-icone">
+                  <use
+                    href="./images/sprite/sprite.svg#icon-button-arrow"
+                  ></use>
+                </svg>
+                See the case study
+              </button>
             </li>
             <li class="cases__item">
               <h3 class="cases__subtitle">Oakwood</h3>
-              <p>6 <span>return rate</span></p>
-              <p>65 <span>articles sold</span></p>
-              <button class="cases__button">See the case study</button>
+              <div class="metric">
+                <div class="metric--positioner">
+                  <p class="cases__metric">-6%</p>
+                  <p class="cases__metric-text">
+                    return<br />
+                    rate
+                  </p>
+                </div>
+
+                <div class="metric--positioner">
+                  <p class="cases__metric">+65%</p>
+                  <p class="cases__metric-text">
+                    articles <br />
+                    sold
+                  </p>
+                </div>
+              </div>
+              <button class="cases__button">
+                <svg class="cases__button-icone">
+                  <use
+                    href="./images/sprite/sprite.svg#icon-button-arrow"
+                  ></use>
+                </svg>
+                See the case study
+              </button>
             </li>
           </ul>
         </div>
       </section>
-      <section class="marketplace">
-        <h2 class="marketplace__title">marketplace partners</h2>
-        <svg class="marketplace__icone">
+      <section class="partners">
+        <h2 class="partners__title">marketplace partners</h2>
+        <svg class="partners__icone">
           <use></use>
         </svg>
-        <svg class="marketplace__icone">
+        <svg class="partners__icone">
           <use></use>
         </svg>
-        <svg class="marketplace__icone">
+        <svg class="partners__icone">
           <use></use>
         </svg>
-        <svg class="marketplace__icone">
+        <svg class="partners__icone">
           <use></use>
         </svg>
-        <svg class="marketplace__icone">
+        <svg class="partners__icone">
           <use></use>
         </svg>
-        <svg class="marketplace__icone">
+        <svg class="partners__icone">
           <use></use>
         </svg>
-        <svg class="marketplace__icone">
+        <svg class="partners__icone">
           <use></use>
         </svg>
       </section>
     </main>
-    <footer>
-      <p>Let’s start our work</p>
-      <button>Contact us</button>
-      <div class="footer__box">
-        <svg class="footer__icone">
-          <use></use>
-        </svg>
-        <svg class="footer__icone">
-          <use></use>
-        </svg>
+    <footer class="footer">
+      <div class="footer__wraper container">
+        <nav class="footer-navigation">
+          <ul class="footer-navigation__list list">
+            <li class="footer-navigation__item">WE focus on</li>
+            <li class="footer-navigation__item">who we are</li>
+            <li class="footer-navigation__item">TestImonials and use cases</li>
+            <li class="footer-navigation__item">marketplace partner</li>
+            <li class="footer-navigation__item">contact us</li>
+          </ul>
+        </nav>
+        <div class="footer__box">
+          <svg class="footer__icone">
+            <use
+              href="./images/sprite/sprite.svg#icon-linkedin"
+              width="20"
+              height="19"
+            ></use>
+          </svg>
+          <svg class="footer__icone">
+            <use
+              href="./images/sprite/sprite.svg#icon-twitter"
+              width="23"
+              height="19"
+            ></use>
+          </svg>
+        </div>
+        <p class="footer__text">Let’s start our work</p>
+        <button class="footer__button">Contact us</button>
       </div>
-      <nav class="footer-navigation">
-        <ul class="footer-navigation__list list">
-          <li class="footer-navigation__item">WE focus on</li>
-          <li class="footer-navigation__item">who we are</li>
-          <li class="footer-navigation__item">TestImonials and use cases</li>
-          <li class="footer-navigation__item">marketplace partner</li>
-          <li class="footer-navigation__item">contact us</li>
-        </ul>
-      </nav>
+      <div class="privacy">
+        <a href="" class="privacy__link">Privacy policy</a>
+        <a href="" class="privacy__link">Terms & conditions</a>
+      </div>
     </footer>
   </body>
 </html>

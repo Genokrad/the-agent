@@ -1,12 +1,15 @@
 .marketplaces {
-  padding: 40px 0;
+  padding: 48px 0;
   &__item-first {
-    max-width: 300px;
-    margin-bottom: 41px;
+    max-width: 295px;
+    margin-bottom: 110px;
+    position: relative;
   }
   &__item-second {
     max-width: 321px;
     margin-left: auto;
+    position: relative;
+    margin-bottom: 59px;
   }
   &__text {
     text-transform: uppercase;
@@ -16,5 +19,25 @@
     margin-top: 2px;
     margin-bottom: 7px;
     text-align: right;
+  }
+  &__img {
+    position: relative;
+    z-index: 1;
+  }
+  &__img-right {
+    position: relative;
+    z-index: 1;
+    margin-left: auto;
+  }
+  &__under-img-square {
+    position: absolute;
+    // z-index: 0;
+    bottom: -64px;
+    left: 122px;
+  }
+  &__under-circle-img {
+    position: absolute;
+    bottom: -62px;
+    left: -1px;
   }
 }

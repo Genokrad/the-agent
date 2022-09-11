@@ -121,15 +121,18 @@ body {
 }
 
 .marketplaces {
-  padding: 40px 0;
+  padding: 48px 0;
 }
 .marketplaces__item-first {
-  max-width: 300px;
-  margin-bottom: 41px;
+  max-width: 295px;
+  margin-bottom: 110px;
+  position: relative;
 }
 .marketplaces__item-second {
   max-width: 321px;
   margin-left: auto;
+  position: relative;
+  margin-bottom: 59px;
 }
 .marketplaces__text {
   text-transform: uppercase;
@@ -139,6 +142,25 @@ body {
   margin-top: 2px;
   margin-bottom: 7px;
   text-align: right;
+}
+.marketplaces__img {
+  position: relative;
+  z-index: 1;
+}
+.marketplaces__img-right {
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+}
+.marketplaces__under-img-square {
+  position: absolute;
+  bottom: -64px;
+  left: 122px;
+}
+.marketplaces__under-circle-img {
+  position: absolute;
+  bottom: -62px;
+  left: -1px;
 }
 
 .opportunity {
@@ -362,6 +384,11 @@ body {
 .testimonials {
   background-color: var(--black-bcg-color);
 }
+.testimonials__list {
+  display: flex;
+  flex-direction: column;
+  gap: 71px;
+}
 .testimonials__wraper {
   padding-top: 56px;
   padding-bottom: 56px;
@@ -397,6 +424,7 @@ body {
   font-size: 14px;
   line-height: 1.5;
   color: var(--white-text-color);
+  margin-bottom: 36px;
 }
 
 .cases {
@@ -421,7 +449,7 @@ body {
 }
 .cases__item {
   background-color: var(--white-bcg-color);
-  padding: 36px;
+  padding: 44px 36px;
 }
 .cases__subtitle {
   font-weight: 500;
@@ -432,8 +460,8 @@ body {
 }
 .cases__metric {
   font-weight: 500;
-  font-size: 30px;
-  line-height: 1.2;
+  font-size: 36px;
+  line-height: 1.5;
   color: var(--secondary-text-color);
 }
 .cases__metric-text {
@@ -445,6 +473,129 @@ body {
   background-color: var(--black-bcg-color);
   color: var(--white-text-color);
   padding: 10px 37px;
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 7.5px;
+}
+.cases__button-icone {
+  fill: var(--white-text-color);
+  width: 21px;
+  height: 11.5px;
+}
+
+.metric {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.metric--positioner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brands {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+.brands__title {
+  font-family: "Baskervville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.partners {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+.partners__title {
+  font-family: "Baskervville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: var(--black-bcg-color);
+}
+.footer__wraper {
+  border-bottom: 1px solid #484848;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 36px;
+  position: relative;
+}
+.footer__text {
+  font-size: 24px;
+  line-height: 2.5;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--white-text-color);
+  padding-bottom: 33px;
+}
+.footer__button {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.66;
+  text-align: center;
+  color: var(--primary-text-color);
+  padding: 3px 10px;
+  min-width: 256px;
+  position: absolute;
+  bottom: 40px;
+}
+.footer__box {
+  display: flex;
+  flex-direction: row;
+  gap: 33px;
+  margin-bottom: 28px;
+}
+.footer__icone {
+  width: 23px;
+  height: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: var(--white-text-color);
+}
+
+.footer-navigation {
+  margin-bottom: 37px;
+}
+.footer-navigation__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.footer-navigation__item {
+  font-size: 14px;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--white-text-color);
+}
+
+.privacy {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.privacy__link {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #c5c5c5;
 }
 
 .is-hidden {
