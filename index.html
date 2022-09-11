@@ -25,50 +25,82 @@
   </head>
   <body>
     <header class="section">
-      <div class="menu-wraper container">
-        <div class="top-part">
-          <svg class="menu-icone">
-            <use
-              href="./images/sprite/sprite.svg#icon-menu"
-              width="25"
-              height="18"
-            ></use>
-          </svg>
-          <svg class="logo">
-            <use href="./images/sprite/sprite.svg#icon-the-agentlogo"></use>
-          </svg>
-          <div class="switcher">
-            <a href="" class="switcher__link">
+      <div class="header-positioner">
+        <div class="menu-wraper container">
+          <div class="top-part">
+            <button type="button" class="menu-open">
               <svg class="menu-icone">
                 <use
-                  href="./images/sprite/sprite.svg#icon-user"
+                  href="./images/sprite/sprite.svg#icon-menu"
                   width="25"
                   height="18"
                 ></use>
               </svg>
-              <p class="english">en</p>
-              <p class="france">fr</p>
-            </a>
+            </button>
+            <svg class="logo">
+              <use href="./images/sprite/sprite.svg#icon-the-agentlogo"></use>
+            </svg>
+            <div class="switcher">
+              <a href="" class="switcher__link">
+                <svg class="menu-icone">
+                  <use
+                    href="./images/sprite/sprite.svg#icon-user"
+                    width="25"
+                    height="18"
+                  ></use>
+                </svg>
+                <p class="english">en</p>
+                <p class="france">fr</p>
+              </a>
+            </div>
           </div>
+          <nav class="navig">
+            <ul class="navig__list list">
+              <li class="navig__item">WE focus on</li>
+              <li class="navig__item">who we are</li>
+              <li class="navig__item">TestImonials & use cases</li>
+              <li class="navig__item">marketplace partner</li>
+              <li class="navig__item">contact us</li>
+            </ul>
+          </nav>
         </div>
-        <nav class="navig">
-          <ul class="navig__list list">
-            <li class="navig__item">WE focus on</li>
-            <li class="navig__item">who we are</li>
-            <li class="navig__item">TestImonials & use cases</li>
-            <li class="navig__item">marketplace partner</li>
-            <li class="navig__item">contact us</li>
-          </ul>
-        </nav>
-      </div>
 
-      <!-- <div class="mob-menu is-hidden">
-        <button class="menu-close">
-          <svg class="menu-close-icone">
-            <use href="./images/sprite.svg#icon-close_menu"></use>
-          </svg>
-        </button>
-      </div> -->
+        <div class="mob-menu container">
+          <div class="mob-menu__wraper">
+            <button class="mob-menu__close">
+              <svg class="mob-menu__close-icone">
+                <use href="./images/sprite/sprite.svg#icon-close"></use>
+              </svg>
+            </button>
+            <svg class="logo">
+              <use href="./images/sprite/sprite.svg#icon-the-agentlogo"></use>
+            </svg>
+            <div class="switcher">
+              <a href="" class="switcher__link">
+                <svg class="menu-icone">
+                  <use
+                    href="./images/sprite/sprite.svg#icon-user"
+                    width="25"
+                    height="18"
+                  ></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <nav class="navig-mobile">
+            <ul class="navig-mobile__list list">
+              <li class="navig-mobile__item">WE focus on</li>
+              <li class="navig-mobile__item">who we are</li>
+              <li class="navig-mobile__item">TestImonials & use cases</li>
+              <li class="navig-mobile__item">marketplace partner</li>
+              <li class="navig-mobile__item">contact us</li>
+            </ul>
+            <a href="#" class="linguage-switcher-mob">
+              <span class="current">EN</span> / FR</a
+            >
+          </nav>
+        </div>
+      </div>
     </header>
     <main>
       <section class="hero">
@@ -620,5 +652,6 @@
         <a href="" class="privacy__link">Terms & conditions</a>
       </div>
     </footer>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
