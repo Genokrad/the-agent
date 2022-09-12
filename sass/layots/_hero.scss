@@ -3,6 +3,12 @@
   background-color: var(--black-bcg-color);
   background-image: url(../images/hero-bcg.png);
   background-repeat: no-repeat;
+  @media screen and (min-width: 768px) {
+    padding: 111px 7%;
+  }
+  @media screen and (min-width: 1024px) {
+    padding: 200px 7%;
+  }
 
   &__title {
     color: var(--white-title-color);
@@ -11,6 +17,9 @@
     text-transform: uppercase;
     max-width: 316px;
     font-weight: 500;
+    @media screen and (min-width: 1024px) {
+      font-size: 96px;
+    }
   }
 }
 .hero__title--thin {

@@ -104,9 +104,8 @@ body {
   padding-left: 16px;
   padding-right: 16px;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .container {
-    max-width: 1280px;
     padding-left: 72px;
     padding-right: 72px;
   }
@@ -119,7 +118,7 @@ body {
 .navig {
   display: none;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .navig {
     display: flex;
     border-top: 0.5px solid #b3b3b3;
@@ -157,7 +156,7 @@ body {
 .switcher__desktop {
   display: none;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .switcher__desktop {
     display: flex;
   }
@@ -182,7 +181,7 @@ body {
   background-color: transparent;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .menu-icone {
     fill: transparent;
   }
@@ -258,6 +257,16 @@ body {
   background-image: url(../images/hero-bcg.png);
   background-repeat: no-repeat;
 }
+@media screen and (min-width: 768px) {
+  .hero {
+    padding: 111px 7%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hero {
+    padding: 200px 7%;
+  }
+}
 .hero__title {
   color: var(--white-title-color);
   font-size: 36px;
@@ -265,6 +274,11 @@ body {
   text-transform: uppercase;
   max-width: 316px;
   font-weight: 500;
+}
+@media screen and (min-width: 1024px) {
+  .hero__title {
+    font-size: 96px;
+  }
 }
 
 .hero__title--thin {
@@ -279,20 +293,46 @@ body {
   margin-bottom: 110px;
   position: relative;
 }
+@media screen and (min-width: 1024px) {
+  .marketplaces__item-first {
+    max-width: 395px;
+  }
+}
 .marketplaces__item-second {
   max-width: 321px;
   margin-left: auto;
   position: relative;
   margin-bottom: 59px;
 }
+@media screen and (min-width: 1024px) {
+  .marketplaces__item-second {
+    max-width: 431px;
+    margin-top: -369px;
+  }
+}
 .marketplaces__text {
   text-transform: uppercase;
+}
+@media screen and (min-width: 1024px) {
+  .marketplaces__text {
+    font-size: 24px;
+    line-height: 150%;
+    position: relative;
+    z-index: 1;
+  }
 }
 .marketplaces__under-text {
   font-size: 12px;
   margin-top: 2px;
   margin-bottom: 7px;
   text-align: right;
+}
+@media screen and (min-width: 1024px) {
+  .marketplaces__under-text {
+    font-size: 14px;
+    position: relative;
+    z-index: 1;
+  }
 }
 .marketplaces__img {
   position: relative;
@@ -305,13 +345,27 @@ body {
 }
 .marketplaces__under-img-square {
   position: absolute;
-  bottom: -64px;
-  left: 122px;
+  bottom: -63px;
+  left: 126px;
+}
+@media screen and (min-width: 1024px) {
+  .marketplaces__under-img-square {
+    bottom: -115px;
+    left: 154px;
+    z-index: 0;
+  }
 }
 .marketplaces__under-circle-img {
   position: absolute;
-  bottom: -62px;
-  left: -1px;
+  bottom: -66px;
+  left: -57px;
+}
+@media screen and (min-width: 1024px) {
+  .marketplaces__under-circle-img {
+    bottom: 97px;
+    left: 256px;
+    z-index: 0;
+  }
 }
 
 .opportunity {

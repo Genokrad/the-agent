@@ -127,21 +127,57 @@
                 >
               </p>
               <p class="marketplaces__under-text">Fashionunited, 2021</p>
-              <img
-                src="./images/mobile/women-pinkx1.jpg"
-                alt="women in pink"
-                class="marketplaces__img"
-                width="189"
-                height="236"
-              />
-              <div class="marketplaces__under-img-wraper">
-                <img
-                  src="./images/square-marketplace.png"
-                  alt="women in pink"
-                  class="marketplaces__under-img-square"
-                  width="131"
-                  height="131"
+              <picture>
+                <source
+                  srcset="
+                    ./images/desktop/women-pinkx1-dt.jpg 1x,
+                    ./images/desktop/women-pinkx2-dt.jpg 2x
+                  "
+                  media="(min-width:1024px)"
+                  width="272"
+                  height="340"
                 />
+                <source
+                  srcset="
+                    ./images/mobile/women-pinkx1.jpg 1x,
+                    ./images/mobile/women-pinkx2.jpg 2x
+                  "
+                  media="(max-width:480px)"
+                />
+                <img
+                  src="./images/mobile/women-pinkx1.jpg"
+                  alt="women in pink"
+                  class="marketplaces__img"
+                  width="189"
+                  height="236"
+                />
+              </picture>
+              <div class="marketplaces__under-img-wraper">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/desktop/square.png   1x,
+                      ./images/desktop/squarex2.png 2x
+                    "
+                    media="(min-width:1024px)"
+                    width="231"
+                    height="231"
+                  />
+                  <source
+                    srcset="
+                      ./images/square-marketplace.png 1x,
+                      ./images/square-marketplace.png 2x
+                    "
+                    media="(max-width:480px)"
+                  />
+                  <img
+                    src="./images/square-marketplace.png"
+                    alt="women in pink"
+                    class="marketplaces__under-img-square"
+                    width="125"
+                    height="125"
+                  />
+                </picture>
               </div>
             </li>
             <li class="marketplaces__item-second">
@@ -152,21 +188,57 @@
                 >, twice faster than last year
               </p>
               <p class="marketplaces__under-text">Fevad</p>
-              <img
-                src="./images/mobile/women-in-whitex1.jpg"
-                alt="women in white"
-                class="marketplaces__img-right"
-                width="261"
-                height="150"
-              />
-              <div class="marketplaces__under-img-wraper">
-                <img
-                  src="./images/circle-marketplace.png"
-                  alt="women in pink"
-                  class="marketplaces__under-circle-img"
-                  width="125"
-                  height="125"
+              <picture>
+                <source
+                  srcset="
+                    ./images/desktop/women-in-whitex1-dt.jpg 1x,
+                    ./images/desktop/women-in-whitex1-dt.jpg 2x
+                  "
+                  media="(min-width:1024px)"
+                  width="375"
+                  height="216"
                 />
+                <source
+                  srcset="
+                    ./images/mobile/women-in-whitex1.jpg 1x,
+                    ./images/mobile/women-in-whitex2.jpg 2x
+                  "
+                  media="(max-width:480px)"
+                />
+                <img
+                  src="./images/mobile/women-in-whitex1.jpg"
+                  alt="women in pink"
+                  class="marketplaces__img"
+                  width="261"
+                  height="150"
+                />
+              </picture>
+              <div class="marketplaces__under-img-wraper">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/desktop/circle.png   1x,
+                      ./images/desktop/circlex2.png 2x
+                    "
+                    media="(min-width:1024px)"
+                    width="221"
+                    height="221"
+                  />
+                  <source
+                    srcset="
+                      ./images/circle-marketplace.png 1x,
+                      ./images/circle-marketplace.png 2x
+                    "
+                    media="(max-width:480px)"
+                  />
+                  <img
+                    src="./images/circle-marketplace.png"
+                    alt="women in pink"
+                    class="marketplaces__under-circle-img"
+                    width="125"
+                    height="125"
+                  />
+                </picture>
               </div>
             </li>
           </ul>

@@ -1,6 +1,6 @@
 .navig {
   display: none;
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1024px) {
     display: flex;
     border-top: 0.5px solid #b3b3b3;
     justify-content: center;
@@ -34,7 +34,7 @@
   }
   &__desktop {
     display: none;
-    @media screen and (min-width: 1280px) {
+    @media screen and (min-width: 1024px) {
       display: flex;
     }
   }
@@ -60,7 +60,7 @@
 
 // ПОТОМ ПОПРАВИТЬ
 .menu-icone {
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1024px) {
     fill: transparent;
   }
 }
