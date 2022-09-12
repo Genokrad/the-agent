@@ -1,16 +1,45 @@
 .navig {
   display: none;
+  @media screen and (min-width: 1280px) {
+    display: flex;
+    border-top: 0.5px solid #b3b3b3;
+    justify-content: center;
+  }
+  &__list {
+    display: flex;
+    gap: 53px;
+  }
+  &__item {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+  }
 }
 .menu-icone {
   width: 25px;
   height: 18px;
 }
-.english {
-  display: none;
+
+.switcher {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  &__link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  &__desktop {
+    display: none;
+    @media screen and (min-width: 1280px) {
+      display: flex;
+    }
+  }
 }
-.france {
-  display: none;
-}
+
 .logo {
   width: 107px;
   height: 16px;
@@ -27,6 +56,13 @@
 .menu-open {
   border: 0;
   background-color: transparent;
+}
+
+// ПОТОМ ПОПРАВИТЬ
+.menu-icone {
+  @media screen and (min-width: 1280px) {
+    fill: transparent;
+  }
 }
 
 .linguage-switcher-mob {
