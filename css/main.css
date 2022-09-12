@@ -387,6 +387,11 @@ body {
   align-items: center;
   background-color: var(--black-bcg-color);
 }
+@media screen and (min-width: 1024px) {
+  .focus {
+    flex-direction: row;
+  }
+}
 .focus .img-wraper {
   background-image: url(../images/mobile/women-in-white-bcg-x1.jpg);
   background-position: top;
@@ -398,9 +403,25 @@ body {
   height: 100%;
   background-size: cover;
 }
+@media screen and (min-width: 1024px) {
+  .focus .img-wraper {
+    background-image: url(../images/desktop/women-in-whitex1-bcg-dtx2.jpg);
+    min-width: 634px;
+    min-height: 604px;
+    width: 44%;
+    height: 50%;
+    background-size: cover;
+  }
+}
 .focus__wraper {
-  margin-top: 48px;
+  padding-top: 48px;
   padding-bottom: 48px;
+}
+@media screen and (min-width: 1024px) {
+  .focus__wraper {
+    padding-top: 136px;
+    padding-bottom: 136px;
+  }
 }
 .focus__title {
   font-weight: 300;
