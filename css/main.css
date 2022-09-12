@@ -21,6 +21,10 @@ img {
   display: block;
 }
 
+button {
+  border: none;
+}
+
 .title {
   text-align: center;
   color: var(--title-text-color);
@@ -329,6 +333,17 @@ body {
   align-items: center;
   background-color: var(--black-bcg-color);
 }
+.focus .img-wraper {
+  background-image: url(../images/mobile/women-in-white-bcg-x1.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: black;
+  min-width: 280px;
+  min-height: 280px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
 .focus__wraper {
   margin-top: 48px;
   padding-bottom: 48px;
@@ -499,14 +514,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  gap: 16px;
   flex-wrap: wrap;
-  -moz-column-gap: 8px;
-       column-gap: 8px;
-}
-@media screen and (min-width: 375px) {
-  .who__list {
-    gap: 16px;
-  }
 }
 .who__img {
   margin-bottom: 12px;
@@ -678,10 +687,16 @@ body {
   font-family: "Baskervville";
   font-style: normal;
   font-weight: 400;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 1.2;
   text-align: center;
   text-transform: uppercase;
+}
+@media screen and (min-width: 314px) {
+  .partners__title {
+    font-size: 36px;
+    line-height: 1.2;
+  }
 }
 
 .footer {
