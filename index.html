@@ -273,11 +273,17 @@
       <section class="section">
         <div class="container how">
           <h2 class="how__title">How do we do it?</h2>
-          <h3 class="how__subtitle">We do it for you</h3>
-          <p class="how__text">One stop shop full service</p>
-          <p class="how__separator">or</p>
-          <h3 class="how__subtitle">We help you do it</h3>
-          <p class="how__text">Tailor made services</p>
+          <div class="how__wraper">
+            <div class="how__sub-wraper">
+              <h3 class="how__subtitle">We do it for you</h3>
+              <p class="how__text">One stop shop full service</p>
+            </div>
+            <p class="how__separator">or</p>
+            <div class="how__sub-wraper">
+              <h3 class="how__subtitle">We help you do it</h3>
+              <p class="how__text">Tailor made services</p>
+            </div>
+          </div>
           <ul class="how__list list">
             <li class="how__item">
               <p class="how__item-text">1</p>
@@ -340,48 +346,120 @@
           <div class="div-wraper">
             <ul class="who__list list">
               <li>
-                <img
-                  src="./images/mobile/romain-aymeric.jpg"
-                  alt="men"
-                  class="who__img"
-                  width="165"
-                  height="196.38"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/desktop/romain-aymeric-dtx1.jpg 1x,
+                      ./images/desktop/romain-aymeric-dtx2.jpg 2x
+                    "
+                    media="(min-width:1024px)"
+                    width="302"
+                    height="360"
+                  />
+                  <source
+                    srcset="
+                      ./images/mobile/romain-aymeric.jpg    1x,
+                      ./images/mobile/romain-aymeric-x2.jpg 2x
+                    "
+                    media="(max-width:480px)"
+                  />
+                  <img
+                    src="./images/mobile/romain-aymeric.jpg"
+                    alt="men"
+                    class="who__img"
+                    width="165"
+                    height="196.38"
+                  />
+                </picture>
                 <h3 class="who__subtitle">Romain Aymeric</h3>
                 <p class="who__text">Brand management</p>
               </li>
               <li>
-                <img
-                  src="./images/mobile/denis-jihan-x1.jpg"
-                  alt="men"
-                  class="who__img"
-                  width="165"
-                  height="196.38"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/desktop/denis-jihan-dtx1.jpg 1x,
+                      ./images/desktop/denis-jihan-dtx2.jpg 2x
+                    "
+                    media="(min-width:1024px)"
+                    width="302"
+                    height="360"
+                  />
+                  <source
+                    srcset="
+                      ./images/mobile/denis-jihan-x1.jpg 1x,
+                      ./images/mobile/denis-jihan-x2.jpg 2x
+                    "
+                    media="(max-width:480px)"
+                  />
+                  <img
+                    src="./images/mobile/denis-jihan-x1.jpg"
+                    alt="men"
+                    class="who__img"
+                    width="165"
+                    height="196.38"
+                  />
+                </picture>
                 <h3 class="who__subtitle">Denis Gihan</h3>
                 <p class="who__text">Digital</p>
               </li>
             </ul>
             <ul class="who__list list">
               <li>
-                <img
-                  src="./images/mobile/debora-chinasi-x1.jpg"
-                  alt="women"
-                  class="who__img"
-                  width="165"
-                  height="196.38"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/desktop/debora-chinasi-dtx1.jpg 1x,
+                      ./images/desktop/debora-chinasi-dtx2.jpg 2x
+                    "
+                    media="(min-width:1024px)"
+                    width="302"
+                    height="360"
+                  />
+                  <source
+                    srcset="
+                      ./images/mobile/debora-chinasi-x1.jpg 1x,
+                      ./images/mobile/debora-chinasi-x2.jpg 2x
+                    "
+                    media="(max-width:480px)"
+                  />
+                  <img
+                    src="./images/mobile/debora-chinasi-x1.jpg"
+                    alt="women"
+                    class="who__img"
+                    width="165"
+                    height="196.38"
+                  />
+                </picture>
                 <h3 class="who__subtitle">Deborah Schinasi</h3>
                 <p class="who__text">Operations</p>
               </li>
               <li>
-                <img
-                  src="./images/mobile/aurelien-briquet.jpg"
-                  alt="men"
-                  class="who__img"
-                  width="165"
-                  height="196.38"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/desktop/aurelien-briquet-dtx1.jpg 1x,
+                      ./images/desktop/aurelien-briquet-dtx2.jpg 2x
+                    "
+                    media="(min-width:1024px)"
+                    width="302"
+                    height="360"
+                  />
+                  <source
+                    srcset="
+                      ./images/mobile/aurelien-briquet.jpg   1x,
+                      ./images/mobile/aurelien-briquet2x.jpg 2x
+                    "
+                    media="(max-width:480px)"
+                  />
+                  <img
+                    src="./images/mobile/aurelien-briquet.jpg"
+                    alt="men"
+                    class="who__img"
+                    width="165"
+                    height="196.38"
+                  />
+                </picture>
                 <h3 class="who__subtitle">Aurélien Briquet</h3>
                 <p class="who__text">Technology</p>
               </li>
@@ -390,118 +468,121 @@
         </div>
       </section>
       <section class="e-comerce section">
-        <div class="container">
-          <h2 class="e-comerce__title">
-            The Agent, <br />
-            your e-commerce accelerator
-          </h2>
+        <div class="e-comerce__wraper container">
+          <h2 class="e-comerce__title">The Agent</h2>
+          <h3 class="e-comerce__text">&nbsp;your e-commerce accelerator</h3>
         </div>
       </section>
       <section class="testimonials">
         <div class="testimonials__wraper container">
           <h2 class="testimonials__title">testimonials</h2>
-          <ul class="testimonials__list list">
-            <li class="testimonials__item">
-              <p class="testimonials__text">+ 50%</p>
-              <p class="testimonials__undertext">growth vs last year</p>
-              <p class="testimonials__description">
-                “We have chozen THEAGENT to present our brand on all key web
-                players. Their expertise in marketplace has permitted us to win
-                time and efficienty and achieve increasing results. “
-              </p>
-              <img
-                class="testimonials__img"
-                src="/images/brands/oakwood-white.png"
-                alt="oakwood"
-                width="142.4"
-                height="18"
-              />
-            </li>
-            <li class="testimonials__item">
-              <p class="testimonials__text">+ 92%</p>
-              <p class="testimonials__undertext">growth vs last year</p>
-              <p class="testimonials__description space">
-                “THEAGENT allowed us to integrate quickly into Zalando. Since
-                then, they have followed us on a daily basis in order to improve
-                our performance on this marketplace (rate of returns, turnover,
-                restocking, etc.).
-              </p>
-              <p class="testimonials__description">
-                We wouldn't have had such results if we had done it directly”
-              </p>
-              <img
-                src="/images/brands/moustache-white.png"
-                alt="moustache"
-                width="140"
-                height="24"
-              />
-            </li>
-            <li class="testimonials__item">
-              <p class="testimonials__text">+ 120%</p>
-              <p class="testimonials__undertext">growth vs last year</p>
-              <p class="testimonials__description space">
-                “The expertise and support of THEAGENT's dynamic team confirms
-                that we have found a competent and efficient partner who gives
-                our products real visibility on the web.
-              </p>
-              <p class="testimonials__description">
-                Very satisfied with the work done, we intend to take full
-                advantage of their marketplace portfolio, which is one of the
-                most attractive in the market”
-              </p>
-              <img
-                src="/images/brands/havanas-white.png"
-                alt="havanas"
-                width="157"
-                height="49"
-              />
-            </li>
-            <li class="testimonials__item">
-              <p class="testimonials__text">+ 50%</p>
-              <p class="testimonials__undertext">growth vs last year</p>
-              <p class="testimonials__description space">
-                "The Agent was the solution to set up an alternative solution to
-                the traditional wholesale business with Zalando.
-              </p>
-              <p class="testimonials__description space">
-                Thanks to its experience with this international account, The
-                Agent has enabled us to develop the “market place” business in
-                several countries and therefore to take advantage of Zalando's
-                strike force.
-              </p>
-              <p class="testimonials__description">
-                The Agent is clearly business result oriented and has the keys
-                to fetch growing results (photo and descriptive content,
-                marketing, stock, pricing strategy, etc.) Working in tandem with
-                an account manager is also a real plus for establishing a
-                follow-up relationship."
-              </p>
-              <img
-                src="/images/brands/logo-le-coq-sportif-white.png"
-                alt="le-coq-sportif"
-                width="63"
-                height="66"
-              />
-            </li>
-            <li class="testimonials__item">
-              <p class="testimonials__text">+ 72%</p>
-              <p class="testimonials__undertext">growth vs last year</p>
-              <p class="testimonials__description">
-                "With a continuous increase of alternative online marketplaces,
-                The Agent's partnership allowed us, not only to identify the
-                right platforms for PAEZ Shoes, but also to align a profitable
-                and lean business model capable of reaching several geographies.
-                <br />
-                As a plus, it comes with a 24/7 customer service "
-              </p>
-              <img
-                src="/images/brands/paez-logo-white.png"
-                alt="paez"
-                width="78"
-                height="28"
-              />
-            </li>
-          </ul>
+          <div class="testimonials__box">
+            <ul class="testimonials__list list">
+              <li class="testimonials__item">
+                <p class="testimonials__text">+ 50%</p>
+                <p class="testimonials__undertext">growth vs last year</p>
+                <p class="testimonials__description">
+                  “We have chozen THEAGENT to present our brand on all key web
+                  players. Their expertise in marketplace has permitted us to
+                  win time and efficienty and achieve increasing results. “
+                </p>
+                <img
+                  class="testimonials__img"
+                  src="./images/brands/oakwood-white.png"
+                  alt="oakwood"
+                  width="142.4"
+                  height="18"
+                />
+              </li>
+              <li class="testimonials__item">
+                <p class="testimonials__text">+ 92%</p>
+                <p class="testimonials__undertext">growth vs last year</p>
+                <p class="testimonials__description space">
+                  “THEAGENT allowed us to integrate quickly into Zalando. Since
+                  then, they have followed us on a daily basis in order to
+                  improve our performance on this marketplace (rate of returns,
+                  turnover, restocking, etc.).
+                </p>
+                <p class="testimonials__description">
+                  We wouldn't have had such results if we had done it directly”
+                </p>
+                <img
+                  src="./images/brands/moustache-white.png"
+                  alt="moustache"
+                  width="140"
+                  height="24"
+                />
+              </li>
+              <li class="testimonials__item">
+                <p class="testimonials__text">+ 120%</p>
+                <p class="testimonials__undertext">growth vs last year</p>
+                <p class="testimonials__description space">
+                  “The expertise and support of THEAGENT's dynamic team confirms
+                  that we have found a competent and efficient partner who gives
+                  our products real visibility on the web.
+                </p>
+                <p class="testimonials__description">
+                  Very satisfied with the work done, we intend to take full
+                  advantage of their marketplace portfolio, which is one of the
+                  most attractive in the market”
+                </p>
+                <img
+                  src="./images/brands/havanas-white.png"
+                  alt="havanas"
+                  width="157"
+                  height="49"
+                />
+              </li>
+            </ul>
+            <ul class="testimonials__list list">
+              <li class="testimonials__item">
+                <p class="testimonials__text">+ 50%</p>
+                <p class="testimonials__undertext">growth vs last year</p>
+                <p class="testimonials__description space">
+                  "The Agent was the solution to set up an alternative solution
+                  to the traditional wholesale business with Zalando.
+                </p>
+                <p class="testimonials__description space">
+                  Thanks to its experience with this international account, The
+                  Agent has enabled us to develop the “market place” business in
+                  several countries and therefore to take advantage of Zalando's
+                  strike force.
+                </p>
+                <p class="testimonials__description">
+                  The Agent is clearly business result oriented and has the keys
+                  to fetch growing results (photo and descriptive content,
+                  marketing, stock, pricing strategy, etc.) Working in tandem
+                  with an account manager is also a real plus for establishing a
+                  follow-up relationship."
+                </p>
+                <img
+                  src="/images/brands/logo-le-coq-sportif-white.png"
+                  alt="le-coq-sportif"
+                  width="63"
+                  height="66"
+                />
+              </li>
+              <li class="testimonials__item">
+                <p class="testimonials__text">+ 72%</p>
+                <p class="testimonials__undertext">growth vs last year</p>
+                <p class="testimonials__description">
+                  "With a continuous increase of alternative online
+                  marketplaces, The Agent's partnership allowed us, not only to
+                  identify the right platforms for PAEZ Shoes, but also to align
+                  a profitable and lean business model capable of reaching
+                  several geographies.
+                  <br />
+                  As a plus, it comes with a 24/7 customer service "
+                </p>
+                <img
+                  src="/images/brands/paez-logo-white.png"
+                  alt="paez"
+                  width="78"
+                  height="28"
+                />
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
       <section class="brands">
@@ -552,115 +633,123 @@
           <ul class="cases__list list">
             <li class="cases__item">
               <h3 class="cases__subtitle">Fiancée du Mekong</h3>
-              <div class="metric">
-                <div class="metric--positioner">
-                  <p class="cases__metric">+150%</p>
-                  <p class="cases__metric-text">
-                    articles <br />
-                    sold
-                  </p>
-                </div>
+              <div class="metric__box">
+                <div class="metric">
+                  <div class="metric--positioner">
+                    <p class="cases__metric">+150%</p>
+                    <p class="cases__metric-text">
+                      articles <br />
+                      sold
+                    </p>
+                  </div>
 
-                <div class="metric--positioner">
-                  <p class="cases__metric">+265%</p>
-                  <p class="cases__metric-text">
-                    product page <br />
-                    views
-                  </p>
+                  <div class="metric--positioner">
+                    <p class="cases__metric">+265%</p>
+                    <p class="cases__metric-text">
+                      product page <br />
+                      views
+                    </p>
+                  </div>
                 </div>
+                <button class="cases__button">
+                  <svg class="cases__button-icone">
+                    <use
+                      href="./images/sprite/sprite.svg#icon-button-arrow"
+                    ></use>
+                  </svg>
+                  See the case study
+                </button>
               </div>
-              <button class="cases__button">
-                <svg class="cases__button-icone">
-                  <use
-                    href="./images/sprite/sprite.svg#icon-button-arrow"
-                  ></use>
-                </svg>
-                See the case study
-              </button>
             </li>
             <li class="cases__item">
               <h3 class="cases__subtitle">Paez</h3>
-              <div class="metric">
-                <div class="metric--positioner">
-                  <p class="cases__metric">+1500%</p>
-                  <p class="cases__metric-text">
-                    product page <br />
-                    views
-                  </p>
-                </div>
+              <div class="metric__box">
+                <div class="metric">
+                  <div class="metric--positioner">
+                    <p class="cases__metric">+1500%</p>
+                    <p class="cases__metric-text">
+                      product page <br />
+                      views
+                    </p>
+                  </div>
 
-                <div class="metric--positioner">
-                  <p class="cases__metric">+65%</p>
-                  <p class="cases__metric-text">
-                    product page <br />
-                    views
-                  </p>
+                  <div class="metric--positioner metric-second">
+                    <p class="cases__metric">+65%</p>
+                    <p class="cases__metric-text">
+                      product page <br />
+                      views
+                    </p>
+                  </div>
                 </div>
+                <button class="cases__button">
+                  <svg class="cases__button-icone">
+                    <use
+                      href="./images/sprite/sprite.svg#icon-button-arrow"
+                    ></use>
+                  </svg>
+                  See the case study
+                </button>
               </div>
-              <button class="cases__button">
-                <svg class="cases__button-icone">
-                  <use
-                    href="./images/sprite/sprite.svg#icon-button-arrow"
-                  ></use>
-                </svg>
-                See the case study
-              </button>
             </li>
             <li class="cases__item">
               <h3 class="cases__subtitle">Havaianas</h3>
-              <div class="metric">
-                <div class="metric--positioner">
-                  <p class="cases__metric">+30%</p>
-                  <p class="cases__metric-text">
-                    product page <br />
-                    views
-                  </p>
-                </div>
+              <div class="metric__box">
+                <div class="metric">
+                  <div class="metric--positioner">
+                    <p class="cases__metric">+30%</p>
+                    <p class="cases__metric-text">
+                      product page <br />
+                      views
+                    </p>
+                  </div>
 
-                <div class="metric--positioner">
-                  <p class="cases__metric">>1million</p>
-                  <p class="cases__metric-text">
-                    product page<br />
-                    views/month
-                  </p>
+                  <div class="metric--positioner">
+                    <p class="cases__metric">>1million</p>
+                    <p class="cases__metric-text">
+                      product page<br />
+                      views/month
+                    </p>
+                  </div>
                 </div>
+                <button class="cases__button">
+                  <svg class="cases__button-icone">
+                    <use
+                      href="./images/sprite/sprite.svg#icon-button-arrow"
+                    ></use>
+                  </svg>
+                  See the case study
+                </button>
               </div>
-              <button class="cases__button">
-                <svg class="cases__button-icone">
-                  <use
-                    href="./images/sprite/sprite.svg#icon-button-arrow"
-                  ></use>
-                </svg>
-                See the case study
-              </button>
             </li>
             <li class="cases__item">
               <h3 class="cases__subtitle">Oakwood</h3>
-              <div class="metric">
-                <div class="metric--positioner">
-                  <p class="cases__metric">-6%</p>
-                  <p class="cases__metric-text">
-                    return<br />
-                    rate
-                  </p>
-                </div>
+              <div class="metric__box">
+                <div class="metric">
+                  <div class="metric--positioner">
+                    <p class="cases__metric">-6%</p>
+                    <p class="cases__metric-text">
+                      return<br />
+                      rate
+                    </p>
+                  </div>
 
-                <div class="metric--positioner">
-                  <p class="cases__metric">+65%</p>
-                  <p class="cases__metric-text">
-                    articles <br />
-                    sold
-                  </p>
+                  <div class="metric--positioner metric-unstandart">
+                    <p class="cases__metric">+65%</p>
+                    <p class="cases__metric-text">
+                      articles <br />
+                      sold
+                    </p>
+                  </div>
                 </div>
+                <button class="cases__button">
+                  <svg class="cases__button-icone">
+                    <use
+                      href="./images/sprite/sprite.svg#icon-button-arrow"
+                    ></use>
+                  </svg>
+                  See the case study
+                </button>
               </div>
-              <button class="cases__button">
-                <svg class="cases__button-icone">
-                  <use
-                    href="./images/sprite/sprite.svg#icon-button-arrow"
-                  ></use>
-                </svg>
-                See the case study
-              </button>
             </li>
           </ul>
         </div>

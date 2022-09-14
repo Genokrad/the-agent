@@ -1,6 +1,13 @@
 .cases {
   padding-top: 56px;
   padding-bottom: 56px;
+  @media screen and (min-width: 1024px) {
+    padding-top: 72px;
+    padding-bottom: 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   background-color: var(--black-bcg-color);
   &__title {
     font-family: 'Baskervville';
@@ -11,6 +18,9 @@
     text-transform: uppercase;
     color: var(--white-text-color);
     margin-bottom: 47px;
+    @media screen and (min-width: 1024px) {
+      font-size: 60px;
+    }
   }
   &__list {
     display: flex;
@@ -20,6 +30,9 @@
   &__item {
     background-color: var(--white-bcg-color);
     padding: 44px 36px;
+    @media screen and (min-width: 1164px) {
+      min-width: 1020px;
+    }
   }
   &__subtitle {
     font-weight: 500;
@@ -27,17 +40,26 @@
     line-height: 1.2;
     margin-bottom: 19px;
     color: var(--secondary-text-color);
+    @media screen and (min-width: 1024px) {
+      font-size: 24px;
+    }
   }
   &__metric {
     font-weight: 500;
     font-size: 36px;
     line-height: 1.5;
     color: var(--secondary-text-color);
+    @media screen and (min-width: 1024px) {
+      font-size: 48px;
+    }
   }
   &__metric-text {
     font-weight: 300;
     font-size: 18px;
     line-height: 0.9;
+    @media screen and (min-width: 1024px) {
+      font-size: 24px;
+    }
   }
   &__button {
     background-color: var(--black-bcg-color);
@@ -48,6 +70,13 @@
     align-items: center;
     justify-content: center;
     gap: 7.5px;
+    @media screen and (min-width: 1024px) {
+      // min-width: 211px;
+      // height: 46px;
+    }
+    @media screen and (min-width: 1164px) {
+      min-width: 211px;
+    }
   }
   &__button-icone {
     fill: var(--white-text-color);
@@ -60,9 +89,47 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
+  @media screen and (min-width: 1024px) {
+    flex-direction: row;
+    margin-bottom: 0;
+    min-width: 100%;
+    justify-content: space-around;
+    // justify-content: center;
+  }
+  @media screen and (min-width: 1164px) {
+    min-width: 70%;
+    justify-content: space-between;
+  }
 }
 .metric--positioner {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+.metric--positioner:first-child {
+  @media screen and (min-width: 1024px) {
+    margin-right: 20px;
+  }
+}
+
+.metric__box {
+  @media screen and (min-width: 1024px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+
+.metric-unstandart {
+  @media screen and (min-width: 1164px) {
+    margin-right: 90px;
+  }
+}
+
+.metric-second {
+  @media screen and (min-width: 1164px) {
+    margin-right: 25px;
+  }
 }

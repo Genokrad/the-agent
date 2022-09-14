@@ -1,6 +1,10 @@
 .partners {
   padding-top: 56px;
   padding-bottom: 56px;
+  @media screen and (min-width: 1164px) {
+    padding-top: 128px;
+    padding-bottom: 128px;
+  }
   &__title {
     font-family: 'Baskervville';
     font-style: normal;

@@ -18,6 +18,10 @@
     text-transform: uppercase;
     color: var(--white-title-color);
     margin-bottom: 13px;
+    @media screen and (min-width: 1024px) {
+      font-size: 60px;
+      margin-bottom: 19px;
+    }
   }
   &__description {
     font-weight: 300;
@@ -27,6 +31,11 @@
     color: var(--white-text-color);
     max-width: 250px;
     margin-bottom: 41px;
+    @media screen and (min-width: 1024px) {
+      font-size: 24px;
+      max-width: 474px;
+      margin-bottom: 52px;
+    }
   }
   .div-wraper {
     display: flex;
@@ -34,6 +43,9 @@
     justify-content: center;
     gap: 16px;
     flex-wrap: wrap;
+    @media screen and (min-width: 1024px) {
+      gap: 28px;
+    }
   }
   &__list {
     display: flex;
@@ -41,9 +53,15 @@
     justify-content: center;
     gap: 16px;
     flex-wrap: wrap;
+    @media screen and (min-width: 1024px) {
+      gap: 28px;
+    }
   }
   &__img {
     margin-bottom: 12px;
+    @media screen and (min-width: 1024px) {
+      margin-bottom: 32px;
+    }
   }
   &__subtitle {
     font-weight: 300;
@@ -52,11 +70,18 @@
     text-transform: uppercase;
     color: var(--white-title-color);
     max-width: 165px;
+    @media screen and (min-width: 1024px) {
+      font-size: 24px;
+      max-width: 100%;
+    }
   }
   &__text {
     font-weight: 300;
     font-size: 14px;
     line-height: 1.5;
     color: var(--white-text-color);
+    @media screen and (min-width: 1024px) {
+      font-size: 18px;
+    }
   }
 }

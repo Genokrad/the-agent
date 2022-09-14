@@ -4,6 +4,10 @@
   align-items: center;
   padding-top: 56px;
   padding-bottom: 56px;
+  @media screen and (min-width: 1024px) {
+    padding-top: 160px;
+    padding-bottom: 116px;
+  }
   &__title {
     font-family: 'Baskervville';
     font-weight: 400;
@@ -14,6 +18,21 @@
     text-transform: uppercase;
     max-width: 262px;
     margin-bottom: 60px;
+    @media screen and (min-width: 1024px) {
+      margin-bottom: 130px;
+      font-size: 60px;
+      max-width: 100%;
+    }
+  }
+  &__wraper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media screen and (min-width: 1024px) {
+      flex-direction: row;
+      gap: 56px;
+      align-items: baseline;
+    }
   }
   &__subtitle {
     min-width: 288px;
@@ -26,6 +45,9 @@
     padding: 7px 43px;
     color: var(--primary-text-color);
     margin-bottom: 6px;
+    @media screen and (min-width: 1024px) {
+      font-size: 36px;
+    }
   }
   &__text {
     font-weight: 300;
@@ -33,17 +55,29 @@
     line-height: 1.2;
     text-align: center;
     color: var(--primary-text-color);
+    @media screen and (min-width: 1024px) {
+      font-size: 18px;
+    }
   }
   &__separator {
     display: inline-block;
     margin-top: 12px;
     margin-bottom: 16px;
+    // margin-left: auto;
+    // margin-right: auto;
+    @media screen and (min-width: 1024px) {
+      font-size: 18px;
+    }
   }
   &__list {
     margin-top: 76px;
     display: flex;
     flex-direction: column;
     gap: 66px;
+    @media screen and (min-width: 1024px) {
+      flex-direction: row;
+      margin-top: 141px;
+    }
   }
 }
 .how__item-text {
@@ -52,6 +86,9 @@
   line-height: 1.2;
   text-transform: uppercase;
   color: var(--primary-text-color);
+  @media screen and (min-width: 1024px) {
+    margin-bottom: 23px;
+  }
 }
 .how__item-title {
   font-weight: 400;
