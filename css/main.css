@@ -1027,6 +1027,7 @@ body {
   padding-top: 56px;
   padding-bottom: 56px;
   position: relative;
+  overflow: hidden;
 }
 .brands__title {
   font-family: "Baskervville";
@@ -1041,6 +1042,7 @@ body {
   padding-top: 56px;
   padding-bottom: 56px;
   position: relative;
+  overflow: hidden;
 }
 @media screen and (min-width: 1024px) {
   .partners {
