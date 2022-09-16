@@ -118,12 +118,16 @@ body {
 .swiper {
   width: 100%;
   height: 100px;
+  display: flex;
+  align-items: center;
+  position: absolute;
 }
 
 .swiper-wrapper {
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 44px;
 }
 
 .swiper-slide {
@@ -137,6 +141,7 @@ body {
   height: 100px;
   display: flex;
   align-items: center;
+  position: absolute;
 }
 
 .swiper-slide {
@@ -147,6 +152,24 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.swiper-button-next {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .swiper-button-next {
+    display: flex;
+  }
+}
+
+.swiper-button-prev {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .swiper-button-prev {
+    display: flex;
+  }
 }
 
 .navig {
@@ -1028,6 +1051,7 @@ body {
   padding-bottom: 56px;
   position: relative;
   overflow: hidden;
+  height: 246px;
 }
 .brands__title {
   font-family: "Baskervville";
@@ -1043,6 +1067,8 @@ body {
   padding-bottom: 56px;
   position: relative;
   overflow: hidden;
+  height: 282px;
+  width: 100%;
 }
 @media screen and (min-width: 1024px) {
   .partners {
