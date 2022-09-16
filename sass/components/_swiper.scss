@@ -1,0 +1,55 @@
+.swiper {
+  width: 100%;
+  height: 100px;
+}
+
+.swiper-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.swiper-first {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+// @media (max-width: 760px) {
+//   .swiper-button-next {
+//     right: 20px;
+//     transform: rotate(90deg);
+//   }
+
+//   .swiper-button-prev {
+//     left: 20px;
+//     transform: rotate(90deg);
+//   }
+// }

@@ -1,7 +1,8 @@
 .partners {
   padding-top: 56px;
   padding-bottom: 56px;
-  @media screen and (min-width: 1164px) {
+  position: relative;
+  @media screen and (min-width: 1024px) {
     padding-top: 128px;
     padding-bottom: 128px;
   }

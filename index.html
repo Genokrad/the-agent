@@ -3,7 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, 
+    initial-scale=1.0"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
     <title>THEAGENT</title>
 
     <!-- ШРИФТЫ -->
@@ -12,6 +20,16 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Baskervville&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,500&display=swap"
       rel="stylesheet"
+    />
+
+    <!-- SWIPER -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
 
     <!-- NORMOLIZE -->
@@ -587,7 +605,129 @@
       </section>
       <section class="brands">
         <h2 class="brands__title">Brands</h2>
-        <svg class="brands__icone">
+        <div class="swiper-first">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  srcset="/images/brands-swiper/oakwood.png"
+                  width="102"
+                  height="13"
+                  media="(min-width:1024px)"
+                />
+                <source
+                  srcset="/images/brands-swiper/oakwood.png"
+                  media="(max-width:480px)"
+                />
+                <img
+                  src="/images/brands-swiper/oakwood.png"
+                  alt="le-coq-sportif"
+                  width="102"
+                  height="13"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="/images/brands-swiper/havainas.png"
+                alt="le-coq-sportif"
+                width="75"
+                height="28"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="/images/brands-swiper/lecoqsportif.png"
+                alt="le-coq-sportif"
+                width="33"
+                height="34"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="/images/brands-swiper/pataugas.png"
+                alt="le-coq-sportif"
+                width="80"
+                height="10"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="/images/brands-swiper/pomax.png"
+                alt="le-coq-sportif"
+                width="74"
+                height="13"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="/images/brands-swiper/paindesucre.png"
+                alt="le-coq-sportif"
+                width="86"
+                height="34"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="/images/brands-swiper/aigle.png"
+                alt="le-coq-sportif"
+                width="60"
+                height="14"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="/images/brands-swiper/fruch.png"
+                alt="le-coq-sportif"
+                width="67"
+                height="14"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="/images/brands-swiper/nat-nin.png"
+                alt="le-coq-sportif"
+                width="84"
+                height="22"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="/images/brands-swiper/paez.png"
+                alt="le-coq-sportif"
+                width="48"
+                height="16"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="/images/brands-swiper/bensimon.png"
+                alt="le-coq-sportif"
+                width="110"
+                height="21"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="/images/brands-swiper/bestmountain.png"
+                alt="le-coq-sportif"
+                width="99.73"
+                height="10.25"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="/images/brands-swiper/moustache.png"
+                alt="le-coq-sportif"
+                width="81"
+                height="14"
+              />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        <!-- <svg class="brands__icone">
           <use></use>
         </svg>
         <svg class="brands__icone">
@@ -625,7 +765,7 @@
         </svg>
         <svg class="brands__icone">
           <use></use>
-        </svg>
+        </svg> -->
       </section>
       <section class="cases">
         <div class="container">
@@ -756,27 +896,174 @@
       </section>
       <section class="partners">
         <h2 class="partners__title">marketplace partners</h2>
-        <svg class="partners__icone">
-          <use></use>
-        </svg>
-        <svg class="partners__icone">
-          <use></use>
-        </svg>
-        <svg class="partners__icone">
-          <use></use>
-        </svg>
-        <svg class="partners__icone">
-          <use></use>
-        </svg>
-        <svg class="partners__icone">
-          <use></use>
-        </svg>
-        <svg class="partners__icone">
-          <use></use>
-        </svg>
-        <svg class="partners__icone">
-          <use></use>
-        </svg>
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  srcset="
+                    ./images/partners-image/amazonx1.png 1x,
+                    ./images/partners-image/amazonx2.png 2x
+                  "
+                  media="(min-width:1024px)"
+                />
+                <source
+                  srcset="
+                    ./images/partners-image/amazonx1.png 1x,
+                    ./images/partners-image/amazonx2.png 2x
+                  "
+                  media="(max-width:480px)"
+                />
+                <img
+                  src="./images/partners-image/amazonx1.png"
+                  alt="amazon"
+                  class="partners__img"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  srcset="
+                    ./images/partners-image/leredoutx1.png 1x,
+                    ./images/partners-image/leredoutx2.png 2x
+                  "
+                  media="(min-width:1024px)"
+                />
+                <source
+                  srcset="
+                    ./images/partners-image/leredoutx1.png 1x,
+                    ./images/partners-image/leredoutx2.png 2x
+                  "
+                  media="(max-width:480px)"
+                />
+                <img
+                  src="./images/partners-image/leredoutx1.png"
+                  alt="leredout"
+                  class="partners__img"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  srcset="
+                    ./images/partners-image/zolando1x.png,
+                    ./images/partners-image/zolando2x.png 2x
+                  "
+                  media="(min-width:1024px)"
+                />
+                <source
+                  srcset="
+                    ./images/partners-image/zolando1x.png,
+                    ./images/partners-image/zolando2x.png 2x
+                  "
+                  media="(max-width:480px)"
+                />
+                <img
+                  src="./images/partners-image/zolando1x.png"
+                  alt="zolando"
+                  class="partners__img"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  srcset="
+                    ./images/partners-image/lebhy1x.png 1x,
+                    ./images/partners-image/lebhy2x.png 2x
+                  "
+                  media="(min-width:1024px)"
+                />
+                <source
+                  srcset="
+                    ./images/partners-image/lebhy1x.png 1x,
+                    ./images/partners-image/lebhy2x.png 2x
+                  "
+                  media="(max-width:480px)"
+                />
+                <img
+                  src="./images/partners-image/lebhy1x.png"
+                  alt="lebhy"
+                  class="partners__img"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  srcset="
+                    ./images/partners-image/galeris1x.png 1x,
+                    ./images/partners-image/galeris2x.png 2x
+                  "
+                  media="(min-width:1024px)"
+                />
+                <source
+                  srcset="
+                    ./images/partners-image/galeris1x.png 1x,
+                    ./images/partners-image/galeris2x.png 2x
+                  "
+                  media="(max-width:480px)"
+                />
+                <img
+                  src="./images/partners-image/galeris1x.png"
+                  alt="galeries"
+                  class="partners__img"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  srcset="
+                    ./images/partners-image/veepee1x.png 1x,
+                    ./images/partners-image/veepee2x.png 2x
+                  "
+                  media="(min-width:1024px)"
+                />
+                <source
+                  srcset="
+                    ./images/partners-image/veepee1x.png 1x,
+                    ./images/partners-image/veepee2x.png 2x
+                  "
+                  media="(max-width:480px)"
+                />
+                <img
+                  src="./images/partners-image/veepee1x.png"
+                  alt="amazon"
+                  class="partners__img"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  srcset="
+                    ./images/partners-image/decathlon1x.png 1x,
+                    ./images/partners-image/decathlon2x.png 2x
+                  "
+                  media="(min-width:1024px)"
+                />
+                <source
+                  srcset="
+                    ./images/partners-image/decathlon1x.png 1x,
+                    ./images/partners-image/decathlon2x.png 2x
+                  "
+                  media="(max-width:480px)"
+                />
+                <img
+                  src="./images/partners-image/decathlon1x.png"
+                  alt="amazon"
+                  class="partners__img"
+                />
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
       </section>
     </main>
     <footer class="footer">
@@ -790,24 +1077,32 @@
             <li class="footer-navigation__item">contact us</li>
           </ul>
         </nav>
-        <div class="footer__box">
-          <svg class="footer__icone">
-            <use
-              href="./images/sprite/sprite.svg#icon-linkedin"
-              width="20"
-              height="19"
-            ></use>
-          </svg>
-          <svg class="footer__icone">
-            <use
-              href="./images/sprite/sprite.svg#icon-twitter"
-              width="23"
-              height="19"
-            ></use>
-          </svg>
+        <div class="contact-us">
+          <div class="footer__box">
+            <a href="#" class="social">
+              <svg class="footer__icone">
+                <use
+                  href="./images/sprite/sprite.svg#icon-linkedin"
+                  width="20"
+                  height="19"
+                ></use>
+              </svg>
+            </a>
+            <a href="#" class="social">
+              <svg class="footer__icone">
+                <use
+                  href="./images/sprite/sprite.svg#icon-twitter"
+                  width="23"
+                  height="19"
+                ></use>
+              </svg>
+            </a>
+          </div>
+          <div class="contact__form">
+            <p class="footer__text">Let’s start our work</p>
+            <button class="footer__button">Contact us</button>
+          </div>
         </div>
-        <p class="footer__text">Let’s start our work</p>
-        <button class="footer__button">Contact us</button>
       </div>
       <div class="privacy">
         <a href="" class="privacy__link">Privacy policy</a>
@@ -815,5 +1110,54 @@
       </div>
     </footer>
     <script src="./js/menu.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- Swiper -->
+    <script>
+      var swiper = new Swiper('.swiper', {
+        slidesPerView: 4,
+        direction: getDirection(),
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        on: {
+          resize: function () {
+            swiper.changeDirection(getDirection());
+          },
+        },
+      });
+
+      function getDirection() {
+        var windowWidth = window.innerWidth;
+        var direction = window.innerWidth <= 760 ? 'horizontal' : 'horizontal';
+
+        return direction;
+      }
+    </script>
+    <script>
+      var swiper = new Swiper('.swiper-first', {
+        slidesPerView: 6,
+        direction: getDirection(),
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        on: {
+          resize: function () {
+            swiper.changeDirection(getDirection());
+          },
+        },
+      });
+
+      function getDirection() {
+        var windowWidth = window.innerWidth;
+        var direction = window.innerWidth <= 760 ? 'horizontal' : 'horizontal';
+
+        return direction;
+      }
+    </script>
   </body>
 </html>

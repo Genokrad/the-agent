@@ -115,6 +115,40 @@ body {
   margin-bottom: 26px;
 }
 
+.swiper {
+  width: 100%;
+  height: 100px;
+}
+
+.swiper-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.swiper-first {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .navig {
   display: none;
 }
@@ -992,6 +1026,7 @@ body {
 .brands {
   padding-top: 56px;
   padding-bottom: 56px;
+  position: relative;
 }
 .brands__title {
   font-family: "Baskervville";
@@ -1005,8 +1040,9 @@ body {
 .partners {
   padding-top: 56px;
   padding-bottom: 56px;
+  position: relative;
 }
-@media screen and (min-width: 1164px) {
+@media screen and (min-width: 1024px) {
   .partners {
     padding-top: 128px;
     padding-bottom: 128px;
@@ -1038,16 +1074,22 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 36px;
+  padding-bottom: 38px;
   position: relative;
+}
+@media screen and (min-width: 1024px) {
+  .footer__wraper {
+    flex-direction: column-reverse;
+    padding-bottom: 48px;
+  }
 }
 .footer__text {
   font-size: 24px;
-  line-height: 2.5;
+  line-height: 1.5;
   text-align: center;
   text-transform: uppercase;
   color: var(--white-text-color);
-  padding-bottom: 33px;
+  padding-bottom: 8px;
 }
 .footer__button {
   font-weight: 400;
@@ -1057,14 +1099,17 @@ body {
   background-color: var(--white-text-color);
   padding: 3px 10px;
   min-width: 256px;
-  position: absolute;
-  bottom: 40px;
 }
 .footer__box {
   display: flex;
   flex-direction: row;
   gap: 33px;
   margin-bottom: 28px;
+}
+@media screen and (min-width: 1024px) {
+  .footer__box {
+    margin-bottom: 0;
+  }
 }
 .footer__icone {
   width: 23px;
@@ -1078,10 +1123,23 @@ body {
 .footer-navigation {
   margin-bottom: 37px;
 }
+@media screen and (min-width: 1024px) {
+  .footer-navigation {
+    margin-bottom: 0;
+  }
+}
 .footer-navigation__list {
   display: flex;
   flex-direction: column;
   gap: 30px;
+}
+@media screen and (min-width: 1024px) {
+  .footer-navigation__list {
+    flex-direction: row;
+    gap: 36px;
+    justify-content: space-between;
+    width: 100%;
+  }
 }
 .footer-navigation__item {
   font-size: 14px;
@@ -1089,6 +1147,12 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: var(--white-text-color);
+}
+@media screen and (min-width: 1440px) {
+  .footer-navigation__item {
+    font-size: 18px;
+    line-height: 1.5;
+  }
 }
 
 .privacy {
@@ -1101,6 +1165,35 @@ body {
   font-size: 14px;
   line-height: 1.5;
   color: #c5c5c5;
+}
+
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+@media screen and (min-width: 1024px) {
+  .contact-us {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-end;
+    margin-bottom: 42px;
+    max-width: 780px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .contact-us {
+    max-width: 962px;
+  }
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .is-hidden {
