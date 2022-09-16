@@ -316,6 +316,11 @@ body {
   text-transform: uppercase;
 }
 
+#backgroud-vanta {
+  width: 120%;
+  height: 120%;
+}
+
 .hero {
   padding: 111px 0;
   background-color: var(--black-bcg-color);
@@ -348,6 +353,11 @@ body {
 
 .hero__title--thin {
   font-weight: 300;
+}
+
+#backgroud-vanta {
+  width: 120%;
+  height: 120%;
 }
 
 .marketplaces {
