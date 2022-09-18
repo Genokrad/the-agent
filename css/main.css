@@ -186,6 +186,17 @@ body {
   padding-bottom: 32px;
   align-items: center;
 }
+@media screen and (min-width: 1024px) {
+  .modal-mekong {
+    width: 1106px;
+    height: 468px;
+    min-height: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(240, 240, 240, 0.9725490196);
+  }
+}
 .modal-mekong__close {
   align-self: flex-end;
   min-width: 37px;
@@ -221,21 +232,96 @@ body {
   }
 }
 .modal-mekong__text {
-  padding-top: 22px;
   font-weight: 300;
   font-size: 14px;
   line-height: 1.5;
   max-width: 339px;
 }
+@media screen and (min-width: 1024px) {
+  .modal-mekong__text {
+    align-self: flex-start;
+    max-width: 400px;
+  }
+}
 .modal-mekong__img {
   padding-top: 10px;
   width: 100%;
   height: 100%;
+  padding-left: 40px;
 }
 
 .part__wraper {
   padding-left: 32px;
   padding-right: 32px;
+}
+@media screen and (min-width: 1024px) {
+  .part__wraper {
+    padding-left: 56px;
+    padding-right: 56px;
+    display: flex;
+    width: 100%;
+    display: flex;
+  }
+}
+
+.metric__box--mekong {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.metric-mekong {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+}
+@media screen and (min-width: 1024px) {
+  .metric-mekong {
+    flex-direction: row;
+    min-width: 100%;
+    justify-content: space-around;
+  }
+}
+@media screen and (min-width: 1164px) {
+  .metric-mekong {
+    min-width: 70%;
+    justify-content: space-between;
+  }
+}
+.metric-mekong__numbers {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.5;
+  color: var(--secondary-text-color);
+}
+@media screen and (min-width: 1024px) {
+  .metric-mekong__numbers {
+    font-size: 48px;
+  }
+}
+.metric-mekong__text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 0.9;
+}
+@media screen and (min-width: 1024px) {
+  .metric-mekong__text {
+    font-size: 24px;
+  }
+}
+
+.metric-mekong--positioner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+@media screen and (min-width: 1024px) {
+  .metric-mekong--positioner:first-child {
+    margin-right: 20px;
+  }
 }
 
 .modal-paez {
@@ -1340,14 +1426,12 @@ body {
   }
 }
 
-@media screen and (min-width: 1024px) {
-  .metric__box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 30px;
-  }
+.metric__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 @media screen and (min-width: 1164px) {

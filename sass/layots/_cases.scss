@@ -114,13 +114,11 @@
 }
 
 .metric__box {
-  @media screen and (min-width: 1024px) {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 30px;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .metric-unstandart {
