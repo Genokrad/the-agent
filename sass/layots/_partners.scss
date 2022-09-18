@@ -5,9 +5,13 @@
   overflow: hidden;
   height: 282px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   @media screen and (min-width: 1024px) {
     padding-top: 128px;
     padding-bottom: 128px;
+    height: 478px;
   }
   &__title {
     font-family: 'Baskervville';

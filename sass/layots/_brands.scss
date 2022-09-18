@@ -1,14 +1,23 @@
 .brands {
   padding-top: 56px;
   padding-bottom: 56px;
-  position: relative;
+  // position: relative;
   overflow: hidden;
   height: 246px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  @media screen and (min-width: 1024px) {
+    height: 525px;
+  }
   &__title {
     font-family: 'Baskervville';
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
+    @media screen and (min-width: 1024px) {
+      font-size: 42px;
+    }
     text-align: center;
     text-transform: uppercase;
   }
