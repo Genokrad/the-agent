@@ -1,8 +1,8 @@
 (() => {
   const refs = {
-    openModalBtn: document.querySelector('.mekong-open-btn'),
-    closeModalBtn: document.querySelector('.modal-mekong__close'),
-    modal: document.querySelector('.modal-mekong'),
+    openModalBtn: document.querySelector('.modal-paez__open'),
+    closeModalBtn: document.querySelector('.modal-paez__close'),
+    modal: document.querySelector('.modal-paez'),
   };
   refs.openModalBtn.addEventListener('click', toggleModal);
   refs.closeModalBtn.addEventListener('click', toggleModal);
