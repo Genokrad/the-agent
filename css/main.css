@@ -1550,6 +1550,7 @@ body {
 .brands {
   padding-top: 56px;
   padding-bottom: 56px;
+  position: relative;
   overflow: hidden;
   height: 246px;
   display: flex;
