@@ -2232,6 +2232,7 @@ body {
   background-color: var(--white-text-color);
   padding: 3px 10px;
   min-width: 256px;
+  color: #000;
 }
 .footer__box {
   display: flex;
