@@ -921,25 +921,53 @@ body {
 }
 
 .modal__form {
+  padding-top: 35px;
   width: 100%;
   height: 100%;
   padding-left: 16px;
   padding-right: 16px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 24px;
+  max-width: 288px;
+}
+@media screen and (min-width: 380px) {
+  .modal__form {
+    max-width: 371px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .modal__form {
+    max-width: 544px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .modal__form {
+    max-width: 810px;
+  }
 }
 
-.modal-form-positioner {
+.modal__input-positioner {
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
 @media screen and (min-width: 1024px) {
+  .modal__input-positioner {
+    flex-direction: row;
+    gap: 24px;
+  }
+}
+
+.modal-form-positioner {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 1024px) {
   .modal-form-positioner {
     display: flex;
     flex-direction: row;
-    gap: 24px;
   }
 }
 
@@ -966,10 +994,21 @@ body {
   width: 100%;
   height: 50px;
   outline: none;
+  min-width: 256px;
+}
+@media screen and (min-width: 380px) {
+  .modal__input {
+    min-width: 339px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .modal__input {
+    min-width: 512px;
+  }
 }
 @media screen and (min-width: 1024px) {
   .modal__input {
-    width: 377px;
+    min-width: 377px;
   }
 }
 
@@ -983,10 +1022,21 @@ body {
   font-size: 16px;
   line-height: 1.16;
   outline: none;
+  min-width: 256px;
+}
+@media screen and (min-width: 380px) {
+  .online__comment {
+    min-width: 339px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .online__comment {
+    min-width: 512px;
+  }
 }
 @media screen and (min-width: 1024px) {
   .online__comment {
-    width: 778px;
+    min-width: 778px;
   }
 }
 
@@ -1017,12 +1067,43 @@ body {
   color: #6f6f6f;
 }
 
+.modal__wrap-button {
+  margin-right: auto;
+}
+
 .modal__button {
+  margin-top: 15px;
   width: 100%;
   height: 50px;
   background: #f09930;
   color: #ffffff;
   padding: 14px;
+  min-width: 256px;
+}
+@media screen and (min-width: 380px) {
+  .modal__button {
+    min-width: 339px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .modal__button {
+    min-width: 512px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .modal__button {
+    min-width: 256px;
+    height: 38px;
+    margin-top: 7px;
+    padding: 8px;
+  }
+}
+
+#backgroud-vanta {
+  position: relative;
+  top: -30;
+  width: 100%;
+  height: 100%;
 }
 
 .navig {
