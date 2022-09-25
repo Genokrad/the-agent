@@ -894,6 +894,12 @@ body {
   width: 107px;
   height: 16.61px;
 }
+@media screen and (min-width: 1024px) {
+  .form__logo {
+    width: 160px;
+    height: 24.84px;
+  }
+}
 .form__close {
   background-color: transparent;
   width: 23px;
@@ -901,6 +907,11 @@ body {
   position: absolute;
   top: 26px;
   right: 18px;
+}
+@media screen and (min-width: 1024px) {
+  .form__close {
+    right: 56px;
+  }
 }
 .form__close-icone {
   fill: #ffffff;
@@ -918,6 +929,12 @@ body {
   color: var(--white-title-color);
   max-width: 200px;
   margin-top: 60px;
+}
+@media screen and (min-width: 1024px) {
+  .form__title {
+    max-width: 599px;
+    font-size: 60px;
+  }
 }
 
 .modal__form {
@@ -1104,6 +1121,18 @@ body {
   top: -30;
   width: 100%;
   height: 100%;
+}
+
+.link-positioner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 1024px) {
+  .link-positioner {
+    justify-content: start;
+    padding-left: 56px;
+  }
 }
 
 .navig {

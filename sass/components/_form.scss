@@ -11,6 +11,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
   &__link {
     padding-top: 28px;
   }
@@ -18,6 +19,10 @@
     fill: #ffffff;
     width: 107px;
     height: 16.61px;
+    @media screen and (min-width: 1024px) {
+      width: 160px;
+      height: 24.84px;
+    }
   }
   &__close {
     background-color: transparent;
@@ -26,6 +31,9 @@
     position: absolute;
     top: 26px;
     right: 18px;
+    @media screen and (min-width: 1024px) {
+      right: 56px;
+    }
   }
   &__close-icone {
     fill: #ffffff;
@@ -43,6 +51,10 @@
     color: var(--white-title-color);
     max-width: 200px;
     margin-top: 60px;
+    @media screen and (min-width: 1024px) {
+      max-width: 599px;
+      font-size: 60px;
+    }
   }
 }
 .modal__form {
@@ -185,4 +197,14 @@
   top: -30;
   width: 100%;
   height: 100%;
+}
+
+.link-positioner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  @media screen and (min-width: 1024px) {
+    justify-content: start;
+    padding-left: 56px;
+  }
 }
