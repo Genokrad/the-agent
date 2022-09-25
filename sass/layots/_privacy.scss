@@ -1,13 +1,13 @@
 .privacy-policy {
   display: flex;
   flex-direction: column;
-  padding: 30px 16px 130px;
+  padding: 69px 16px 56px;
   align-items: center;
   max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
   @media screen and (min-width: 1024px) {
-    padding: 69px 16px 56px;
+    padding: 30px 16px 130px;
   }
   &__title {
     font-family: 'Baskerville';
@@ -19,6 +19,7 @@
     color: #000000;
     @media screen and (min-width: 1024px) {
       align-self: flex-start;
+      font-size: 60px;
     }
   }
   &__aftertitle {
@@ -61,5 +62,19 @@
   align-self: flex-start;
   @media screen and (min-width: 1024px) {
     padding-top: 22px;
+  }
+}
+
+.privacy-policy__bold-text-unstandart {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.5;
+
+  color: #000000;
+  margin-bottom: 22px;
+  @media screen and (min-width: 1024px) {
+    margin-bottom: 22px;
   }
 }
