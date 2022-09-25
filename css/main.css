@@ -906,7 +906,7 @@ body {
   height: 23px;
   position: absolute;
   top: 26px;
-  right: 18px;
+  right: 24px;
 }
 @media screen and (min-width: 1024px) {
   .form__close {
@@ -1439,6 +1439,13 @@ body {
   line-height: 1.5;
   text-align: center;
   text-transform: uppercase;
+}
+@media screen and (min-width: 1024px) {
+  .opportunity__title {
+    font-size: 36px;
+    padding-top: 103px;
+    padding-bottom: 103px;
+  }
 }
 
 .focus {
