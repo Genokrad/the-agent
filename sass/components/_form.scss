@@ -1,0 +1,129 @@
+.form {
+  overflow-y: auto;
+  background-color: #272727;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  min-height: 120%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__link {
+    padding-top: 28px;
+  }
+  &__logo {
+    fill: #ffffff;
+    width: 107px;
+    height: 16.61px;
+  }
+  &__close {
+    background-color: transparent;
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    top: 26px;
+    right: 18px;
+  }
+  &__close-icone {
+    fill: #ffffff;
+    width: 23px;
+    height: 23px;
+  }
+  &__title {
+    font-family: 'Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white-title-color);
+    max-width: 200px;
+    margin-top: 60px;
+  }
+}
+.modal__form {
+  width: 100%;
+  height: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.modal-form-positioner {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  @media screen and (min-width: 1024px) {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+}
+
+.modal__field {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.modal__lable {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.16;
+}
+
+.input__wrap {
+  height: 100%;
+}
+
+.modal__input {
+  width: 100%;
+  height: 50px;
+  outline: none;
+  @media screen and (min-width: 1024px) {
+    width: 377px;
+  }
+}
+// .modal__coment {
+//   height: 123px;
+//   width: 100%;
+// }
+.online__comment {
+  resize: none;
+  height: 123px;
+  width: 100%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.16;
+  outline: none;
+  @media screen and (min-width: 1024px) {
+    width: 778px;
+  }
+}
+
+::placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.16;
+  color: #6f6f6f;
+}
+
+.modal__button {
+  width: 100%;
+  height: 50px;
+  background: #f09930;
+  color: #ffffff;
+  padding: 14px;
+}

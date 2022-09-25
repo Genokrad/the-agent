@@ -9,7 +9,7 @@
   height: 100vh;
   min-height: 120%;
   @media screen and (min-width: 1024px) {
-    width: 1106px;
+    width: 996px;
     height: 468px;
     min-height: 0;
     left: 50%;
@@ -17,6 +17,9 @@
     transform: translate(-50%, -50%);
     background-color: #ffffffea;
     backdrop-filter: blur(5px);
+  }
+  @media screen and (min-width: 1163px) {
+    width: 1106px;
   }
 
   display: flex;
@@ -44,6 +47,9 @@
     // text-align: center;
     color: var(--white-text-color);
     max-width: 319px;
+    @media screen and (min-width: 1024px) {
+      margin-left: 56px;
+    }
   }
   &__title {
     padding-top: 35px;
@@ -64,8 +70,9 @@
     max-width: 339px;
     @media screen and (min-width: 1024px) {
       align-self: flex-start;
-      max-width: 400px;
+      max-width: 468px;
       padding-top: 0;
+      font-size: 18px;
     }
   }
   &__img {
