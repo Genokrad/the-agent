@@ -30,8 +30,42 @@
     align-items: center;
     @media screen and (min-width: 1024px) {
       flex-direction: row;
+      gap: 33px;
+      align-items: baseline;
+    }
+    @media screen and (min-width: 1100px) {
+      flex-direction: row;
       gap: 56px;
       align-items: baseline;
+    }
+  }
+  &__sub-wraper {
+    position: relative;
+  }
+  &__img-top {
+    width: 117px;
+    height: 115px;
+    position: absolute;
+    top: -61px;
+    left: -59px;
+    @media screen and (min-width: 1024px) {
+      width: 134px;
+      height: 132px;
+      top: -57px;
+      left: -58px;
+    }
+  }
+  &__img-bot {
+    width: 117px;
+    height: 115px;
+    position: absolute;
+    bottom: -38px;
+    right: -55px;
+    @media screen and (min-width: 1024px) {
+      width: 134px;
+      height: 132px;
+      bottom: -32px;
+      right: -52px;
     }
   }
   &__subtitle {

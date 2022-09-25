@@ -1567,8 +1567,48 @@ body {
 @media screen and (min-width: 1024px) {
   .how__wraper {
     flex-direction: row;
+    gap: 33px;
+    align-items: baseline;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .how__wraper {
+    flex-direction: row;
     gap: 56px;
     align-items: baseline;
+  }
+}
+.how__sub-wraper {
+  position: relative;
+}
+.how__img-top {
+  width: 117px;
+  height: 115px;
+  position: absolute;
+  top: -61px;
+  left: -59px;
+}
+@media screen and (min-width: 1024px) {
+  .how__img-top {
+    width: 134px;
+    height: 132px;
+    top: -57px;
+    left: -58px;
+  }
+}
+.how__img-bot {
+  width: 117px;
+  height: 115px;
+  position: absolute;
+  bottom: -38px;
+  right: -55px;
+}
+@media screen and (min-width: 1024px) {
+  .how__img-bot {
+    width: 134px;
+    height: 132px;
+    bottom: -32px;
+    right: -52px;
   }
 }
 .how__subtitle {
@@ -2084,6 +2124,44 @@ body {
   }
 }
 
+.gradient-left {
+  width: 40px;
+  height: 171px;
+  background: linear-gradient(to right, #fff, transparent);
+  position: absolute;
+  z-index: 2;
+  top: 150;
+  left: 0;
+}
+@media screen and (min-width: 1024px) {
+  .gradient-left {
+    background: linear-gradient(to right, #fff 91px, transparent);
+    top: 270px;
+    left: 0;
+    width: 150px;
+    height: 171px;
+  }
+}
+
+.gradient-right {
+  width: 40px;
+  height: 171px;
+  background: linear-gradient(to right, transparent, #fff);
+  position: absolute;
+  z-index: 2;
+  top: 110px;
+  right: 0;
+}
+@media screen and (min-width: 1024px) {
+  .gradient-right {
+    background: linear-gradient(to right, transparent, #fff 91px);
+    top: 270px;
+    right: 0;
+    width: 150px;
+    height: 171px;
+  }
+}
+
 .partners {
   padding-top: 56px;
   padding-bottom: 56px;
@@ -2337,6 +2415,36 @@ body {
 @media screen and (min-width: 1024px) {
   .privacy-policy__bold-text-unstandart {
     margin-bottom: 22px;
+  }
+}
+
+.terms {
+  display: flex;
+  flex-direction: column;
+  padding: 69px 16px 56px;
+  align-items: center;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 1024px) {
+  .terms {
+    padding: 30px 16px 130px;
+  }
+}
+.terms__title {
+  font-family: "Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #000000;
+}
+@media screen and (min-width: 1024px) {
+  .terms__title {
+    align-self: flex-start;
+    font-size: 60px;
   }
 }
 

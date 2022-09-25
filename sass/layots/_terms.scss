@@ -1,0 +1,25 @@
+.terms {
+  display: flex;
+  flex-direction: column;
+  padding: 69px 16px 56px;
+  align-items: center;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (min-width: 1024px) {
+    padding: 30px 16px 130px;
+  }
+  &__title {
+    font-family: 'Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #000000;
+    @media screen and (min-width: 1024px) {
+      align-self: flex-start;
+      font-size: 60px;
+    }
+  }
+}

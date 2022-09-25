@@ -2,7 +2,7 @@
   padding-top: 56px;
   padding-bottom: 56px;
   position: relative;
-  // position: relative;
+
   overflow: hidden;
   height: 246px;
   display: flex;
@@ -21,5 +21,37 @@
     }
     text-align: center;
     text-transform: uppercase;
+  }
+}
+.gradient-left {
+  width: 40px;
+  height: 171px;
+  background: linear-gradient(to right, #fff, transparent);
+  position: absolute;
+  z-index: 2;
+  top: 150;
+  left: 0;
+  @media screen and (min-width: 1024px) {
+    background: linear-gradient(to right, #fff 91px, transparent);
+    top: 270px;
+    left: 0;
+    width: 150px;
+    height: 171px;
+  }
+}
+.gradient-right {
+  width: 40px;
+  height: 171px;
+  background: linear-gradient(to right, transparent, #fff);
+  position: absolute;
+  z-index: 2;
+  top: 110px;
+  right: 0;
+  @media screen and (min-width: 1024px) {
+    background: linear-gradient(to right, transparent, #fff 91px);
+    top: 270px;
+    right: 0;
+    width: 150px;
+    height: 171px;
   }
 }
