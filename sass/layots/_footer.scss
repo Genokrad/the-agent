@@ -52,6 +52,10 @@
     align-items: center;
     fill: var(--white-text-color);
   }
+  &__icone:hover,
+  &__icone:focus {
+    fill: #f09930;
+  }
 }
 .footer-navigation {
   margin-bottom: 37px;

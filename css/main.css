@@ -35,6 +35,11 @@ a {
   text-decoration: none;
 }
 
+a:hover,
+a:focus {
+  color: #f09930;
+}
+
 address {
   font-style: normal;
 }
@@ -903,8 +908,6 @@ body {
 }
 .form__close {
   background-color: transparent;
-  width: 23px;
-  height: 23px;
   position: absolute;
   top: 26px;
   right: 24px;
@@ -1231,6 +1234,11 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
 }
+@media screen and (min-width: 1024px) {
+  .top-part {
+    display: none;
+  }
+}
 
 .menu-open {
   border: 0;
@@ -1305,6 +1313,51 @@ body {
   line-height: 1.17;
   text-align: center;
   text-transform: uppercase;
+}
+
+.top-patr-desktop {
+  display: none;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+}
+@media screen and (min-width: 1024px) {
+  .top-patr-desktop {
+    display: flex;
+  }
+}
+.top-patr-desktop__logo {
+  width: 160px;
+  height: 24.84px;
+}
+.top-patr-desktop__switcher {
+  position: absolute;
+  top: 24px;
+  right: 59px;
+}
+.top-patr-desktop__switcher-wraper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 42px;
+}
+.top-patr-desktop__icone {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-patr-desktop__switcher-wraper:hover .top-patr-desktop__desktop {
+  color: #f09930;
+}
+
+.top-patr-desktop__switcher-wraper:hover .top-patr-desktop__icone,
+.top-patr-desktop__switcher-wraper:focus .top-patr-desktop__icone {
+  fill: #f09930;
 }
 
 .hero {
@@ -2253,6 +2306,9 @@ body {
   justify-content: center;
   align-items: center;
   fill: var(--white-text-color);
+}
+.footer__icone:hover, .footer__icone:focus {
+  fill: #f09930;
 }
 
 .footer-navigation {
