@@ -106,7 +106,7 @@
               <li class="navig__item">
                 <a href="#partners">marketplace partner</a>
               </li>
-              <li class="navig__item">
+              <li class="navig__item form-open" data-modal-open-header>
                 <a>contact us</a>
               </li>
             </ul>
@@ -1699,7 +1699,12 @@
         <a href="./privacy.html" class="privacy__link">Privacy policy</a>
         <a href="./terms.html" class="privacy__link">Terms & conditions</a>
       </div>
-      <div class="form is-hidden" id="backgroud-vanta-modal" data-modal>
+      <div
+        class="form is-hidden"
+        id="backgroud-vanta-modal"
+        data-modal
+        data-modal-header
+      >
         <div class="link-positioner">
           <a class="form__link" href="./index.html">
             <svg class="form__logo">
@@ -1752,7 +1757,7 @@
               class="online__comment"
               name="user-text-name"
               id="user-text"
-              placeholder="text"
+              placeholder=""
             ></textarea>
           </div>
           <div class="modal__wrap-button">
@@ -1767,6 +1772,7 @@
     <script src="./js/havaianas.js"></script>
     <script src="./js/oakwood.js"></script>
     <script src="./js/form.js"></script>
+    <script src="./js/form-header.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
