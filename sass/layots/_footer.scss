@@ -35,6 +35,12 @@
     // position: absolute;
     // bottom: 40px;
   }
+  &__button:hover,
+  &__button:focus {
+    background-color: #f09930;
+    color: var(--white-text-color);
+  }
+
   &__box {
     display: flex;
     flex-direction: row;

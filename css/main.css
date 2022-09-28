@@ -2288,6 +2288,10 @@ body {
   min-width: 256px;
   color: #000;
 }
+.footer__button:hover, .footer__button:focus {
+  background-color: #f09930;
+  color: var(--white-text-color);
+}
 .footer__box {
   display: flex;
   flex-direction: row;
