@@ -10,6 +10,9 @@
   justify-content: space-around;
   @media screen and (min-width: 1024px) {
     height: 525px;
+    padding-top: 135px;
+    padding-bottom: 160px;
+    justify-content: space-between;
   }
   &__title {
     font-family: 'Baskervville';
@@ -54,4 +57,14 @@
     width: 150px;
     height: 171px;
   }
+}
+
+.swiper-button-next:after {
+  margin-top: 105px;
+  color: #808080;
+}
+
+.swiper-button-prev:after {
+  margin-top: 105px;
+  color: #808080;
 }
