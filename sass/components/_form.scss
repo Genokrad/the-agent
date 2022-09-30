@@ -40,6 +40,12 @@
     width: 23px;
     height: 23px;
   }
+
+  &__close-icone:hover,
+  &__close-icone:focus {
+    fill: #f09930;
+  }
+
   &__title {
     font-family: 'Baskerville';
     font-style: normal;

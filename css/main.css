@@ -923,6 +923,9 @@ body {
   width: 23px;
   height: 23px;
 }
+.form__close-icone:hover, .form__close-icone:focus {
+  fill: #f09930;
+}
 .form__title {
   font-family: "Baskerville";
   font-style: normal;
@@ -1197,6 +1200,11 @@ body {
   height: 18px;
 }
 
+.menu-icone:hover,
+.menu-icone:focus {
+  fill: #f09930;
+}
+
 .switcher {
   display: flex;
   flex-direction: row;
@@ -1338,6 +1346,9 @@ body {
   position: absolute;
   top: 24px;
   right: 59px;
+  display: flex;
+  gap: 42px;
+  align-items: center;
 }
 .top-patr-desktop__switcher-wraper {
   display: flex;
@@ -1345,20 +1356,25 @@ body {
   align-items: center;
   gap: 42px;
 }
+.top-patr-desktop__desktop {
+  cursor: pointer;
+}
+.top-patr-desktop__desktop:hover, .top-patr-desktop__desktop:focus {
+  color: #f09930;
+}
 .top-patr-desktop__icone {
   width: 20px;
   height: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+}
+.top-patr-desktop__icone:hover, .top-patr-desktop__icone:focus {
+  fill: #f09930;
 }
 .top-patr-desktop__switcher-wraper:hover .top-patr-desktop__desktop {
   color: #f09930;
-}
-
-.top-patr-desktop__switcher-wraper:hover .top-patr-desktop__icone,
-.top-patr-desktop__switcher-wraper:focus .top-patr-desktop__icone {
-  fill: #f09930;
 }
 
 .hero {

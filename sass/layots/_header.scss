@@ -25,6 +25,11 @@
   height: 18px;
 }
 
+.menu-icone:hover,
+.menu-icone:focus {
+  fill: #f09930;
+}
+
 .switcher {
   display: flex;
   flex-direction: row;
@@ -157,6 +162,9 @@
     position: absolute;
     top: 24px;
     right: 59px;
+    display: flex;
+    gap: 42px;
+    align-items: center;
   }
   &__switcher-wraper {
     display: flex;
@@ -165,21 +173,29 @@
     gap: 42px;
   }
   &__desktop {
+    cursor: pointer;
   }
+
+  &__desktop:hover,
+  &__desktop:focus {
+    color: #f09930;
+  }
+
   &__icone {
     width: 20px;
     height: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+  }
+
+  &__icone:hover,
+  &__icone:focus {
+    fill: #f09930;
   }
 
   &__switcher-wraper:hover &__desktop {
     color: #f09930;
   }
-}
-
-.top-patr-desktop__switcher-wraper:hover .top-patr-desktop__icone,
-.top-patr-desktop__switcher-wraper:focus .top-patr-desktop__icone {
-  fill: #f09930;
 }
