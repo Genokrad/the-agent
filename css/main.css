@@ -1024,33 +1024,6 @@ body {
   border: 1px solid #cccccc;
   transition: border 250ms var(--timing-function);
 }
-.modal__input::-moz-placeholder {
-  color: #f8f8f8;
-}
-.modal__input:-ms-input-placeholder {
-  color: #f8f8f8;
-}
-.modal__input::placeholder {
-  color: #f8f8f8;
-}
-.modal__input:not(:-moz-placeholder-shown):valid {
-  border: 1px solid var(--dark-green);
-}
-.modal__input:not(:-ms-input-placeholder):valid {
-  border: 1px solid var(--dark-green);
-}
-.modal__input:focus, .modal__input:not(:placeholder-shown):valid {
-  border: 1px solid var(--dark-green);
-}
-.modal__input:not(:focus):not(:-moz-placeholder-shown):invalid {
-  border: 1px solid var(--eror-color);
-}
-.modal__input:not(:focus):not(:-ms-input-placeholder):invalid {
-  border: 1px solid var(--eror-color);
-}
-.modal__input:not(:focus):not(:placeholder-shown):invalid {
-  border: 1px solid var(--eror-color);
-}
 @media screen and (min-width: 380px) {
   .modal__input {
     min-width: 339px;
@@ -1065,6 +1038,30 @@ body {
   .modal__input {
     min-width: 377px;
   }
+}
+
+input + span {
+  position: relative;
+}
+
+input + span::before {
+  position: absolute;
+  right: 10px;
+  top: -5px;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
+input:invalid + span:not(:focus)::before {
+  content: "✖";
+  color: red;
+}
+
+input:valid + span::before {
+  content: "✓";
+  color: green;
 }
 
 .online__comment {
