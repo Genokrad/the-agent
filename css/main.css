@@ -1276,6 +1276,12 @@ body {
 
 .header-positioner {
   position: relative;
+  padding-top: 75px;
+}
+@media screen and (min-width: 1024px) {
+  .header-positioner {
+    padding-top: 150px;
+  }
 }
 
 .mob-menu {
@@ -1375,6 +1381,15 @@ body {
 }
 .top-patr-desktop__switcher-wraper:hover .top-patr-desktop__desktop {
   color: #f09930;
+}
+
+.desctop-positioner {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 5;
+  background-color: #ffffff;
 }
 
 .hero {

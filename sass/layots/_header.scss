@@ -95,6 +95,10 @@
 
 .header-positioner {
   position: relative;
+  padding-top: 75px;
+  @media screen and (min-width: 1024px) {
+    padding-top: 150px;
+  }
 }
 
 .mob-menu {
@@ -198,4 +202,13 @@
   &__switcher-wraper:hover &__desktop {
     color: #f09930;
   }
+}
+
+.desctop-positioner {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 5;
+  background-color: #ffffff;
 }
