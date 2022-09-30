@@ -181,7 +181,7 @@ body {
 
 .modal-mekong {
   position: fixed;
-  z-index: 2;
+  z-index: 12;
   top: 0;
   left: 0;
   width: 100vw;
@@ -526,7 +526,7 @@ body {
   overflow-y: auto;
   background-color: var(--main-color);
   position: fixed;
-  z-index: 2;
+  z-index: 12;
   top: 0;
   left: 0;
   width: 100vw;
@@ -714,7 +714,7 @@ body {
   overflow-y: auto;
   background-color: var(--main-color);
   position: fixed;
-  z-index: 2;
+  z-index: 12;
   top: 0;
   left: 0;
   width: 100vw;
