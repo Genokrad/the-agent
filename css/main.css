@@ -2238,11 +2238,13 @@ body {
 
 .swiper-button-next:after {
   margin-top: 105px;
+  margin-right: 50px;
   color: #808080;
 }
 
 .swiper-button-prev:after {
   margin-top: 105px;
+  margin-left: 50px;
   color: #808080;
 }
 
