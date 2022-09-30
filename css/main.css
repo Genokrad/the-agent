@@ -1047,7 +1047,7 @@ input + span {
 input + span::before {
   position: absolute;
   right: 10px;
-  top: -5px;
+  top: -3px;
 }
 
 input:invalid {

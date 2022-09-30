@@ -156,13 +156,16 @@
     min-width: 377px;
   }
 }
+
+/////////////////////////////
 input + span {
   position: relative;
 }
+
 input + span::before {
   position: absolute;
   right: 10px;
-  top: -5px;
+  top: -3px;
 }
 
 input:invalid {
@@ -188,6 +191,8 @@ input:valid + span::before {
 //   height: 123px;
 //   width: 100%;
 // }
+
+//////////////////////////////////////
 .online__comment {
   resize: none;
   height: 123px;
