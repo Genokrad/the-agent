@@ -1016,10 +1016,49 @@ body {
 }
 
 .modal__input {
+  cursor: pointer;
   width: 100%;
   height: 50px;
   outline: none;
   min-width: 256px;
+  border: 1px solid #cccccc;
+  transition: border 250ms var(--timing-function);
+}
+.modal__input::-moz-placeholder {
+  color: #f8f8f8;
+}
+.modal__input:-ms-input-placeholder {
+  color: #f8f8f8;
+}
+.modal__input::placeholder {
+  color: #f8f8f8;
+}
+.modal__input:not(:-moz-placeholder-shown):valid {
+  border: 1px solid var(--dark-green);
+}
+.modal__input:not(:-ms-input-placeholder):valid {
+  border: 1px solid var(--dark-green);
+}
+.modal__input:focus, .modal__input:not(:placeholder-shown):valid {
+  border: 1px solid var(--dark-green);
+}
+.modal__input:not(:focus):not(:-moz-placeholder-shown):invalid {
+  border: 1px solid var(--eror-color);
+}
+.modal__input:not(:focus):not(:-ms-input-placeholder):invalid {
+  border: 1px solid var(--eror-color);
+}
+.modal__input:not(:focus):not(:placeholder-shown):invalid {
+  border: 1px solid var(--eror-color);
+}
+.form-modal__input:not(:focus):not(:-moz-placeholder-shown):invalid + .modal__input {
+  display: block;
+}
+.form-modal__input:not(:focus):not(:-ms-input-placeholder):invalid + .modal__input {
+  display: block;
+}
+.form-modal__input:not(:focus):not(:placeholder-shown):invalid + .modal__input {
+  display: block;
 }
 @media screen and (min-width: 380px) {
   .modal__input {
@@ -1048,6 +1087,7 @@ body {
   line-height: 1.16;
   outline: none;
   min-width: 256px;
+  border: 1px solid #cccccc;
 }
 @media screen and (min-width: 380px) {
   .online__comment {
@@ -2574,4 +2614,6 @@ body {
   --black-bcg-color: #272727;
   --white-bcg-color: #ffffff;
   --black-Baskervville-text: #272727;
+  --eror-color: #ff4747;
+  --dark-green: #6fac40;
 }/*# sourceMappingURL=main.css.map */
