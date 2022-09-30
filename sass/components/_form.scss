@@ -155,12 +155,12 @@
     min-width: 377px;
   }
 }
-.modal__input:valid & {
-  background-color: var(--accent-green);
-}
-.form-modal__input:not(:focus):not(:placeholder-shown):invalid + & {
-  display: block;
-}
+// .modal__input:valid & {
+//   background-color: var(--accent-green);
+// }
+// .form-modal__input:not(:focus):not(:placeholder-shown):invalid + & {
+//   display: block;
+// }
 // .modal__coment {
 //   height: 123px;
 //   width: 100%;

@@ -1051,15 +1051,6 @@ body {
 .modal__input:not(:focus):not(:placeholder-shown):invalid {
   border: 1px solid var(--eror-color);
 }
-.form-modal__input:not(:focus):not(:-moz-placeholder-shown):invalid + .modal__input {
-  display: block;
-}
-.form-modal__input:not(:focus):not(:-ms-input-placeholder):invalid + .modal__input {
-  display: block;
-}
-.form-modal__input:not(:focus):not(:placeholder-shown):invalid + .modal__input {
-  display: block;
-}
 @media screen and (min-width: 380px) {
   .modal__input {
     min-width: 339px;
@@ -1330,6 +1321,7 @@ body {
   z-index: 2;
   top: 0;
   left: 0;
+  min-height: 120%;
   width: 100vw;
   height: 100vh;
 }
@@ -2616,4 +2608,5 @@ body {
   --black-Baskervville-text: #272727;
   --eror-color: #ff4747;
   --dark-green: #6fac40;
+  --accent-green: #6fac40;
 }/*# sourceMappingURL=main.css.map */
