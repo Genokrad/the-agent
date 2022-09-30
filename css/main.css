@@ -344,7 +344,7 @@ body {
   overflow-y: auto;
   background-color: var(--main-color);
   position: fixed;
-  z-index: 2;
+  z-index: 12;
   top: 0;
   left: 0;
   width: 100vw;
@@ -883,7 +883,7 @@ body {
   overflow-y: auto;
   background-color: #272727;
   position: fixed;
-  z-index: 2;
+  z-index: 11;
   top: 0;
   left: 0;
   width: 100vw;
@@ -1388,7 +1388,7 @@ body {
   top: 0;
   left: 0;
   position: fixed;
-  z-index: 5;
+  z-index: 11;
   background-color: #ffffff;
 }
 

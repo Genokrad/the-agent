@@ -13,6 +13,7 @@
     for (let i = 0; i < refs.ul[0].children.length; i++) {
       refs.ul[0].children[i].addEventListener('click', toggleMenu);
     }
+
     refs.menu.classList.toggle('is-hidden');
     refs.body.classList.toggle('no-scroll');
   }
