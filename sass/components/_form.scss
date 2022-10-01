@@ -158,29 +158,29 @@
 }
 
 /////////////////////////////
-input + span {
-  position: relative;
-}
+// input + span {
+//   position: relative;
+// }
 
-input + span::before {
-  position: absolute;
-  right: 10px;
-  top: -3px;
-}
+// input + span::before {
+//   position: absolute;
+//   right: 10px;
+//   top: -3px;
+// }
 
-input:invalid {
-  border: 2px solid red;
-}
+// input:invalid {
+//   border: 2px solid red;
+// }
 
-input:invalid + span:not(:focus)::before {
-  content: '✖';
-  color: red;
-}
+// input:invalid + span:not(:focus)::before {
+//   content: '✖';
+//   color: red;
+// }
 
-input:valid + span::before {
-  content: '✓';
-  color: green;
-}
+// input:valid + span::before {
+//   content: '✓';
+//   color: green;
+// }
 // .modal__input:valid & {
 //   background-color: var(--accent-green);
 // }

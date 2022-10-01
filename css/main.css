@@ -1040,30 +1040,6 @@ body {
   }
 }
 
-input + span {
-  position: relative;
-}
-
-input + span::before {
-  position: absolute;
-  right: 10px;
-  top: -3px;
-}
-
-input:invalid {
-  border: 2px solid red;
-}
-
-input:invalid + span:not(:focus)::before {
-  content: "✖";
-  color: red;
-}
-
-input:valid + span::before {
-  content: "✓";
-  color: green;
-}
-
 .online__comment {
   resize: none;
   height: 123px;
