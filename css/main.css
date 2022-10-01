@@ -1397,6 +1397,19 @@ body {
   background-color: #ffffff;
 }
 
+.contact-us-button-white-bgc {
+  background-color: transparent;
+  color: #000;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150%;
+  padding-bottom: 1px;
+  /* or 27px */
+  text-transform: uppercase;
+}
+
 .hero {
   padding: 111px 0;
   background-color: var(--black-bcg-color);
@@ -2386,6 +2399,7 @@ body {
     gap: 36px;
     justify-content: space-between;
     width: 100%;
+    align-items: center;
   }
 }
 .footer-navigation__item {
@@ -2441,6 +2455,19 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+}
+
+.contact-us-button {
+  background-color: transparent;
+  color: #fff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 150%;
+  padding-bottom: 1px;
+  /* or 27px */
+  text-transform: uppercase;
 }
 
 .privacy-policy {
