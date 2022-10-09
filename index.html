@@ -1423,8 +1423,20 @@
       </section>
       <section class="partners" id="partners">
         <h2 class="partners__title">marketplace partners</h2>
-        <div class="gradient-left"></div>
-        <div class="gradient-right"></div>
+        <div class="arrow-left-marketplace">
+          <svg class="arrow-left-svg">
+            <use href="./images/sprite/sprite.svg#icon-arrow-left"></use>
+          </svg>
+        </div>
+        <div class="arrow-right-marketplace">
+          <svg class="arrow-right-svg">
+            <use href="./images/sprite/sprite.svg#icon-arrow-right"></use>
+          </svg>
+        </div>
+        <div class="gradient-left" id="left"></div>
+        <div class="gradient-right" id="right"></div>
+
+        <div class="arrow-right"></div>
         <!-- Swiper -->
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
@@ -1771,8 +1783,8 @@
         slidesPerView: 4,
         direction: getDirection(),
         navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
+          nextEl: '.arrow-right-marketplace',
+          prevEl: '.arrow-left-marketplace',
         },
         on: {
           resize: function () {

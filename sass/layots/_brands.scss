@@ -36,7 +36,7 @@
   left: 0;
   @media screen and (min-width: 1024px) {
     background: linear-gradient(to right, #fff 91px, transparent);
-    top: 270px;
+    top: 200px;
     left: 0;
     width: 150px;
     height: 171px;
@@ -52,22 +52,28 @@
   right: 0;
   @media screen and (min-width: 1024px) {
     background: linear-gradient(to right, transparent, #fff 91px);
-    top: 270px;
-    right: 0;
+    top: 200px;
+    right: -4;
     width: 150px;
     height: 171px;
   }
 }
 
 .swiper-button-next:after {
-  margin-top: 105px;
-  margin-right: 50px;
   color: #808080;
 }
 
+.swiper-button-next {
+  margin-top: 33px;
+  margin-right: 31px;
+}
+
+.swiper-button-prev {
+  margin-top: 33px;
+  margin-left: 31px;
+}
+
 .swiper-button-prev:after {
-  margin-top: 105px;
-  margin-left: 50px;
   color: #808080;
 }
 
@@ -80,4 +86,39 @@
 
 .swiper-first {
   justify-content: baseline;
+}
+
+.arrow-left-marketplace {
+  display: none;
+  position: absolute;
+  left: 45px;
+  top: 278px;
+  z-index: 11;
+  @media screen and (min-width: 1024px) {
+    display: block;
+  }
+}
+
+.arrow-right-marketplace {
+  display: none;
+  position: absolute;
+  right: 45px;
+  top: 278px;
+  z-index: 11;
+  @media screen and (min-width: 1024px) {
+    display: block;
+  }
+}
+
+.arrow-left-svg {
+  width: 23px;
+  height: 44px;
+  rotate: 0deg;
+  fill: #808080;
+}
+.arrow-right-svg {
+  width: 23px;
+  height: 44px;
+  rotate: 180deg;
+  fill: #808080;
 }
