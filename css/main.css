@@ -266,6 +266,12 @@ body {
   height: 100%;
   padding-left: 40px;
 }
+@media screen and (min-width: 1024px) {
+  .modal-mekong__img {
+    min-width: 340px;
+    min-height: 264px;
+  }
+}
 
 .part__wraper {
   padding-left: 32px;
