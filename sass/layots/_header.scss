@@ -63,6 +63,7 @@
   align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
+  align-items: center;
   @media screen and (min-width: 1024px) {
     display: none;
   }
@@ -159,6 +160,10 @@
   @media screen and (min-width: 1024px) {
     display: flex;
   }
+  &__logo-positioner {
+    display: flex;
+    align-content: center;
+  }
   &__logo {
     width: 160px;
     height: 24.84px;
@@ -212,6 +217,9 @@
   position: fixed;
   z-index: 11;
   background-color: #ffffff;
+  @media screen and (min-width: 1024px) {
+    position: absolute;
+  }
 }
 
 .contact-us-button-white-bgc {

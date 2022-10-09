@@ -616,6 +616,11 @@ body {
 }
 @media screen and (min-width: 1024px) {
   .modal-havaianas__img {
+    padding-left: 20px;
+  }
+}
+@media screen and (min-width: 1180px) {
+  .modal-havaianas__img {
     padding-left: 40px;
   }
 }
@@ -642,6 +647,14 @@ body {
   padding-right: 32px;
 }
 @media screen and (min-width: 1024px) {
+  .part__wraper {
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1180px) {
   .part__wraper {
     padding-left: 56px;
     padding-right: 56px;
@@ -1023,6 +1036,7 @@ body {
   min-width: 256px;
   border: 1px solid #cccccc;
   transition: border 250ms var(--timing-function);
+  padding: 12px 16px;
 }
 @media screen and (min-width: 380px) {
   .modal__input {
@@ -1052,6 +1066,7 @@ body {
   outline: none;
   min-width: 256px;
   border: 1px solid #cccccc;
+  padding: 12px 16px;
 }
 @media screen and (min-width: 380px) {
   .online__comment {
@@ -1246,6 +1261,7 @@ body {
   align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
+  align-items: center;
 }
 @media screen and (min-width: 1024px) {
   .top-part {
@@ -1349,6 +1365,10 @@ body {
     display: flex;
   }
 }
+.top-patr-desktop__logo-positioner {
+  display: flex;
+  align-content: center;
+}
 .top-patr-desktop__logo {
   width: 160px;
   height: 24.84px;
@@ -1395,6 +1415,11 @@ body {
   position: fixed;
   z-index: 11;
   background-color: #ffffff;
+}
+@media screen and (min-width: 1024px) {
+  .desctop-positioner {
+    position: absolute;
+  }
 }
 
 .contact-us-button-white-bgc {
@@ -2281,6 +2306,17 @@ body {
   color: #808080;
 }
 
+.bradns__svg {
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 70px;
+}
+
+.swiper-first {
+  justify-content: baseline;
+}
+
 .partners {
   padding-top: 56px;
   padding-bottom: 56px;
@@ -2464,10 +2500,15 @@ body {
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
-  line-height: 150%;
+  line-height: 1.5;
   padding-bottom: 1px;
   /* or 27px */
   text-transform: uppercase;
+}
+@media screen and (min-width: 1440px) {
+  .contact-us-button {
+    font-size: 18px;
+  }
 }
 
 .privacy-policy {

@@ -137,10 +137,12 @@
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
-  line-height: 150%;
+  line-height: 1.5;
   padding-bottom: 1px;
   /* or 27px */
-
+  @media screen and (min-width: 1440px) {
+    font-size: 18px;
+  }
   // text-align: center;
   text-transform: uppercase;
 }
