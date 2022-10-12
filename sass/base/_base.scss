@@ -101,6 +101,11 @@ body {
   overflow: hidden;
 }
 
+.icon-positioner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 // .blur-bg {
 //   filter: blur(8px);
 //   -webkit-filter: blur(8px);

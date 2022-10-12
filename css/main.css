@@ -96,6 +96,12 @@ body {
   overflow: hidden;
 }
 
+.icon-positioner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .text--thick {
   font-weight: 500;
 }
@@ -268,7 +274,7 @@ body {
 }
 @media screen and (min-width: 1024px) {
   .modal-mekong__img {
-    min-width: 340px;
+    min-width: 374px;
     min-height: 264px;
   }
 }
