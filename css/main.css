@@ -1486,6 +1486,22 @@ body {
   height: 100%;
 }
 
+.hero__label {
+  position: absolute;
+  bottom: -81%;
+  right: 6%;
+}
+@media screen and (min-width: 768px) {
+  .hero__label {
+    bottom: -82%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hero__label {
+    bottom: -53%;
+  }
+}
+
 .marketplaces {
   padding: 48px 0;
 }
