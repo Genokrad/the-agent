@@ -1494,11 +1494,15 @@ body {
 @media screen and (min-width: 768px) {
   .hero__label {
     bottom: -82%;
+    width: 159px;
+    height: 80px;
   }
 }
 @media screen and (min-width: 1024px) {
   .hero__label {
     bottom: -53%;
+    width: 159px;
+    height: 80px;
   }
 }
 
