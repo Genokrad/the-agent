@@ -302,6 +302,7 @@ body {
   border: 0;
   background-color: transparent;
   padding: 16px;
+  position: fixed;
 }
 .modal-havaianas__close-icone {
   width: 18px;
