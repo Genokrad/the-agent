@@ -65,7 +65,7 @@
   &__button {
     background-color: var(--black-bcg-color);
     color: var(--white-text-color);
-    padding: 10px 37px;
+    padding: 10px 10px;
     min-width: 100%;
     display: flex;
     align-items: center;
@@ -76,7 +76,7 @@
       // height: 46px;
     }
     @media screen and (min-width: 1164px) {
-      min-width: 211px;
+      min-width: 179px;
     }
   }
   &__button-icone {
@@ -89,23 +89,26 @@
 .metric {
   display: flex;
   flex-direction: column;
-  margin-bottom: 30px;
+  // margin-bottom: 30px;
+
   @media screen and (min-width: 1024px) {
+    margin-bottom: 0px;
     flex-direction: row;
-    margin-bottom: 0;
+    // margin-bottom: 0;
     min-width: 100%;
-    justify-content: space-around;
+    // justify-content: space-around;
     // justify-content: center;
   }
   @media screen and (min-width: 1164px) {
     min-width: 70%;
-    justify-content: space-between;
+    // justify-content: space-between;
   }
 }
 .metric--positioner {
   display: flex;
   align-items: center;
   gap: 10px;
+  width: 268px;
 }
 .metric--positioner:first-child {
   @media screen and (min-width: 1024px) {

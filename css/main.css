@@ -220,6 +220,7 @@ body {
   border: 0;
   background-color: transparent;
   padding: 16px;
+  position: fixed;
 }
 .modal-mekong__close-icone {
   width: 18px;
@@ -261,6 +262,7 @@ body {
   border: 0;
   background-color: transparent;
   padding: 16px;
+  position: fixed;
 }
 .modal-paez__close-icone {
   width: 18px;
@@ -344,6 +346,7 @@ body {
   border: 0;
   background-color: transparent;
   padding: 16px;
+  position: fixed;
 }
 .modal-oakwood__close-icone {
   width: 18px;
@@ -1795,7 +1798,7 @@ body {
 .cases__button {
   background-color: var(--black-bcg-color);
   color: var(--white-text-color);
-  padding: 10px 37px;
+  padding: 10px 10px;
   min-width: 100%;
   display: flex;
   align-items: center;
@@ -1804,7 +1807,7 @@ body {
 }
 @media screen and (min-width: 1164px) {
   .cases__button {
-    min-width: 211px;
+    min-width: 179px;
   }
 }
 .cases__button-icone {
@@ -1816,20 +1819,17 @@ body {
 .metric {
   display: flex;
   flex-direction: column;
-  margin-bottom: 30px;
 }
 @media screen and (min-width: 1024px) {
   .metric {
+    margin-bottom: 0px;
     flex-direction: row;
-    margin-bottom: 0;
     min-width: 100%;
-    justify-content: space-around;
   }
 }
 @media screen and (min-width: 1164px) {
   .metric {
     min-width: 70%;
-    justify-content: space-between;
   }
 }
 
@@ -1837,6 +1837,7 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
+  width: 268px;
 }
 
 @media screen and (min-width: 1024px) {
