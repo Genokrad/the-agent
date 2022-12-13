@@ -1842,7 +1842,7 @@ body {
 
 @media screen and (min-width: 1024px) {
   .metric--positioner:first-child {
-    margin-right: 20px;
+    margin-right: 90px;
   }
 }
 
