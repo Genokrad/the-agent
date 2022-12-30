@@ -119,6 +119,12 @@ body {
 }
 @media screen and (min-width: 1024px) {
   .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .container {
     padding-left: 72px;
     padding-right: 72px;
   }
@@ -838,6 +844,20 @@ body {
   color: var(--primary-text-color);
 }
 
+.navig__item.fr {
+  font-size: 18px;
+}
+@media screen and (min-width: 1024px) {
+  .navig__item.fr {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1145px) {
+  .navig__item.fr {
+    font-size: 18px;
+  }
+}
+
 .menu-icone {
   width: 25px;
   height: 18px;
@@ -1118,8 +1138,50 @@ body {
   }
 }
 
+.hero__title.fr {
+  max-width: 1460px;
+}
+
+@media screen and (min-width: 1024px) {
+  .hero.fr {
+    padding: 200px 0 200px 7%;
+  }
+}
+
+.hero__label.fr {
+  bottom: -67%;
+}
+@media screen and (min-width: 300px) {
+  .hero__label.fr {
+    bottom: -82%;
+  }
+}
+@media screen and (min-width: 458px) {
+  .hero__label.fr {
+    bottom: -110%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero__label.fr {
+    bottom: -122%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hero__label.fr {
+    bottom: -54%;
+  }
+}
+@media screen and (min-width: 1374px) {
+  .hero__label.fr {
+    bottom: -73%;
+  }
+}
+
 .marketplaces {
   padding: 48px 0;
+  max-width: 1456px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .marketplaces__item-first {
   max-width: 295px;
@@ -1198,6 +1260,29 @@ body {
     bottom: 97px;
     left: 256px;
     z-index: 0;
+  }
+}
+
+.marketplaces__item-first.fr {
+  max-width: 316px;
+}
+@media screen and (min-width: 1024px) {
+  .marketplaces__item-first.fr {
+    max-width: 420px;
+  }
+}
+
+.marketplaces__item-second.fr {
+  max-width: 321px;
+}
+@media screen and (min-width: 1024px) {
+  .marketplaces__item-second.fr {
+    max-width: 431px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .marketplaces__item-second.fr {
+    max-width: 501px;
   }
 }
 
@@ -1436,6 +1521,10 @@ body {
   }
 }
 
+.how__wraper.fr {
+  gap: 23px;
+}
+
 .how__item-text {
   font-weight: 400;
   font-size: 64px;
@@ -1628,7 +1717,7 @@ body {
 }
 @media screen and (min-width: 1024px) {
   .e-comerce__text {
-    font-size: 36px;
+    font-size: 35px;
   }
 }
 
@@ -2180,11 +2269,31 @@ body {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .contact-us.fr {
+    max-width: 880px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .contact-us.fr {
+    max-width: 962px;
+  }
+}
+
 .contact__form {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+}
+
+.contact__form.fr {
+  align-items: center;
+}
+@media screen and (min-width: 1024px) {
+  .contact__form.fr {
+    align-items: start;
+  }
 }
 
 .contact-us-button {
@@ -2473,6 +2582,15 @@ body {
   }
 }
 
+.environment__title-item.fr {
+  padding-left: 0;
+}
+@media screen and (min-width: 1211px) {
+  .environment__title-item.fr {
+    padding-left: 95px;
+  }
+}
+
 .pmf {
   min-height: 913px;
   display: flex;
@@ -2594,6 +2712,10 @@ body {
   .pmf__box-description {
     font-size: 12px;
   }
+}
+
+.pmf__box-description.fr {
+  font-size: 18px;
 }
 
 .zolando {

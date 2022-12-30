@@ -47,3 +47,32 @@
     height: 80px;
   }
 }
+
+.hero__title.fr {
+  max-width: 1460px;
+}
+
+.hero.fr {
+  @media screen and (min-width: 1024px) {
+    padding: 200px 0 200px 7%;
+  }
+}
+
+.hero__label.fr {
+  bottom: -67%;
+  @media screen and (min-width: 300px) {
+    bottom: -82%;
+  }
+  @media screen and (min-width: 458px) {
+    bottom: -110%;
+  }
+  @media screen and (min-width: 768px) {
+    bottom: -122%;
+  }
+  @media screen and (min-width: 1024px) {
+    bottom: -54%;
+  }
+  @media screen and (min-width: 1374px) {
+    bottom: -73%;
+  }
+}

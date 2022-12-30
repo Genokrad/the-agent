@@ -1,5 +1,9 @@
 .marketplaces {
   padding: 48px 0;
+  max-width: 1456px;
+  margin-left: auto;
+  margin-right: auto;
+
   &__item-first {
     max-width: 295px;
     margin-bottom: 110px;
@@ -8,6 +12,7 @@
       max-width: 395px;
     }
   }
+
   &__item-second {
     max-width: 321px;
     margin-left: auto;
@@ -66,5 +71,22 @@
       left: 256px;
       z-index: 0;
     }
+  }
+}
+
+.marketplaces__item-first.fr {
+  max-width: 316px;
+  @media screen and (min-width: 1024px) {
+    max-width: 420px;
+  }
+}
+
+.marketplaces__item-second.fr {
+  max-width: 321px;
+  @media screen and (min-width: 1024px) {
+    max-width: 431px;
+  }
+  @media screen and (min-width: 1100px) {
+    max-width: 501px;
   }
 }

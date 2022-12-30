@@ -136,6 +136,13 @@
   }
 }
 
+.environment__title-item.fr {
+  padding-left: 0;
+  @media screen and (min-width: 1211px) {
+    padding-left: 95px;
+  }
+}
+
 // .environment-left {
 //   margin-left: auto;
 // }

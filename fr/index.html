@@ -1,0 +1,2441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, 
+    initial-scale=1.0"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <title>THEAGENT</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon-new.png" />
+    <link href="../images/apple-touch-icon-new.png" rel="apple-touch-icon" />
+
+    <!-- ШРИФТЫ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baskervville&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- SWIPER -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!-- NORMOLIZE -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.css"
+    />
+
+    <!-- SCSS -->
+    <link rel="stylesheet" href="../css/main.min.css" />
+  </head>
+  <body>
+    <header class="section">
+      <div class="header-positioner ьфш">
+        <div class="menu-wraper">
+          <div class="desctop-positioner">
+            <div class="top-part container">
+              <button type="button" class="menu-open">
+                <svg class="menu-icone">
+                  <use
+                    href="../images/sprite/sprite.svg#icon-menu"
+                    width="25"
+                    height="18"
+                  ></use>
+                </svg>
+              </button>
+              <a href="index.html">
+                <svg class="logo">
+                  <use
+                    href="../images/sprite/sprite.svg#icon-the-agentlogo"
+                  ></use>
+                </svg>
+              </a>
+              <div class="switcher">
+                <a href="https://apps.theagent.com/login" target="_blank">
+                  <svg class="menu-icone">
+                    <use
+                      href="../images/sprite/sprite.svg#icon-user"
+                      width="25"
+                      height="18"
+                    ></use>
+                  </svg>
+                </a>
+                <a href="../en/index.html" class="switcher__desktop">
+                  EN / <span class="current">FR</span></a
+                >
+              </div>
+            </div>
+            <div class="top-patr-desktop">
+              <a
+                class="top-patr-desktop__logo-positioner"
+                href="../fr/index.html"
+              >
+                <svg class="top-patr-desktop__logo">
+                  <use
+                    href="../images/sprite/sprite.svg#icon-the-agentlogo"
+                  ></use>
+                </svg>
+              </a>
+              <div class="top-patr-desktop__switcher">
+                <a
+                  class="icon-positioner"
+                  href="https://apps.theagent.com/login"
+                  target="_blank"
+                >
+                  <svg class="top-patr-desktop__icone">
+                    <use
+                      href="../images/sprite/sprite.svg#icon-user"
+                      width="25"
+                      height="18"
+                    ></use>
+                  </svg>
+                </a>
+                <p class="top-patr-desktop__desktop">
+                  <a href="../en/index.html"
+                    >EN / <span class="current">FR</span></a
+                  >
+                </p>
+              </div>
+            </div>
+
+            <nav class="navig">
+              <ul class="navig__list list">
+                <li class="navig__item fr">
+                  <a href="#focus">Nos services</a>
+                </li>
+                <li class="navig__item fr">
+                  <a href="#who-we-ar">Qui sommes-nous</a>
+                </li>
+                <li class="navig__item fr">
+                  <a href="#testImonials">Témoignages et études de cas</a>
+                </li>
+                <li class="navig__item fr">
+                  <a href="#partners">Marketplaces partenaires</a>
+                </li>
+                <li class="navig__item fr form-open" data-modal-open-header>
+                  <a>contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="mob-menu is-hidden">
+          <div class="container">
+            <div class="mob-menu__wraper">
+              <button class="mob-menu__close">
+                <svg class="mob-menu__close-icone">
+                  <use href="../images/sprite/sprite.svg#icon-close"></use>
+                </svg>
+              </button>
+              <a href="./">
+                <svg class="logo">
+                  <use
+                    href="../images/sprite/sprite.svg#icon-the-agentlogo"
+                  ></use>
+                </svg>
+              </a>
+              <div class="switcher">
+                <a href="" class="switcher__link">
+                  <svg class="menu-icone">
+                    <use
+                      href="../images/sprite/sprite.svg#icon-user"
+                      width="25"
+                      height="18"
+                    ></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <nav class="navig-mobile">
+              <ul class="navig-mobile__list list">
+                <li class="navig-mobile__item">
+                  <a href="#focus">Nos services</a>
+                </li>
+                <li class="navig-mobile__item">
+                  <a href="#who-we-ar">Qui sommes-nous</a>
+                </li>
+                <li class="navig-mobile__item">
+                  <a href="#testImonials">Témoignages et études de cas</a>
+                </li>
+                <li class="navig-mobile__item">
+                  <a href="#partners">Marketplaces partenaires</a>
+                </li>
+                <li class="navig-mobile__item">
+                  <button
+                    class="contact-us-button-white-bgc"
+                    data-modal-open-mob-form
+                  >
+                    contact
+                  </button>
+                </li>
+              </ul>
+              <a href="../en/index.html" class="linguage-switcher-mob">
+                <span class="current">EN</span> / FR</a
+              >
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero fr" id="backgroud-vanta">
+        <div class="container">
+          <h1 class="hero__title fr">
+            <span class="hero__title--thin">Votre</span> <br />
+            accélérateur <br />
+            <span class="hero__title--thin">de croissance digitale</span>
+          </h1>
+          <a href="#zolando">
+            <img
+              class="hero__label fr"
+              src="../images/zolando-label.png"
+              alt="label"
+              width="99.5"
+              height="50"
+            />
+          </a>
+        </div>
+      </section>
+      <section class="marketplaces section">
+        <div class="container">
+          <ul class="marketplaces__list list">
+            <li class="marketplaces__item-first fr">
+              <p class="marketplaces__text">
+                En Europe, les marketplaces
+                <span class="text--thick"
+                  >ont représenté 84 milliards d'euros, <br
+                /></span>
+                soit<span class="text--thick">
+                  59% de l'activité e-commerce</span
+                >
+              </p>
+              <p class="marketplaces__under-text">Fashionunited, 2021</p>
+              <picture>
+                <source
+                  srcset="
+                    ../images/desktop/women-pinkx1-dt.jpg 1x,
+                    ../images/desktop/women-pinkx2-dt.jpg 2x
+                  "
+                  media="(min-width:1024px)"
+                  width="272"
+                  height="340"
+                />
+                <source
+                  srcset="
+                    ../images/mobile/women-pinkx1.jpg 1x,
+                    ../images/mobile/women-pinkx2.jpg 2x
+                  "
+                  media="(max-width:480px)"
+                />
+                <img
+                  src="../images/mobile/women-pinkx1.jpg"
+                  alt="women in pink"
+                  class="marketplaces__img"
+                  width="189"
+                  height="236"
+                />
+              </picture>
+              <div class="marketplaces__under-img-wraper">
+                <picture>
+                  <source
+                    srcset="
+                      ../images/desktop/square.png   1x,
+                      ../images/desktop/squarex2.png 2x
+                    "
+                    media="(min-width:1024px)"
+                    width="231"
+                    height="231"
+                  />
+                  <source
+                    srcset="
+                      ../images/square-marketplace.png 1x,
+                      ../images/square-marketplace.png 2x
+                    "
+                    media="(max-width:480px)"
+                  />
+                  <img
+                    src="../images/square-marketplace.png"
+                    alt="women in pink"
+                    class="marketplaces__under-img-square"
+                    width="125"
+                    height="125"
+                  />
+                </picture>
+              </div>
+            </li>
+            <li class="marketplaces__item-second fr">
+              <p class="marketplaces__text">
+                En moyenne sur l’année 2020,
+                <span class="text--thick"
+                  >les places de marché ont progressé de +27% </span
+                >soit deux fois plus vite qu’en 2019
+              </p>
+              <p class="marketplaces__under-text">Fevad</p>
+              <picture>
+                <source
+                  srcset="
+                    ../images/desktop/women-in-whitex1-dt.jpg 1x,
+                    ../images/desktop/women-in-whitex1-dt.jpg 2x
+                  "
+                  media="(min-width:1024px)"
+                  width="375"
+                  height="216"
+                />
+                <source
+                  srcset="
+                    ../images/mobile/women-in-whitex1.jpg 1x,
+                    ../images/mobile/women-in-whitex2.jpg 2x
+                  "
+                  media="(max-width:480px)"
+                />
+                <img
+                  src="../images/mobile/women-in-whitex1.jpg"
+                  alt="women in pink"
+                  class="marketplaces__img"
+                  width="261"
+                  height="150"
+                />
+              </picture>
+              <div class="marketplaces__under-img-wraper">
+                <picture>
+                  <source
+                    srcset="
+                      ../images/desktop/circle.png   1x,
+                      ../images/desktop/circlex2.png 2x
+                    "
+                    media="(min-width:1024px)"
+                    width="221"
+                    height="221"
+                  />
+                  <source
+                    srcset="
+                      ../images/circle-marketplace.png 1x,
+                      ../images/circle-marketplace.png 2x
+                    "
+                    media="(max-width:480px)"
+                  />
+                  <img
+                    src="../images/circle-marketplace.png"
+                    alt="women in pink"
+                    class="marketplaces__under-circle-img"
+                    width="125"
+                    height="125"
+                  />
+                </picture>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="opportunity">
+        <div class="container">
+          <h2 class="opportunity__title">
+            <span class="text--thick">Un axe de développement stratégique</span>
+            pour les marques que The Agent a la capacité d'adresser
+            <span class="text--thick"> de façon personnalisée</span>
+          </h2>
+        </div>
+      </section>
+      <section class="focus" id="focus">
+        <div class="img-wraper"></div>
+        <div class="focus__wraper container">
+          <h2 class="focus__title">Nos services</h2>
+
+          <ul class="focus__list list">
+            <li class="focus__item">Planification stratégique</li>
+            <li class="focus__item">Brand Content et merchandising</li>
+            <li class="focus__item">Optimisation de la performance en ligne</li>
+            <li class="focus__item">CI/ CD numérique</li>
+          </ul>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container how">
+          <h2 class="how__title">comment le faisons-nous?</h2>
+          <div class="how__wraper fr">
+            <div class="how__sub-wraper">
+              <img
+                src="../images/how/square-how.png"
+                alt="square"
+                class="how__img-top"
+                width="165"
+                height="196.38"
+              />
+              <h3 class="how__subtitle">Nous le faisons pour vous</h3>
+              <p class="how__text">Service tout inclus</p>
+            </div>
+            <p class="how__separator">ou</p>
+            <div class="how__sub-wraper">
+              <img
+                src="../images/how/square-how.png"
+                alt="square"
+                class="how__img-bot"
+                width="165"
+                height="196.38"
+              />
+              <h3 class="how__subtitle">Nous vous aidons à le faire</h3>
+              <p class="how__text">Services sur mesure</p>
+            </div>
+          </div>
+          <ul class="how__list list">
+            <li class="how__item">
+              <p class="how__item-text">1</p>
+              <h3 class="how__item-title">
+                BAM dédié à l'optimisation<br />
+                de votre performance
+              </h3>
+              <ul class="how__item-list list">
+                <li class="how__item-item">
+                  Aide à la construction de l'offre
+                </li>
+                <li class="how__item-item">Suivi de l'Onboarding</li>
+                <li class="how__item-item">Coordination</li>
+                <li class="how__item-item">Résolution des problèmes</li>
+                <li class="how__item-item">Gestion de projet</li>
+                <li class="how__item-item">
+                  Revue et optimisation de la performance
+                </li>
+              </ul>
+            </li>
+            <li class="how__item">
+              <p class="how__item-text">2</p>
+              <h3 class="how__item-title">
+                Moyens et ressources <br />
+                mis en œuvre
+              </h3>
+              <ul class="how__item-list list">
+                <li class="how__item-item">Réseau de marketplace établi</li>
+                <li class="how__item-item">
+                  Connaissance sectorielle et marché
+                </li>
+                <li class="how__item-item">Veille marché</li>
+                <li class="how__item-item">Ressources locales</li>
+                <li class="how__item-item">Capacités numériques</li>
+                <li class="how__item-item">Exécution à grande échelle</li>
+              </ul>
+            </li>
+            <li class="how__item">
+              <p class="how__item-text">3</p>
+              <h3 class="how__item-title">
+                Amélioration continue <br />
+                de nos outils
+              </h3>
+              <ul class="how__item-list list">
+                <li class="how__item-item">
+                  Evolution continue de notre propre PIM
+                </li>
+                <li class="how__item-item">Intégration omnicanal</li>
+                <li class="how__item-item">Gestion dynamique des prix</li>
+                <li class="how__item-item">
+                  Transmissions automatiques des <br />commandes et des retours
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section">
+        <div class="environment container">
+          <ul class="environment__list environment__list-left list">
+            <li class="environment__item environment__item-left">
+              <h3 class="environment__title-item environment__title-pim">
+                PIM :
+              </h3>
+              <p class="environment__text">
+                Product Information<br />
+                Manager propriétaire
+              </p>
+            </li>
+            <li class="environment__item environment__item-left">
+              <h3 class="environment__title-item fr">
+                Enrichissement Catalogue&nbsp;via&nbsp;IA
+              </h3>
+            </li>
+            <li class="environment__item environment__item-left">
+              <h3 class="environment__title-item environment__title-font">
+                Front Office :
+              </h3>
+              <p class="environment__text">Accès client personnalisé</p>
+            </li>
+            <li class="environment__item environment__item-left">
+              <h3 class="environment__title-item">Connecteurs logistiques</h3>
+            </li>
+          </ul>
+          <div class="environment__center-block">
+            <img
+              class="environment__center-image"
+              src="../images/enviroment.png"
+              alt="circle"
+            />
+            <h2 class="environment__title">Digital Environment</h2>
+          </div>
+          <ul class="environment__list list">
+            <li class="environment__item environment__item-right">
+              <h3 class="environment__title-item">OMS :</h3>
+              <p class="environment__text">
+                order management<br />
+                system
+              </p>
+            </li>
+            <li class="environment__item environment__item-right">
+              <h3 class="environment__title-item">Outils de BI</h3>
+            </li>
+            <li class="environment__item environment__item-right">
+              <h3 class="environment__title-item">Outil SAV automatisé</h3>
+            </li>
+            <li class="environment__item environment__item-right">
+              <h3 class="environment__title-item">Connecteurs Zalando</h3>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section">
+        <div class="pmf container">
+          <h2 class="pmf__title">Performance Management Framework</h2>
+          <div class="pmf__list-wraper">
+            <ul class="pmf__list list">
+              <li class="pmf__item">
+                <div class="pmf__image-box">
+                  <img
+                    class="pmf__image"
+                    src="../images/pmf/pmf__1.png"
+                    alt=""
+                    width="104"
+                    height="104"
+                  />
+                </div>
+                <div class="pmf__text-box">
+                  <p class="pmf__box-number">1</p>
+                  <p class="pmf__box-description fr">Branding</p>
+                </div>
+              </li>
+              <li class="pmf__item">
+                <div class="pmf__image-box">
+                  <img
+                    class="pmf__image"
+                    src="../images/pmf/pmf__2.png"
+                    alt=""
+                    width="96"
+                    height="96"
+                  />
+                </div>
+                <div class="pmf__text-box">
+                  <p class="pmf__box-number">2</p>
+                  <p class="pmf__box-description fr">Stratégie d'assortiment</p>
+                </div>
+              </li>
+            </ul>
+            <ul class="pmf__list list">
+              <li class="pmf__item">
+                <div class="pmf__image-box">
+                  <img
+                    class="pmf__image"
+                    src="../images/pmf/pmf__3.png"
+                    alt=""
+                    width="96"
+                    height="96"
+                  />
+                </div>
+                <div class="pmf__text-box">
+                  <p class="pmf__box-number">3</p>
+                  <p class="pmf__box-description fr">Qualité de contenu</p>
+                </div>
+              </li>
+              <li class="pmf__item">
+                <div class="pmf__image-box">
+                  <img
+                    class="pmf__image"
+                    src="../images/pmf/pmf__4.png"
+                    alt=""
+                    width="96"
+                    height="96"
+                  />
+                </div>
+                <div class="pmf__text-box">
+                  <p class="pmf__box-number">4</p>
+                  <p class="pmf__box-description fr">Marketing Online</p>
+                </div>
+              </li>
+            </ul>
+            <ul class="pmf__list list">
+              <li class="pmf__item">
+                <div class="pmf__image-box">
+                  <img
+                    class="pmf__image"
+                    src="../images/pmf/pmf__5.png"
+                    alt=""
+                    width="96"
+                    height="96"
+                  />
+                </div>
+                <div class="pmf__text-box">
+                  <p class="pmf__box-number">5</p>
+                  <p class="pmf__box-description fr">
+                    Taux de disponibilité / taux de sortie
+                  </p>
+                </div>
+              </li>
+              <li class="pmf__item">
+                <div class="pmf__image-box">
+                  <img
+                    class="pmf__image"
+                    src="../images/pmf/pmf__6.png"
+                    alt=""
+                    width="96"
+                    height="96"
+                  />
+                </div>
+                <div class="pmf__text-box">
+                  <p class="pmf__box-number">6</p>
+                  <p class="pmf__box-description fr">
+                    Campagnes promotionnelles
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <ul class="pmf__list list">
+              <li class="pmf__item">
+                <div class="pmf__image-box">
+                  <img
+                    class="pmf__image"
+                    src="../images/pmf/pmf__7.png"
+                    alt=""
+                    width="96"
+                    height="96"
+                  />
+                </div>
+                <div class="pmf__text-box">
+                  <p class="pmf__box-number">7</p>
+                  <p class="pmf__box-description fr">
+                    Pilotage des taux de retours
+                  </p>
+                </div>
+              </li>
+              <li class="pmf__item">
+                <div class="pmf__image-box">
+                  <img
+                    class="pmf__image"
+                    src="../images/pmf/pmf__8.png"
+                    alt=""
+                    width="86"
+                    height="86"
+                  />
+                </div>
+                <div class="pmf__text-box">
+                  <p class="pmf__box-number">8</p>
+                  <p class="pmf__box-description fr">
+                    Analyse de la performance
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="who" id="who-we-ar">
+        <div class="who__wraper container">
+          <div class="who__description-wraper">
+            <h2 class="who__title">Qui sommes-nous</h2>
+            <p class="who__description">
+              Dédiés à l'expansion et l'excellence des canaux de distribution
+              B2C
+            </p>
+          </div>
+          <div class="div-wraper">
+            <ul class="who__list list">
+              <li>
+                <picture>
+                  <source
+                    srcset="
+                      ../images/desktop/romain-aymeric-dtx1.jpg 1x,
+                      ../images/desktop/romain-aymeric-dtx2.jpg 2x
+                    "
+                    media="(min-width:1024px)"
+                    width="302"
+                    height="360"
+                  />
+                  <source
+                    srcset="
+                      ../images/mobile/romain-aymeric.jpg    1x,
+                      ../images/mobile/romain-aymeric-x2.jpg 2x
+                    "
+                    media="(max-width:480px)"
+                  />
+                  <img
+                    src="../images/mobile/romain-aymeric.jpg"
+                    alt="men"
+                    class="who__img"
+                    width="165"
+                    height="196.38"
+                  />
+                </picture>
+                <h3 class="who__subtitle">Romain Aymeric</h3>
+                <p class="who__text">Brand management</p>
+              </li>
+              <li>
+                <picture>
+                  <source
+                    srcset="
+                      ../images/desktop/denis-jihan-dtx1.jpg 1x,
+                      ../images/desktop/denis-jihan-dtx2.jpg 2x
+                    "
+                    media="(min-width:1024px)"
+                    width="302"
+                    height="360"
+                  />
+                  <source
+                    srcset="
+                      ../images/mobile/denis-jihan-x1.jpg 1x,
+                      ../images/mobile/denis-jihan-x2.jpg 2x
+                    "
+                    media="(max-width:480px)"
+                  />
+                  <img
+                    src="../images/mobile/denis-jihan-x1.jpg"
+                    alt="men"
+                    class="who__img"
+                    width="165"
+                    height="196.38"
+                  />
+                </picture>
+                <h3 class="who__subtitle">Denis Gihan</h3>
+                <p class="who__text">Digital</p>
+              </li>
+            </ul>
+            <ul class="who__list list">
+              <li>
+                <picture>
+                  <source
+                    srcset="
+                      ../images/desktop/debora-chinasi-dtx1.jpg 1x,
+                      ../images/desktop/debora-chinasi-dtx2.jpg 2x
+                    "
+                    media="(min-width:1024px)"
+                    width="302"
+                    height="360"
+                  />
+                  <source
+                    srcset="
+                      ../images/mobile/debora-chinasi-x1.jpg 1x,
+                      ../images/mobile/debora-chinasi-x2.jpg 2x
+                    "
+                    media="(max-width:480px)"
+                  />
+                  <img
+                    src="../images/mobile/debora-chinasi-x1.jpg"
+                    alt="women"
+                    class="who__img"
+                    width="165"
+                    height="196.38"
+                  />
+                </picture>
+                <h3 class="who__subtitle">Deborah Schinasi</h3>
+                <p class="who__text">Opérations</p>
+              </li>
+              <li>
+                <picture>
+                  <source
+                    srcset="
+                      ../images/desktop/aurelien-briquet-dtx1.jpg 1x,
+                      ../images/desktop/aurelien-briquet-dtx2.jpg 2x
+                    "
+                    media="(min-width:1024px)"
+                    width="302"
+                    height="360"
+                  />
+                  <source
+                    srcset="
+                      ../images/mobile/aurelien-briquet.jpg   1x,
+                      ../images/mobile/aurelien-briquet2x.jpg 2x
+                    "
+                    media="(max-width:480px)"
+                  />
+                  <img
+                    src="../images/mobile/aurelien-briquet.jpg"
+                    alt="men"
+                    class="who__img"
+                    width="165"
+                    height="196.38"
+                  />
+                </picture>
+                <h3 class="who__subtitle">Aurélien Briquet</h3>
+                <p class="who__text">Technologie</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="e-comerce section">
+        <div class="e-comerce__wraper container">
+          <h2 class="e-comerce__title">The&nbsp;Agent,</h2>
+          <h3 class="e-comerce__text">
+            &nbsp;votre&nbsp;accélérateur&nbsp;e-commerce
+          </h3>
+        </div>
+      </section>
+      <section class="testimonials" id="testImonials">
+        <div class="testimonials__wraper container">
+          <h2 class="testimonials__title">Témoignages</h2>
+          <div class="testimonials__box">
+            <ul class="testimonials__list list">
+              <li class="testimonials__item">
+                <p class="testimonials__text">+ 50%</p>
+                <p class="testimonials__undertext">
+                  croissance vs l'année dernière
+                </p>
+                <p class="testimonials__description">
+                  «Nous avons choisi THE AGENT pour présenter notre marque sur
+                  tous les acteurs clés du web. Leur expertise du marché nous a
+                  permis de gagner du temps et de l'efficacité et d'obtenir des
+                  résultats croissants.»
+                </p>
+                <img
+                  class="testimonials__img"
+                  src="../images/brands/oakwood-white.png"
+                  alt="oakwood"
+                  width="142.4"
+                  height="18"
+                />
+              </li>
+              <li class="testimonials__item">
+                <p class="testimonials__text">+ 92%</p>
+                <p class="testimonials__undertext">
+                  croissance vs l'année dernière
+                </p>
+                <p class="testimonials__description space">
+                  «THE AGENT nous a permis de nous intégrer rapidement à
+                  Zalando. Depuis, ils nous suivent au quotidien afin
+                  d'améliorer nos performances sur cette place de marché (taux
+                  de retours, chiffre d'affaires, réassort…) Nous n'aurions pas
+                  eu de tels résultats si nous l'avions fait directement.»
+                </p>
+
+                <img
+                  src="../images/brands/moustache-white.png"
+                  alt="moustache"
+                  width="140"
+                  height="24"
+                />
+              </li>
+              <li class="testimonials__item">
+                <p class="testimonials__text">+ 120%</p>
+                <p class="testimonials__undertext">
+                  croissance vs l'année dernière
+                </p>
+                <p class="testimonials__description space">
+                  «L'expertise et le soutien de l'équipe dynamique de THE AGENT
+                  confirment que nous avons trouvé un partenaire compétent et
+                  efficace qui donne à nos produits une réelle visibilité sur le
+                  web. Très satisfaits du travail effectué, nous comptons bien
+                  profiter de leur portefeuille de marketplaces, qui est l'un
+                  des plus attractifs du marché.»
+                </p>
+
+                <img
+                  src="../images/brands/havanas-white.png"
+                  alt="havanas"
+                  width="157"
+                  height="49"
+                />
+              </li>
+            </ul>
+            <ul class="testimonials__list list">
+              <li class="testimonials__item">
+                <p class="testimonials__text">+ 50%</p>
+                <p class="testimonials__undertext">
+                  croissance vs l'année dernière
+                </p>
+                <p class="testimonials__description space">
+                  «THE AGENT était le moyen pour mettre en place une solution
+                  alternative au commerce de gros traditionnel avec Zalando.
+                  Grâce à son expérience avec ce compte international, THE AGENT
+                  nous a permis de développer l'activité « market place » dans
+                  plusieurs pays et ainsi de profiter de la force de frappe de
+                  Zalando.
+                </p>
+                <p class="testimonials__description space">
+                  THE AGENT est clairement orienté vers le résultat commercial
+                  et a les clés pour des résultats croissants (contenu photo et
+                  descriptif, marketing, stock, stratégie de prix, etc.)
+                  Travailler en binôme avec un chargé de clientèle est aussi un
+                  vrai avantage pour établir une relation à long terme.»
+                </p>
+
+                <img
+                  src="../images/brands/logo-le-coq-sportif-white.png"
+                  alt="le-coq-sportif"
+                  width="64"
+                  height="66"
+                />
+              </li>
+              <li class="testimonials__item">
+                <p class="testimonials__text">+ 72%</p>
+                <p class="testimonials__undertext">
+                  croissance vs l'année dernière
+                </p>
+                <p class="testimonials__description">
+                  «Avec une augmentation continue du nombre des marchés en ligne
+                  alternatifs, le partenariat de THE AGENT nous a permis, non
+                  seulement d'identifier les bonnes platesformes pour PAEZ
+                  Shoes, mais également d'aligner un modèle commercial rentable
+                  et capable d'atteindre plusieurs zones géographiques. En plus,
+                  cela s'accompagne d'un service client 24/7.»
+                </p>
+                <img
+                  src="../images/brands/paez-logo-white.png"
+                  alt="paez"
+                  width="88"
+                  height="42"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="brands">
+        <h2 class="brands__title">Marques</h2>
+        <div class="gradient-left"></div>
+        <div class="gradient-right"></div>
+        <div class="swiper-first">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  srcset="../images/brands-swiper/brands-logo-1.png"
+                  width="170"
+                  height="70"
+                  media="(min-width:1024px)"
+                />
+                <img
+                  src="../images/brands-swiper/brands-logo-1.png"
+                  alt="oakwood"
+                  width="170"
+                  height="70"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  srcset="../images/brands-swiper/brands-logo-2.png"
+                  width="170"
+                  height="70"
+                  media="(min-width:1024px)"
+                />
+
+                <img
+                  src="../images/brands-swiper/brands-logo-2.png"
+                  alt="havainas"
+                  width="170"
+                  height="70"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <svg class="bradns__svg">
+                <use
+                  href="../images/sprite/sprite.svg#icon-LeCoqSportifLogo-f5m-1"
+                  width="170"
+                  height="70"
+                ></use>
+              </svg>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  srcset="../images/brands-swiper/brands-logo-4.png"
+                  width="170"
+                  height="70"
+                  media="(min-width:1024px)"
+                />
+
+                <img
+                  src="../images/brands-swiper/brands-logo-4.png"
+                  alt="pataugas"
+                  width="170"
+                  height="70"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  srcset="../images/brands-swiper/brands-logo-5.png"
+                  width="170"
+                  height="70"
+                  media="(min-width:1024px)"
+                />
+
+                <img
+                  src="../images/brands-swiper/brands-logo-5.png"
+                  alt="pomax"
+                  width="170"
+                  height="70"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  srcset="../images/brands-swiper/brands-logo-6.png"
+                  width="170"
+                  height="70"
+                  media="(min-width:1024px)"
+                />
+
+                <img
+                  src="../images/brands-swiper/brands-logo-6.png"
+                  alt="paindesucre"
+                  width="170"
+                  height="70"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  srcset="../images/brands-swiper/brands-logo-7.png"
+                  width="170"
+                  height="70"
+                  media="(min-width:1024px)"
+                />
+
+                <img
+                  src="../images/brands-swiper/brands-logo-7.png"
+                  alt="aigle"
+                  width="170"
+                  height="70"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  srcset="../images/brands-swiper/brands-logo-8.png"
+                  width="170"
+                  height="70"
+                  media="(min-width:1024px)"
+                />
+
+                <img
+                  src="../images/brands-swiper/brands-logo-8.png"
+                  alt="fruch"
+                  width="170"
+                  height="70"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  srcset="../images/brands-swiper/brands-logo-9.png"
+                  width="170"
+                  height="70"
+                  media="(min-width:1024px)"
+                />
+
+                <img
+                  src="../images/brands-swiper/brands-logo-9.png"
+                  alt="nat-nin"
+                  width="170"
+                  height="70"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  srcset="../images/brands-swiper/brands-logo-10.png"
+                  width="170"
+                  height="70"
+                  media="(min-width:1024px)"
+                />
+
+                <img
+                  src="../images/brands-swiper/brands-logo-10.png"
+                  alt="paez"
+                  width="170"
+                  height="70"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  srcset="../images/brands-swiper/brands-logo-11.png"
+                  width="170"
+                  height="70"
+                  media="(min-width:1024px)"
+                />
+
+                <img
+                  src="../images/brands-swiper/brands-logo-11.png"
+                  alt="bensimon"
+                  width="170"
+                  height="70"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  srcset="../images/brands-swiper/brands-logo-12.png"
+                  width="170"
+                  height="70"
+                  media="(min-width:1024px)"
+                />
+
+                <img
+                  src="../images/brands-swiper/brands-logo-12.png"
+                  alt="bestmountain"
+                  width="170"
+                  height="70"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  srcset="../images/brands-swiper/brands-logo-13.png"
+                  width="170"
+                  height="70"
+                  media="(min-width:1024px)"
+                />
+
+                <img
+                  src="../images/brands-swiper/brands-logo-13.png"
+                  alt="moustache"
+                  width="170"
+                  height="70"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  srcset="../images/brands-swiper/brands-logo-14.png"
+                  width="170"
+                  height="70"
+                  media="(min-width:1024px)"
+                />
+
+                <img
+                  src="../images/brands-swiper/brands-logo-14.png"
+                  alt="isotoner"
+                  width="170"
+                  height="70"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  srcset="../images/brands-swiper/brands-logo-1.png"
+                  width="170"
+                  height="70"
+                  media="(min-width:1024px)"
+                />
+
+                <img
+                  src="../images/brands-swiper/brands-logo-1.png"
+                  alt="oakwood"
+                  width="170"
+                  height="70"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  srcset="../images/brands-swiper/brands-logo-11.png"
+                  width="170"
+                  height="70"
+                  media="(min-width:1024px)"
+                />
+
+                <img
+                  src="../images/brands-swiper/brands-logo-11.png"
+                  alt="bensimon"
+                  width="170"
+                  height="70"
+                />
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </section>
+      <section class="cases">
+        <div class="container">
+          <h2 class="cases__title">études de cas</h2>
+          <ul class="cases__list list">
+            <li class="cases__item">
+              <h3 class="cases__subtitle">Havaianas</h3>
+              <div class="metric__box">
+                <div class="metric">
+                  <div class="metric--positioner">
+                    <p class="cases__metric">+40%</p>
+                    <p class="cases__metric-text">
+                      of model <br />
+                      colors
+                    </p>
+                  </div>
+
+                  <div class="metric--positioner">
+                    <p class="cases__metric">+60%</p>
+                    <p class="cases__metric-text">NMV<br />vs last year</p>
+                  </div>
+                </div>
+                <button class="cases__button modal-havaianas__open">
+                  <svg class="cases__button-icone">
+                    <use
+                      href="../images/sprite/sprite.svg#icon-button-arrow"
+                    ></use>
+                  </svg>
+                  View case study
+                </button>
+              </div>
+            </li>
+            <li class="cases__item">
+              <h3 class="cases__subtitle">Paez</h3>
+              <div class="metric__box">
+                <div class="metric">
+                  <div class="metric--positioner">
+                    <p class="cases__metric">+54%</p>
+                    <p class="cases__metric-text">audience</p>
+                  </div>
+
+                  <div class="metric--positioner metric-second">
+                    <p class="cases__metric">+21,64%</p>
+                    <p class="cases__metric-text">
+                      articles<br />
+                      sold
+                    </p>
+                  </div>
+                </div>
+                <button class="cases__button modal-paez__open">
+                  <svg class="cases__button-icone">
+                    <use
+                      href="../images/sprite/sprite.svg#icon-button-arrow"
+                    ></use>
+                  </svg>
+                  View case study
+                </button>
+              </div>
+            </li>
+            <li class="cases__item">
+              <h3 class="cases__subtitle">Le Coq Sportif</h3>
+              <div class="metric__box">
+                <div class="metric">
+                  <div class="metric--positioner">
+                    <p class="cases__metric">+75%</p>
+                    <p class="cases__metric-text">STR</p>
+                  </div>
+
+                  <div class="metric--positioner">
+                    <p class="cases__metric">+22,78%</p>
+                    <p class="cases__metric-text">CVR</p>
+                  </div>
+                </div>
+                <button type="button" class="cases__button mekong-open-btn">
+                  <svg class="cases__button-icone">
+                    <use
+                      href="../images/sprite/sprite.svg#icon-button-arrow"
+                    ></use>
+                  </svg>
+                  View case study
+                </button>
+              </div>
+            </li>
+            <li class="cases__item">
+              <h3 class="cases__subtitle">Oakwood</h3>
+              <div class="metric__box">
+                <div class="metric">
+                  <div class="metric--positioner">
+                    <p class="modal-use-cases__metric-text-only">
+                      <span class="modal-use-cases__metric-bold"
+                        >Adding measurement </span
+                      ><br />on all product pages
+                    </p>
+                  </div>
+
+                  <div class="metric--positioner metric-unstandart">
+                    <p class="cases__metric">-6%</p>
+                    <p class="cases__metric-text">Return rate</p>
+                  </div>
+                </div>
+                <button class="cases__button modal-oakwood__open">
+                  <svg class="cases__button-icone">
+                    <use
+                      href="../images/sprite/sprite.svg#icon-button-arrow"
+                    ></use>
+                  </svg>
+                  View case study
+                </button>
+              </div>
+            </li>
+          </ul>
+          <div class="modal-havaianas is-hidden">
+            <button class="modal-havaianas__close">
+              <svg class="modal-havaianas__close-icone">
+                <use href="../images/sprite/sprite.svg#icon-close"></use>
+              </svg>
+            </button>
+            <div class="modal-use-cases">
+              <div class="modal-use-cases__top-part">
+                <div class="modal-use-cases__left-part">
+                  <p class="modal-use-cases__pre-title">
+                    Optimizing Assortment Strategy
+                  </p>
+                  <h2 class="modal-use-cases__title">Havaianas</h2>
+                  <div class="modal-use-cases__metric">
+                    <div class="modal-use-cases__first-metric">
+                      <div class="modal-use-cases__metric-wraper">
+                        <p class="modal-use-cases__percent">+40%</p>
+                        <p class="modal-use-cases__metric-text">
+                          of model<br />
+                          colors
+                        </p>
+                      </div>
+                      <p class="modal-use-cases__metric-small-text">
+                        * vs last year
+                      </p>
+                    </div>
+                    <div class="modal-use-cases__second-metric">
+                      <div class="modal-use-cases__metric-wraper">
+                        <p class="modal-use-cases__percent">+60%</p>
+                        <p class="modal-use-cases__metric-text">
+                          NMV<br />
+                          vs last year
+                        </p>
+                      </div>
+                      <p class="modal-use-cases__metric-small-text">
+                        * vs last year
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-use-cases__right-part">
+                  <picture class="modal-use-cases__image">
+                    <source
+                      srcset="
+                        ../images/use-cases/use-cases-havainas-1x.png 1x,
+                        ../images/use-cases/use-cases-havainas-2x.png 2x
+                      "
+                      width="400"
+                      height="256"
+                      media="(min-width:1024px)"
+                    />
+                    <source
+                      srcset="
+                        ../images/use-cases/use-cases-havainas-1x.png 1x,
+                        ../images/use-cases/use-cases-havainas-2x.png 2x
+                      "
+                      width="500"
+                      height="320"
+                      media="(min-width:531px)"
+                    />
+                    <source
+                      srcset="
+                        ../images/use-cases/use-cases-havainas-1x.png 1x,
+                        ../images/use-cases/use-cases-havainas-2x.png 2x
+                      "
+                      width="400"
+                      height="256"
+                      media="(min-width:441px)"
+                    />
+                    <source
+                      srcset="
+                        ../images/use-cases/use-cases-havainas-1x.png 1x,
+                        ../images/use-cases/use-cases-havainas-2x.png 2x
+                      "
+                      width="300"
+                      height="192"
+                      media="(min-width:325px)"
+                    />
+                    <source
+                      srcset="
+                        ../images/use-cases/use-cases-havainas-1x.png 1x,
+                        ../images/use-cases/use-cases-havainas-2x.png 2x
+                      "
+                      width="200"
+                      height="128"
+                      media="(max-width:324px)"
+                    />
+                    <img
+                      class="modal-mekong__img"
+                      src="../images/use-cases/use-cases-havainas-1x.png"
+                      alt="havaianas"
+                      width="600"
+                      height="384"
+                    />
+                  </picture>
+                </div>
+              </div>
+              <div class="modal-use-cases__bot-part">
+                <div class="modal-use-cases__first">
+                  <h3 class="modal-use-cases__sub-title">
+                    Enlargement of model colours online and test of new
+                    categories
+                  </h3>
+                  <p class="modal-use-cases__text">
+                    In 2021, Havaianas launched its product in 3 drops 51% in
+                    March, 34% mid may and 15% late in June. After 2021’s result
+                    analysis, we decided with the brand in 2022 to:
+                  </p>
+                  <ul class="modal-use-cases__list list">
+                    <li class="modal-use-cases__item">
+                      <span class="modal-use-cases__item-bold"
+                        >Explore more new categories such as the
+                        accessories</span
+                      >
+                    </li>
+                    <li class="modal-use-cases__item">
+                      <span class="modal-use-cases__item-bold"
+                        >Increase the number of model colors (based on top
+                        sellers analysis market analysis):</span
+                      >
+                      +40% model color in 2022
+                    </li>
+                    <li class="modal-use-cases__item">
+                      <span class="modal-use-cases__item-bold"
+                        >Ship the stock earlier in the season</span
+                      >
+                      – Every model color was first published between mid march
+                      and early june in 2022
+                    </li>
+                  </ul>
+                </div>
+                <div class="modal-use-cases__second">
+                  <h3 class="modal-use-cases__sub-title">
+                    The results of these changes:
+                  </h3>
+                  <ul class="modal-use-cases__list list">
+                    <li class="modal-use-cases__item">
+                      <p class="modal-use-cases__item-text">
+                        <span class="modal-use-cases__item-accent"
+                          >+ 66,78%</span
+                        >Audience in 2022 vs previous year
+                      </p>
+                    </li>
+                    <li class="modal-use-cases__item">
+                      <p class="modal-use-cases__item-text">
+                        <span class="modal-use-cases__item-accent"
+                          >+ 54,22%</span
+                        >Added to basket in 2022 vs previous year
+                      </p>
+                    </li>
+                    <li class="modal-use-cases__item">
+                      <p class="modal-use-cases__item-text">
+                        <span class="modal-use-cases__item-accent"
+                          >+ 54,13%</span
+                        >Gross item sold in 2022 vs previous year
+                      </p>
+                    </li>
+                    <li class="modal-use-cases__item">
+                      <p class="modal-use-cases__item-text">
+                        <span class="modal-use-cases__item-accent">+ 72%</span
+                        >GMV in 2022 vs previous year
+                      </p>
+                    </li>
+                    <li class="modal-use-cases__item">
+                      <p class="modal-use-cases__item-text">
+                        <span class="modal-use-cases__item-accent">+ 60%</span
+                        >NMV in 2022 vs previous year
+                      </p>
+                    </li>
+                    <li class="modal-use-cases__item">
+                      <p class="modal-use-cases__item-text">
+                        <span class="modal-use-cases__item-accent">× 8</span
+                        >Accessories sold in 2022 vs previous year
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-paez is-hidden">
+            <button class="modal-paez__close">
+              <svg class="modal-paez__close-icone">
+                <use href="../images/sprite/sprite.svg#icon-close"></use>
+              </svg>
+            </button>
+            <div class="modal-use-cases">
+              <div class="modal-use-cases__top-part">
+                <div class="modal-use-cases__left-part">
+                  <p class="modal-use-cases__pre-title">Traffic Acquisition</p>
+                  <h2 class="modal-use-cases__title">Paez</h2>
+                  <div class="modal-use-cases__metric">
+                    <div class="modal-use-cases__first-metric">
+                      <div class="modal-use-cases__metric-wraper">
+                        <p class="modal-use-cases__percent">+54%</p>
+                        <p class="modal-use-cases__metric-text">audience</p>
+                      </div>
+                      <p class="modal-use-cases__metric-small-text">
+                        * vs last year
+                      </p>
+                    </div>
+                    <div class="modal-use-cases__second-metric">
+                      <div class="modal-use-cases__metric-wraper">
+                        <p class="modal-use-cases__percent">+21,64%</p>
+                        <p class="modal-use-cases__metric-text">
+                          articles<br />
+                          sold
+                        </p>
+                      </div>
+                      <p class="modal-use-cases__metric-small-text">
+                        * vs last year
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-use-cases__right-part">
+                  <picture>
+                    <source
+                      srcset="
+                        ../images/use-cases/use-cases-paez-1x.png 1x,
+                        ../images/use-cases/use-cases-paez-2x.png 2x
+                      "
+                      width="400"
+                      height="256"
+                      media="(min-width:1024px)"
+                    />
+                    <source
+                      srcset="
+                        ../images/use-cases/use-cases-paez-1x.png 1x,
+                        ../images/use-cases/use-cases-paez-2x.png 2x
+                      "
+                      width="500"
+                      height="320"
+                      media="(min-width:531px)"
+                    />
+                    <source
+                      srcset="
+                        ../images/use-cases/use-cases-paez-1x.png 1x,
+                        ../images/use-cases/use-cases-paez-2x.png 2x
+                      "
+                      width="400"
+                      height="256"
+                      media="(min-width:441px)"
+                    />
+                    <source
+                      srcset="
+                        ../images/use-cases/use-cases-paez-1x.png 1x,
+                        ../images/use-cases/use-cases-paez-2x.png 2x
+                      "
+                      width="300"
+                      height="192"
+                      media="(min-width:325px)"
+                    />
+                    <source
+                      srcset="
+                        ../images/use-cases/use-cases-paez-1x.png 1x,
+                        ../images/use-cases/use-cases-paez-2x.png 2x
+                      "
+                      width="200"
+                      height="128"
+                      media="(max-width:324px)"
+                    />
+                    <img
+                      class="modal-mekong__img"
+                      src="../images/use-cases/use-cases-paez-1x.png"
+                      alt="paez"
+                      width="300"
+                      height="192"
+                    />
+                  </picture>
+                </div>
+              </div>
+              <div class="modal-use-cases__bot-part">
+                <div class="modal-use-cases__second">
+                  <h3 class="modal-use-cases__sub-title">
+                    Dynamic Sponsored Products Campaign Optimization
+                  </h3>
+                  <p class="modal-use-cases__text">
+                    In June and July we launched a Sponsored product campaign on
+                    Paez on + 80 SKU. The espadrille category has its peak
+                    season during summer. Launching a campaign at the right time
+                    was a strategic move by the brand which resulted in:
+                  </p>
+                  <ul class="modal-use-cases__list list">
+                    <li class="modal-use-cases__item">
+                      <p class="modal-use-cases__item-text">
+                        <span class="modal-use-cases__item-accent">+ 54%</span
+                        >Audience vs previous year
+                      </p>
+                    </li>
+                    <li class="modal-use-cases__item">
+                      <p class="modal-use-cases__item-text">
+                        <span class="modal-use-cases__item-accent"
+                          >+ 26,76%</span
+                        >Items added to basket vs previous year
+                      </p>
+                    </li>
+                    <li class="modal-use-cases__item">
+                      <p class="modal-use-cases__item-text">
+                        <span class="modal-use-cases__item-accent"
+                          >+ 21,64%</span
+                        >Gross items sold vs previous year
+                      </p>
+                    </li>
+                    <li class="modal-use-cases__item">
+                      <p class="modal-use-cases__item-text">
+                        <span class="modal-use-cases__item-accent">+ 61%</span
+                        >GMV vs previous year
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-mekong is-hidden">
+            <button type="button" class="modal-mekong__close">
+              <svg class="modal-mekong__close-icone">
+                <use href="../images/sprite/sprite.svg#icon-close"></use>
+              </svg>
+            </button>
+            <div class="modal-use-cases">
+              <div class="modal-use-cases__top-part">
+                <div class="modal-use-cases__left-part">
+                  <p class="modal-use-cases__pre-title">STR monitoring</p>
+                  <h2 class="modal-use-cases__title">Le Coq Sportif</h2>
+                  <div class="modal-use-cases__metric">
+                    <div class="modal-use-cases__first-metric">
+                      <div class="modal-use-cases__metric-wraper">
+                        <p class="modal-use-cases__percent">+75%</p>
+                        <p class="modal-use-cases__metric-text">STR</p>
+                      </div>
+                      <p class="modal-use-cases__metric-small-text">
+                        * vs last year
+                      </p>
+                    </div>
+                    <div class="modal-use-cases__second-metric">
+                      <div class="modal-use-cases__metric-wraper">
+                        <p class="modal-use-cases__percent">+22,78%</p>
+                        <p class="modal-use-cases__metric-text">CVR</p>
+                      </div>
+                      <p class="modal-use-cases__metric-small-text">
+                        * vs last year
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-use-cases__right-part">
+                  <picture>
+                    <source
+                      srcset="
+                        ../images/use-cases/use-cases-le-coq-sportif-1x.png 1x,
+                        ../images/use-cases/use-cases-le-coq-sportif-2x.png 2x
+                      "
+                      width="400"
+                      height="256"
+                      media="(min-width:1024px)"
+                    />
+                    <source
+                      srcset="
+                        ../images/use-cases/use-cases-le-coq-sportif-1x.png 1x,
+                        ../images/use-cases/use-cases-le-coq-sportif-2x.png 2x
+                      "
+                      width="500"
+                      height="320"
+                      media="(min-width:531px)"
+                    />
+                    <source
+                      srcset="
+                        ../images/use-cases/use-cases-le-coq-sportif-1x.png 1x,
+                        ../images/use-cases/use-cases-le-coq-sportif-2x.png 2x
+                      "
+                      width="400"
+                      height="256"
+                      media="(min-width:441px)"
+                    />
+                    <source
+                      srcset="
+                        ../images/use-cases/use-cases-le-coq-sportif-1x.png 1x,
+                        ../images/use-cases/use-cases-le-coq-sportif-2x.png 2x
+                      "
+                      width="300"
+                      height="192"
+                      media="(min-width:325px)"
+                    />
+                    <source
+                      srcset="
+                        ../images/use-cases/use-cases-le-coq-sportif-1x.png 1x,
+                        ../images/use-cases/use-cases-le-coq-sportif-2x.png 2x
+                      "
+                      width="200"
+                      height="128"
+                      media="(max-width:324px)"
+                    />
+                    <img
+                      class="modal-mekong__img"
+                      src="../images/use-cases/use-cases-le-coq-sportif-1x.png"
+                      alt="le-coq-sportif"
+                      width="300"
+                      height="192"
+                    />
+                  </picture>
+                </div>
+              </div>
+              <div class="modal-use-cases__bot-part">
+                <div class="modal-use-cases__first">
+                  <h3 class="modal-use-cases__sub-title">
+                    There is nothing more frustrating to a customer when they
+                    like a product not available in their size!
+                  </h3>
+                  <p class="modal-use-cases__text">
+                    Le Coq Sportif experienced difficulties in 2021 to deliver
+                    Zalando at the right time. The results of this was a late
+                    launch of collection, missed sales and a poor CTR. The Agent
+                    worked with the brand on:
+                  </p>
+                  <ul class="modal-use-cases__list list">
+                    <li class="modal-use-cases__item">
+                      <p class="modal-use-cases__item-text">
+                        <span class="item-accent">Delivery Lead Time</span> –
+                        from 1 month in 2021 to 2 weeks in 2022
+                      </p>
+                    </li>
+                    <li class="modal-use-cases__item">
+                      <p class="modal-use-cases__item-text">
+                        <span class="item-accent">Delivery frequency</span> –
+                        from 1 delivery per month in 2021 to 2-3 per month in
+                        2022
+                      </p>
+                    </li>
+                    <li class="modal-use-cases__item">
+                      <p class="modal-use-cases__item-text">
+                        <span class="item-accent">Stock Availability</span> –
+                        60% in 2021 on average vs +75% on average in 2022
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="modal-use-cases__second">
+                  <h3 class="modal-use-cases__sub-title">
+                    Working on the stock and delivery had a direct impact on:
+                  </h3>
+                  <ul class="modal-use-cases__list list">
+                    <li class="modal-use-cases__item">
+                      <p class="modal-use-cases__item-text">
+                        <span class="modal-use-cases__item-bold">CTR:</span>
+                        <span class="item-accent">+14,42% </span>in 2022 vs
+                        previous year overall and
+                        <span class="item-accent">+22,78%</span>
+                        on its main market
+                      </p>
+                    </li>
+                    <li class="modal-use-cases__item">
+                      <p class="modal-use-cases__item-text">
+                        <span class="modal-use-cases__item-bold"
+                          >Added to basket:</span
+                        >
+                        <span class="item-accent">+7,6% </span>overall vs
+                        previous year,
+                        <span class="item-accent">+12,15%</span>
+                        on its main market
+                      </p>
+                    </li>
+                    <li class="modal-use-cases__item">
+                      <p class="modal-use-cases__item-text">
+                        <span class="modal-use-cases__item-bold"
+                          >Gross items sold:</span
+                        >
+                        <span class="item-accent">+6% </span>overall vs previous
+                        year,
+                        <span class="item-accent"> +12,17%</span>
+                        on its main market
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-oakwood is-hidden">
+            <button class="modal-oakwood__close">
+              <svg class="modal-oakwood__close-icone">
+                <use href="../images/sprite/sprite.svg#icon-close"></use>
+              </svg>
+            </button>
+            <div class="modal-use-cases">
+              <div class="modal-use-cases__top-part">
+                <div class="modal-use-cases__left-part">
+                  <p class="modal-use-cases__pre-title">Return Management</p>
+                  <h2 class="modal-use-cases__title">Oakwood</h2>
+                  <div class="modal-use-cases__metric">
+                    <div class="modal-use-cases__first-metric">
+                      <p class="modal-use-cases__metric-text-only">
+                        <span class="modal-use-cases__metric-bold"
+                          >Adding measurement </span
+                        ><br />on all product pages
+                      </p>
+                    </div>
+                    <div class="modal-use-cases__second-metric">
+                      <div class="modal-use-cases__metric-wraper">
+                        <p class="modal-use-cases__percent">-6%</p>
+                        <p class="modal-use-cases__metric-text">Return rate</p>
+                      </div>
+                      <p class="modal-use-cases__metric-small-text">
+                        * vs last year
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-use-cases__right-part">
+                  <picture>
+                    <source
+                      srcset="
+                        ../images/use-cases/use-cases-oakwood-1x.png 1x,
+                        ../images/use-cases/use-cases-oakwood-2x.png 2x
+                      "
+                      width="400"
+                      height="256"
+                      media="(min-width:1024px)"
+                    />
+                    <source
+                      srcset="
+                        ../images/use-cases/use-cases-oakwood-1x.png 1x,
+                        ../images/use-cases/use-cases-oakwood-2x.png 2x
+                      "
+                      width="500"
+                      height="320"
+                      media="(min-width:531px)"
+                    />
+                    <source
+                      srcset="
+                        ../images/use-cases/use-cases-oakwood-1x.png 1x,
+                        ../images/use-cases/use-cases-oakwood-2x.png 2x
+                      "
+                      width="400"
+                      height="256"
+                      media="(min-width:441px)"
+                    />
+                    <source
+                      srcset="
+                        ../images/use-cases/use-cases-oakwood-1x.png 1x,
+                        ../images/use-cases/use-cases-oakwood-2x.png 2x
+                      "
+                      width="300"
+                      height="192"
+                      media="(min-width:325px)"
+                    />
+                    <source
+                      srcset="
+                        ../images/use-cases/use-cases-oakwood-1x.png 1x,
+                        ../images/use-cases/use-cases-oakwood-2x.png 2x
+                      "
+                      width="200"
+                      height="128"
+                      media="(max-width:324px)"
+                    />
+                    <img
+                      class="modal-mekong__img"
+                      src="../images/use-cases/use-cases-oakwood-1x.png"
+                      alt="oakwood"
+                      width="300"
+                      height="192"
+                    />
+                  </picture>
+                </div>
+              </div>
+              <div class="modal-use-cases__bot-part">
+                <div class="modal-use-cases__first">
+                  <h3 class="modal-use-cases__sub-title">
+                    Return monitoring by model color
+                  </h3>
+                  <p class="modal-use-cases__text">
+                    Oakwood experienced a high return rate on Zalando since it
+                    has been launched. TheAgent deep dived the analysis to
+                    decrease it and took several actions on the brand’s product
+                    pages:
+                  </p>
+                  <ul class="modal-use-cases__list list">
+                    <li class="modal-use-cases__item">
+                      <p class="modal-use-cases__item-text">
+                        <span class="modal-use-cases__item-bold"
+                          >Reviewing all size grid</span
+                        >
+                      </p>
+                    </li>
+                    <li class="modal-use-cases__item">
+                      <p class="modal-use-cases__item-text">
+                        <span class="modal-use-cases__item-bold"
+                          >Adding measurement on 100% product page</span
+                        >
+                      </p>
+                    </li>
+                    <li class="modal-use-cases__item">
+                      <p class="modal-use-cases__item-text">
+                        <span class="modal-use-cases__item-bold"
+                          >Adding model measurement information on 100% product
+                          pages</span
+                        >
+                      </p>
+                    </li>
+                    <li class="modal-use-cases__item">
+                      <p class="modal-use-cases__item-text">
+                        <span class="modal-use-cases__item-bold"
+                          >Analysing customer’s feedback on a weekly basis in
+                          order to add fitting advices on the product
+                          pages</span
+                        >
+                      </p>
+                    </li>
+                  </ul>
+                  <p class="modal-use-cases__text">
+                    With the analysis and product pages improvement monitored by
+                    the team the return rate
+                    <span class="item-accent">has decreased by 6%</span> on
+                    average on Oakwood.
+                  </p>
+                  <p class="modal-use-cases__text">
+                    <span class="modal-use-cases__item-bold"
+                      >Return is one of the main pain point of the
+                      business</span
+                    >
+                    that has a direct impact your bottom line. By continuously
+                    working on the return rate, Oakwood increased its margin in
+                    2022.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="partners" id="partners">
+        <h2 class="partners__title">Places de marchés partenaires</h2>
+        <div class="arrow-left-marketplace">
+          <svg class="arrow-left-svg">
+            <use href="../images/sprite/sprite.svg#icon-arrow-left"></use>
+          </svg>
+        </div>
+        <div class="arrow-right-marketplace">
+          <svg class="arrow-right-svg">
+            <use href="../images/sprite/sprite.svg#icon-arrow-right"></use>
+          </svg>
+        </div>
+        <div class="gradient-left" id="left"></div>
+        <div class="gradient-right" id="right"></div>
+
+        <div class="arrow-right"></div>
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  srcset="
+                    ../images/partners-image/amazonx1.png 1x,
+                    ../images/partners-image/amazonx2.png 2x
+                  "
+                  width="163"
+                  height="49"
+                  media="(min-width:1024px)"
+                />
+                <source
+                  srcset="
+                    ../images/partners-image/amazonx1.png 1x,
+                    ../images/partners-image/amazonx2.png 2x
+                  "
+                  media="(max-width:480px)"
+                />
+                <img
+                  src="../images/partners-image/amazonx1.png"
+                  alt="amazon"
+                  class="partners__img"
+                  width="67"
+                  height="20"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  srcset="
+                    ../images/partners-image/leredoutx1.png 1x,
+                    ../images/partners-image/leredoutx2.png 2x
+                  "
+                  width="181"
+                  height="31"
+                  media="(min-width:1024px)"
+                />
+                <source
+                  srcset="
+                    ../images/partners-image/leredoutx1.png 1x,
+                    ../images/partners-image/leredoutx2.png 2x
+                  "
+                  media="(max-width:480px)"
+                />
+                <img
+                  src="../images/partners-image/leredoutx1.png"
+                  alt="leredout"
+                  class="partners__img"
+                  width="82"
+                  height="14"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  srcset="
+                    ../images/partners-image/zolando1x.png,
+                    ../images/partners-image/zolando2x.png 2x
+                  "
+                  width="250"
+                  height="69"
+                  media="(min-width:1024px)"
+                />
+                <source
+                  srcset="
+                    ../images/partners-image/zolando1x.png,
+                    ../images/partners-image/zolando2x.png 2x
+                  "
+                  media="(max-width:480px)"
+                />
+                <img
+                  src="../images/partners-image/zolando1x.png"
+                  alt="zolando"
+                  class="partners__img"
+                  width="112"
+                  height="31"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  srcset="
+                    ../images/partners-image/lebhy1x.png 1x,
+                    ../images/partners-image/lebhy2x.png 2x
+                  "
+                  width="239"
+                  height="56"
+                  media="(min-width:1024px)"
+                />
+                <source
+                  srcset="
+                    ../images/partners-image/lebhy1x.png 1x,
+                    ../images/partners-image/lebhy2x.png 2x
+                  "
+                  media="(max-width:480px)"
+                />
+                <img
+                  src="../images/partners-image/lebhy1x.png"
+                  alt="lebhy"
+                  class="partners__img"
+                  width="108"
+                  height="25"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  srcset="
+                    ../images/partners-image/galeris1x.png 1x,
+                    ../images/partners-image/galeris2x.png 2x
+                  "
+                  width="145"
+                  height="74"
+                  media="(min-width:1024px)"
+                />
+                <source
+                  srcset="
+                    ../images/partners-image/galeris1x.png 1x,
+                    ../images/partners-image/galeris2x.png 2x
+                  "
+                  media="(max-width:480px)"
+                />
+                <img
+                  src="../images/partners-image/galeris1x.png"
+                  alt="galeries"
+                  class="partners__img"
+                  width="66"
+                  height="34"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  srcset="
+                    ../images/partners-image/veepee1x.png 1x,
+                    ../images/partners-image/veepee2x.png 2x
+                  "
+                  width="201"
+                  height="58"
+                  media="(min-width:1024px)"
+                />
+                <source
+                  srcset="
+                    ../images/partners-image/veepee1x.png 1x,
+                    ../images/partners-image/veepee2x.png 2x
+                  "
+                  media="(max-width:480px)"
+                />
+                <img
+                  src="../images/partners-image/veepee1x.png"
+                  alt="amazon"
+                  class="partners__img"
+                  width="104"
+                  height="28"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  srcset="
+                    ../images/partners-image/decathlon1x.png 1x,
+                    ../images/partners-image/decathlon2x.png 2x
+                  "
+                  width="248"
+                  height="248"
+                  media="(min-width:1024px)"
+                />
+                <source
+                  srcset="
+                    ../images/partners-image/decathlon1x.png 1x,
+                    ../images/partners-image/decathlon2x.png 2x
+                  "
+                  media="(max-width:480px)"
+                />
+                <img
+                  src="../images/partners-image/decathlon1x.png"
+                  alt="amazon"
+                  class="partners__img"
+                  width="95"
+                  height="95"
+                />
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-button-next-partners"></div>
+          <div class="swiper-button-prev-partners"></div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container zolando" id="zolando">
+          <div class="zolando__label-positioner">
+            <img
+              class="zolando__label"
+              src="../images/zolando-label.png"
+              alt="label"
+              width="253"
+              height="128"
+            />
+            <p class="zolando__description">
+              Zalando a certifié l'expertise et le savoir faire de TheAgent, sur
+              les leviers d'onboarding, de qualité de contenu, de mise en ligne,
+              de merchandising, de pilotage des capagnes ZMS, du suivi
+              logistique ZFS et de l'optimisation de la performance.
+            </p>
+            <img
+              class="zolando__description-img"
+              src="../images/how/square-how.png"
+              alt="square"
+              width="134"
+              height="132"
+            />
+          </div>
+          <ul class="zolando__list list">
+            <li class="zolando__item">
+              TheAgent a renforcé son process d'onboarding et son time to market
+              en respectant les indicateurs et le niveau d'exigence de Zalando
+            </li>
+            <li class="zolando__item">
+              Une capacité à piloter des stratégies différenciées sur Zalando,
+              conjointement avec différents account managers chez Zalando
+              (sales, ZMS, brand success…)
+            </li>
+            <li class="zolando__item">
+              Prioritaire sur les délais de livraison chez ZFS
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__wraper container">
+        <nav class="footer-navigation">
+          <ul class="footer-navigation__list list">
+            <li class="footer-navigation__item">
+              <a href="#focus">nos services</a>
+            </li>
+            <li class="footer-navigation__item">
+              <a href="#who-we-ar"> Qui sommes-nous</a>
+            </li>
+            <li class="footer-navigation__item">
+              <a href="#testImonials"> Témoignages et études de cas </a>
+            </li>
+            <li class="footer-navigation__item">
+              <a href="#partners">marchés partenaires</a>
+            </li>
+            <li class="footer-navigation__item">
+              <button class="contact-us-button" data-modal-open-footer>
+                contact
+              </button>
+            </li>
+          </ul>
+        </nav>
+        <div class="contact-us fr">
+          <div class="footer__box">
+            <a
+              href="https://www.linkedin.com/company/the-agent/"
+              class="social"
+            >
+              <svg class="footer__icone">
+                <use
+                  href="../images/sprite/sprite.svg#icon-linkedin"
+                  width="20"
+                  height="19"
+                ></use>
+              </svg>
+            </a>
+            <a href="https://twitter.com/theagentfashion" class="social">
+              <svg class="footer__icone">
+                <use
+                  href="../images/sprite/sprite.svg#icon-twitter"
+                  width="23"
+                  height="19"
+                ></use>
+              </svg>
+            </a>
+          </div>
+          <div class="contact__form fr">
+            <p class="footer__text">Envie de faire appel à nos services?</p>
+            <button class="footer__button" data-modal-open>
+              Contactez-nous
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="privacy">
+        <a href="./privacy.html" class="privacy__link"
+          >Politique de confidentialité</a
+        >
+        <a href="./terms.html" class="privacy__link"
+          >Termes et conditions d'utilisation</a
+        >
+      </div>
+      <div
+        class="form is-hidden"
+        id="backgroud-vanta-modal"
+        data-modal
+        data-modal-header
+        data-modal-footer
+        data-modal-mob-form
+      >
+        <div class="link-positioner">
+          <a class="form__link" href="./index.html">
+            <svg class="form__logo">
+              <use href="../images/sprite/sprite.svg#icon-the-agentlogo"></use>
+            </svg>
+          </a>
+        </div>
+        <button class="form__close" data-modal-close>
+          <svg class="form__close-icone">
+            <use href="../images/sprite/sprite.svg#icon-close"></use>
+          </svg>
+        </button>
+        <div class="title-wraper">
+          <h2 class="form__title">Commençons notre travail</h2>
+        </div>
+        <form class="modal__form">
+          <div class="modal__input-positioner">
+            <div class="modal__field">
+              <label for="user-name" class="modal__lable">Nom</label>
+              <div class="input__wrap">
+                <input
+                  class="modal__input form-modal__input"
+                  type="text"
+                  name="user-name-name"
+                  id="user-name"
+                  placeholder=""
+                  maxlength="25"
+                  required
+                />
+                <span></span>
+              </div>
+            </div>
+            <div class="modal__field">
+              <label for="user-email" class="modal__lable">E-mail</label>
+              <div class="input-wrap">
+                <input
+                  class="modal__input"
+                  type="email"
+                  name="user-email-name"
+                  id="user-email"
+                  placeholder=""
+                  maxlength="30"
+                  required
+                />
+                <span></span>
+              </div>
+            </div>
+          </div>
+          <div class="modal__field">
+            <label for="user-text" class="modal__lable">Votre message</label>
+            <textarea
+              class="online__comment"
+              name="user-text-name"
+              id="user-text"
+              placeholder=""
+            ></textarea>
+          </div>
+          <div class="modal__wrap-button">
+            <button class="modal__button" type="submit">Envoyer</button>
+          </div>
+        </form>
+      </div>
+    </footer>
+
+    <script src="../js/menu.js"></script>
+    <script src="../js/modal.js"></script>
+    <script src="../js/modal-paez.js"></script>
+    <script src="../js/havaianas.js"></script>
+    <script src="../js/oakwood.js"></script>
+    <script src="../js/form.js"></script>
+    <script src="../js/form-header.js"></script>
+    <script src="../js/form-footer.js"></script>
+    <script src="../js/form-mob-menu.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- Swiper -->
+    <script>
+      var swiper = new Swiper('.swiper', {
+        slidesPerView: 4,
+        direction: getDirection(),
+        navigation: {
+          nextEl: '.arrow-right-marketplace',
+          prevEl: '.arrow-left-marketplace',
+        },
+        on: {
+          resize: function () {
+            swiper.changeDirection(getDirection());
+          },
+        },
+        loop: true,
+      });
+
+      function getDirection() {
+        var windowWidth = window.innerWidth;
+        var direction = window.innerWidth <= 760 ? 'horizontal' : 'horizontal';
+
+        return direction;
+      }
+    </script>
+    <script>
+      var swiper = new Swiper('.swiper-first', {
+        slidesPerView: 6,
+        direction: getDirection(),
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+          // mobile + tablet - 320-990
+          200: {
+            slidesPerView: 1,
+          },
+          250: {
+            slidesPerView: 2,
+          },
+          400: {
+            slidesPerView: 3,
+          },
+          600: {
+            slidesPerView: 4,
+          },
+          // desktop >= 991
+          1024: {
+            slidesPerView: 6,
+          },
+        },
+        on: {
+          resize: function () {
+            swiper.changeDirection(getDirection());
+          },
+        },
+        on: {
+          resize: function () {
+            swiper.changeDirection(getDirection());
+          },
+        },
+        loop: true,
+      });
+
+      function getDirection() {
+        var windowWidth = window.innerWidth;
+        var direction = window.innerWidth <= 760 ? 'horizontal' : 'horizontal';
+
+        return direction;
+      }
+    </script>
+
+    <!-- HERO BACKGROUND -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script src="three.r134.min.js"></script>
+    <script src="vanta.net.min.js"></script>
+    <script>
+      VANTA.NET({
+        el: '#backgroud-vanta',
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        color: 0x626262,
+        backgroundColor: 0x272727,
+        maxDistance: 22.0,
+        spacing: 17.0,
+      });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script src="three.r134.min.js"></script>
+    <script src="vanta.net.min.js"></script>
+    <script>
+      VANTA.NET({
+        el: '#backgroud-vanta-modal',
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        color: 0x626262,
+        backgroundColor: 0x272727,
+        maxDistance: 22.0,
+        spacing: 17.0,
+      });
+    </script>
+  </body>
+</html>

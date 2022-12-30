@@ -20,6 +20,16 @@
     color: var(--primary-text-color);
   }
 }
+.navig__item.fr {
+  font-size: 18px;
+  @media screen and (min-width: 1024px) {
+    font-size: 16px;
+  }
+  @media screen and (min-width: 1145px) {
+    font-size: 18px;
+  }
+}
+
 .menu-icone {
   width: 25px;
   height: 18px;
