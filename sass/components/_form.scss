@@ -64,6 +64,14 @@
   }
 }
 
+.form__title.fr {
+  max-width: 292px;
+  margin-top: 30px;
+  @media screen and (min-width: 414px) {
+    margin-top: 60px;
+  }
+}
+
 .modal__form {
   padding-top: 35px;
   width: 100%;
