@@ -1909,6 +1909,9 @@ body {
     min-width: 179px;
   }
 }
+.cases__button:hover {
+  background-color: var(--orange-accent);
+}
 .cases__button-icone {
   fill: var(--white-text-color);
   width: 21px;
@@ -2831,4 +2834,5 @@ body {
   --eror-color: #ff4747;
   --dark-green: #6fac40;
   --accent-green: #6fac40;
+  --orange-accent: #f09930;
 }/*# sourceMappingURL=main.css.map */

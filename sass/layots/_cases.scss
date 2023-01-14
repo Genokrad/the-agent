@@ -78,6 +78,9 @@
     @media screen and (min-width: 1164px) {
       min-width: 179px;
     }
+    &:hover {
+      background-color: var(--orange-accent);
+    }
   }
   &__button-icone {
     fill: var(--white-text-color);
