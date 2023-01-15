@@ -75,6 +75,17 @@
 
 .swiper-button-prev:after {
   color: #808080;
+  // color: blue;
+}
+
+.swiper-button-prev:hover:after,
+.swiper-button-prev:focus:after {
+  color: var(--orange-accent);
+}
+
+.swiper-button-next:hover:after,
+.swiper-button-next:focus:after {
+  color: var(--orange-accent);
 }
 
 .bradns__svg {

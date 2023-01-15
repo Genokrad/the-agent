@@ -957,6 +957,7 @@ body {
 }
 
 .current {
+  cursor: default;
   color: #808080;
 }
 
@@ -2164,6 +2165,16 @@ body {
   color: #808080;
 }
 
+.swiper-button-prev:hover:after,
+.swiper-button-prev:focus:after {
+  color: var(--orange-accent);
+}
+
+.swiper-button-next:hover:after,
+.swiper-button-next:focus:after {
+  color: var(--orange-accent);
+}
+
 .bradns__svg {
   justify-content: center;
   align-items: center;
@@ -2844,6 +2855,7 @@ body {
     width: 127.5px;
     height: 78px;
     padding-left: 10px;
+    padding-right: 10px;
   }
 }
 .pmf__box-number {
