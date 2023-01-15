@@ -25,12 +25,19 @@
   &__title {
     font-family: 'Baskervville';
     font-weight: 400;
-    font-size: 36px;
+    font-size: 27px;
+    // font-size: 36px;
     line-height: 1.2;
     text-align: center;
     text-transform: uppercase;
     color: var(--white-title-color);
     margin-bottom: 36px;
+    @media screen and (min-width: 300px) {
+      font-size: 33px;
+    }
+    @media screen and (min-width: 360px) {
+      font-size: 36px;
+    }
     @media screen and (min-width: 1024px) {
       font-size: 60px;
       margin-bottom: 99px;

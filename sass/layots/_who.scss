@@ -13,11 +13,18 @@
     font-family: 'Baskervville';
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 33px;
     line-height: 1.2;
     text-transform: uppercase;
     color: var(--white-title-color);
     margin-bottom: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 11px;
+    @media screen and (min-width: 313px) {
+      font-size: 36px;
+    }
     @media screen and (min-width: 1024px) {
       font-size: 60px;
       margin-bottom: 19px;

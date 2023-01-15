@@ -1,4 +1,11 @@
-/* CБРОС СТИЛЕЙ */
+// Smooth scroll
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Style refresh */
 h1,
 h2,
 h3,
@@ -15,11 +22,9 @@ ol {
   padding-left: 0;
 }
 
-/* ОБЩИЕ */
+/* MAIN */
 img {
   display: block;
-  // width: 100%;
-  // max-width: 100%;
 }
 
 button {
@@ -27,9 +32,6 @@ button {
 }
 
 .title {
-  // font-weight: 700;
-  // font-size: 36px;
-  // line-height: 1.16;
   text-align: center;
   color: var(--title-text-color);
 }
@@ -38,6 +40,7 @@ a {
   color: currentColor;
   text-decoration: none;
   cursor: pointer;
+  transition: all 0.3s;
 }
 
 a:hover,

@@ -111,5 +111,11 @@
 }
 
 .pmf__box-description.fr {
-  font-size: 18px;
+  font-size: 9px;
+  @media screen and (min-width: 400px) {
+    font-size: 12px;
+  }
+  @media screen and (min-width: 575px) {
+    font-size: 18px;
+  }
 }

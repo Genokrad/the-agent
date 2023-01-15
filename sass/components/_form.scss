@@ -11,6 +11,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: 0.3s;
 
   &__link {
     padding-top: 28px;
@@ -31,6 +32,7 @@
     position: absolute;
     top: 26px;
     right: 24px;
+    cursor: pointer;
     @media screen and (min-width: 1024px) {
       right: 56px;
     }
@@ -134,7 +136,7 @@
 }
 
 .modal__input {
-  cursor: pointer;
+  cursor: text;
   width: 100%;
   height: 50px;
   outline: none;

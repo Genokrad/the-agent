@@ -115,10 +115,20 @@
   height: 44px;
   rotate: 0deg;
   fill: #808080;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    fill: var(--orange-accent);
+  }
 }
 .arrow-right-svg {
   width: 23px;
   height: 44px;
   rotate: 180deg;
   fill: #808080;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    fill: var(--orange-accent);
+  }
 }
